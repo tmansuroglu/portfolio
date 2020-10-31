@@ -1,3 +1,12 @@
 .navigation {
     background: black;
 }
+
+.navs {
+    width: 100%;
+}
+
+span.navbar-toggler-icon {
+    background-color: gray;
+    border-radius: 5px;
+}

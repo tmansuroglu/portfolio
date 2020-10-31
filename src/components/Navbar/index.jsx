@@ -4,13 +4,10 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar expand='lg' className='navigation'>
-            <Navbar.Brand href='#home' className='text-light'>
-                TM
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls='basic-navbar-nav' />
-            <Navbar.Collapse id='basic-navbar-nav'>
-                <Nav className='mr-auto navs'>
+        <Navbar collapseOnSelect expand='sm' className='navigation'>
+            <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+            <Navbar.Collapse id='responsive-navbar-nav'>
+                <Nav className='navs d-flex justify-content-around'>
                     <Nav.Link href='#home' className='text-light'>
                         Home
                     </Nav.Link>
@@ -33,3 +30,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+// <Navbar collapseOnSelect expand='lg' >
