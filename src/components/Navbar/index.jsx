@@ -4,7 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand='sm' className='navigation'>
+        <Navbar collapseOnSelect expand='sm' className='navigation' fixed='top'>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav'>
                 <Nav className='navs d-flex justify-content-around'>

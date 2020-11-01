@@ -6,7 +6,21 @@
     width: 100%;
 }
 
-span.navbar-toggler-icon {
-    background-color: gray;
-    border-radius: 5px;
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar-toggler {
+        margin: auto;
+    }
+
+    .navbar-collapse {
+        margin-left: 45%;
+    }
+}
+
+.navigationContainer {
+    position: fixed;
 }
