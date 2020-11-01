@@ -1,7 +1,5 @@
 .sidebar {
-    background-color: transparent;
     margin-top: 15%;
-    height: 70%;
     width: 10%;
     font-size: 0.5rem;
     position: fixed;
@@ -9,5 +7,19 @@
 
 .icon {
     color: white;
-    padding: 10%;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:10px;
+}
+
+@media only screen and (max-width: 575px) {
+    .sidebar {
+        padding:1%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .sidebar {
+        display:none!important;
+    }
 }
