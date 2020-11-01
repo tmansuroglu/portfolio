@@ -1,1 +1,3 @@
-add blur to nav. scroll down effect
+-   finish thinkific
+-   create social media accts
+-   fill bio projects etc

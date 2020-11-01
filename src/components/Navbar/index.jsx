@@ -18,11 +18,11 @@ const Navigation = () => {
                         <HashLink smooth to='#about' className='text-light navbarContainer__navs__nav'>
                             About
                         </HashLink>
-                        <HashLink smooth to='#resume' className='text-light navbarContainer__navs__nav'>
-                            Resume
-                        </HashLink>
                         <HashLink smooth to='#projects' className='text-light navbarContainer__navs__nav'>
                             Projects
+                        </HashLink>
+                        <HashLink smooth to='#resume' className='text-light navbarContainer__navs__nav'>
+                            Resume
                         </HashLink>
                         <HashLink smooth to='#contact' className='text-light navbarContainer__navs__nav'>
                             Contact
