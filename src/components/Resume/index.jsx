@@ -2,7 +2,13 @@ import React from 'react';
 import './index.css';
 
 const Resume = () => {
-    return <p className='homeText' id='resume'></p>;
+    return (
+        <>
+            <h1 className='homeTitle' id='resume'>
+                Resume
+            </h1>
+        </>
+    );
 };
 
 export default Resume;
