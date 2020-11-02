@@ -8,3 +8,4 @@
 -   add phone number
 -   use clamp to make font-size responsive
 -   should I keep the brand?
+-   introduce new colors
