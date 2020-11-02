@@ -1,0 +1,10 @@
+-   finish thinkific
+-   create social media accts
+-   fill bio projects etc
+-   add icons to navbar
+-   app title
+-   app logo
+-   add email
+-   add phone number
+-   use clamp to make font-size responsive
+-   should I keep the brand?
