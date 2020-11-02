@@ -16,13 +16,13 @@ const Navigation = () => {
             <Navbar.Collapse id='responsive-navbar-nav'>
                 <Nav className='navbarContainer__navs d-flex justify-content-around'>
                     <Router>
-                        <HashLink
+                        {/* <HashLink
                             smooth
                             to='#introduction'
                             className='text-light navbarContainer__navs__brand'
                         >
                             T. Mansuroğlu
-                        </HashLink>
+                        </HashLink> */}
                         <HashLink
                             smooth
                             to='#top'

@@ -13,7 +13,7 @@ const Introduction = () => {
                 steps={[
                     1500,
                     'Front-End Web Developer',
-                    4500,
+                    5000,
                     'Challenge Driven',
                     2000,
                     'Passionate Learner',

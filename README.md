@@ -6,3 +6,5 @@
 -   app logo
 -   add email
 -   add phone number
+-   use clamp to make font-size responsive
+-   should I keep the brand?
