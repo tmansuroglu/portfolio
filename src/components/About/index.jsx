@@ -23,15 +23,15 @@ const About = () => {
                 </p>
                 <p>
                     His desire to tackle difficult things always made him stand
-                    out. At age 20 he was severely obese, depressed and
-                    academically lost. At 22 he dropped from 175kg to 95 kg,
-                    beat depression and became the top finance student of his
-                    university. But he didn’t stop there. He started
-                    bodybuilding and powerlifting. Later, he graduated as top
-                    student from university and continued working out for years.
-                    During these years he wanted to figure out what he expected
-                    from life. This led him to develop an analytical mindset and
-                    consequently ended up becoming a programmer.
+                    out. At age 20 he was severely obese and academically lost.
+                    At 22 he dropped from 175kg to 95 kg and became the top
+                    finance student of his university. But he didn’t stop there.
+                    He started bodybuilding and powerlifting. Later, he
+                    graduated as top student from university and continued
+                    working out for years. During these years he wanted to
+                    figure out what he expected from life. This led him to
+                    develop an analytical mindset and consequently became a
+                    programmer.
                 </p>
                 <p>
                     He is currently looking for new challenges to conquer and
