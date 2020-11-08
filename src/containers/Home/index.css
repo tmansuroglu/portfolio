@@ -1,16 +1,18 @@
 .homeText {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: large;
-    line-height: 2.3rem;
+    font-size: 1rem;
+    line-height: min(2rem, 8vw);
 }
 
 .homeTitle {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: max(2rem, 4.5vw);
+    margin-top: clamp(5%, 8%, 10%);
 }
 
 .container {
-    margin-left: max(10%, 40px);
+    margin-left: max(12%, 50px);
+    max-width: 80%;
 }

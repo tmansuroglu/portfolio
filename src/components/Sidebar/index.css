@@ -8,8 +8,8 @@
 
 .icon {
     color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: min(30px, 100%);
+    margin-bottom: min(30px, 100%);
     cursor: pointer;
 }
 

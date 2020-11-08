@@ -21,23 +21,19 @@ const Projects = () => {
                     contentArrowStyle={{
                         borderRight: '7px solid  white',
                     }}
+                    date='Oct-Nov 2020'
                     iconStyle={{
                         background: 'white',
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
-                        <h3 className='vertical-timeline-element-title'>
-                            JUNIPER
-                        </h3>
-                        <p></p>
-                    </div>
+                    <div className='projectContent'>JUNIPER</div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--work'
                     contentStyle={{
                         background: 'white',
-                        color: 'black',
+                        color: 'white',
                     }}
                     contentArrowStyle={{
                         borderRight: '7px solid  white',
@@ -48,16 +44,13 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
-                        FoodCheck
-                    </h3>
-                    <p></p>
+                    <div className='projectContent'>FoodCheck</div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--work'
                     contentStyle={{
                         background: 'white',
-                        color: 'black',
+                        color: 'white',
                     }}
                     contentArrowStyle={{
                         borderRight: '7px solid  white',
@@ -68,16 +61,13 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
-                        TMDB Project
-                    </h3>
-                    <p></p>
+                    <div className='projectContent'>TMDB</div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--work'
                     contentStyle={{
                         background: 'white',
-                        color: 'black',
+                        color: 'white',
                     }}
                     contentArrowStyle={{
                         borderRight: '7px solid  white',
@@ -88,8 +78,7 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <h3 className='vertical-timeline-element-title'>Madlibz</h3>
-                    <p></p>
+                    <div className='projectContent'>Madlibz</div>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>

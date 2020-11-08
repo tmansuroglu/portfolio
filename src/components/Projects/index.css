@@ -6,7 +6,3 @@
 .projectContent {
     color: black;
 }
-
-.vertical-timeline-element--work {
-    width: min(100%, 70vw);
-}
