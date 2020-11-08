@@ -6,7 +6,9 @@ const Sidebar = () => {
     const phonePopover = (
         <Popover id='popover-basic'>
             <Popover.Content>
-                <span>+90 552 360 08 93 </span>
+                <a href='tel:+905523600893'>
+                    <span>+90 552 360 08 93</span>
+                </a>
             </Popover.Content>
         </Popover>
     );
@@ -14,7 +16,9 @@ const Sidebar = () => {
     const emailPopover = (
         <Popover id='popover-basic'>
             <Popover.Content>
-                <span>tarkanmansuroglu@hotmail.com</span>
+                <a href='mailto: tarkanmansuroglu@hotmail.com'>
+                    tarkanmansuroglu@hotmail.com
+                </a>
             </Popover.Content>
         </Popover>
     );

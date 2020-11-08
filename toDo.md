@@ -1,8 +1,4 @@
 -   finish thinkific
--   app title
--   app logo
--   use clamp to make font-size responsive
--   fix timeline font,icon
 -   add photo
 -   scroll to top
 -   footer
