@@ -65,6 +65,8 @@ const Sidebar = () => {
                     trigger='click'
                     placement='right'
                     overlay={emailPopover}
+                    rootClose={true}
+                    rootCloseEvent='click'
                 >
                     <i class='fas fa-envelope-open icon fa-3x'></i>
                 </OverlayTrigger>
@@ -74,6 +76,8 @@ const Sidebar = () => {
                     trigger='click'
                     placement='right'
                     overlay={phonePopover}
+                    rootClose={true}
+                    rootCloseEvent='click'
                 >
                     <i class='fas fa-phone fa-3x icon'></i>
                 </OverlayTrigger>
