@@ -1,25 +1,38 @@
 .sidebar {
-    margin-top: 15%;
-    width: 10%;
+    bottom: 0;
+    width: max(5%, 50px);
     font-size: 0.5rem;
     position: fixed;
 }
 
 .icon {
     color: white;
-    margin-top:30px;
-    margin-bottom:30px;
-    padding:10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 575px) {
     .sidebar {
-        padding:1%;
+        padding: 1%;
     }
 }
 
 @media only screen and (max-width: 300px) {
     .sidebar {
-        display:none!important;
+        display: none !important;
     }
+}
+
+.fa-phone {
+    color: white;
+}
+
+.notification {
+    color: white;
+}
+
+.iconContainer {
+    margin: auto;
 }

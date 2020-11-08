@@ -1,13 +1,12 @@
 import React from 'react';
 import './index.css';
 import Typical from 'react-typical';
+import { Container } from 'react-bootstrap';
 
 const Introduction = () => {
     return (
-        <div id='introduction' className='homeText'>
-            <div>
-                <span className='name'>Tarkan Mansuroğlu,</span>
-            </div>
+        <Container id='introduction' className='homeText'>
+            <span className='name'>Tarkan Mansuroğlu</span>
             <Typical
                 className='loop'
                 steps={[
@@ -26,7 +25,7 @@ const Introduction = () => {
                 ]}
                 loop={Infinity}
             />
-        </div>
+        </Container>
     );
 };
 

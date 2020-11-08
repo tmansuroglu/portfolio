@@ -16,13 +16,6 @@ const Navigation = () => {
             <Navbar.Collapse id='responsive-navbar-nav'>
                 <Nav className='navbarContainer__navs d-flex justify-content-around'>
                     <Router>
-                        {/* <HashLink
-                            smooth
-                            to='#introduction'
-                            className='text-light navbarContainer__navs__brand'
-                        >
-                            T. Mansuroğlu
-                        </HashLink> */}
                         <HashLink
                             smooth
                             to='#top'
@@ -50,13 +43,6 @@ const Navigation = () => {
                             className='text-light navbarContainer__navs__nav'
                         >
                             Resume
-                        </HashLink>
-                        <HashLink
-                            smooth
-                            to='#contact'
-                            className='text-light navbarContainer__navs__nav'
-                        >
-                            Contact
                         </HashLink>
                     </Router>
                 </Nav>

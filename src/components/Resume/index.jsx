@@ -1,13 +1,12 @@
 import React from 'react';
 import './index.css';
+import { Container } from 'react-bootstrap';
 
 const Resume = () => {
     return (
-        <>
-            <h1 className='homeTitle' id='resume'>
-                Resume
-            </h1>
-        </>
+        <Container id='resume'>
+            <h1 className='homeTitle'>Resume</h1>
+        </Container>
     );
 };
 

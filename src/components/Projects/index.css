@@ -2,3 +2,11 @@
     margin: 40% 30% 30% 30%;
     transform: scale(1.5);
 }
+
+.projectContent {
+    color: black;
+}
+
+.vertical-timeline-element--work {
+    width: min(100%, 70vw);
+}
