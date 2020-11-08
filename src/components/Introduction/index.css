@@ -12,4 +12,5 @@
 
 #introduction {
     padding-top: max(10%, 20vh);
+    max-width: 85%;
 }
