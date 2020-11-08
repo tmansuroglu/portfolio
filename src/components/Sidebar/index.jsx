@@ -1,5 +1,4 @@
 import React from 'react';
-import 'react-notifications/lib/notifications.css';
 import './index.css';
 import { Popover, OverlayTrigger } from 'react-bootstrap';
 
