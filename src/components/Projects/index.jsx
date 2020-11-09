@@ -4,10 +4,11 @@ import {
     VerticalTimeline,
     VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
+import { Container } from 'react-bootstrap';
 
 const Projects = () => {
     return (
-        <div className='container'>
+        <Container>
             <h1 className='homeTitle' id='projects'>
                 Projects
             </h1>
@@ -27,14 +28,14 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
+                    <div className='homeText projectContent'>
                         <h4>Portfolio</h4>
                         <a
                             href='https://github.com/tmansuroglu/portfolio'
                             target='_blank'
                             rel='noreferrer'
                         >
-                            Github link
+                            Github
                         </a>
                         <br />
                         <p>
@@ -76,14 +77,14 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
+                    <div className='homeText projectContent'>
                         <h4>Juniper</h4>
                         <a
                             href='https://github.com/ReCoded-Org/capstone-istanbul-juniper'
                             target='_blank'
                             rel='noreferrer'
                         >
-                            Github link
+                            Github
                         </a>
                         <br />
                         <a
@@ -150,14 +151,14 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
+                    <div className='homeText projectContent'>
                         <h4>FoodCheck</h4>
                         <a
                             href='https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project'
                             target='_blank'
                             rel='noreferrer'
                         >
-                            Github link
+                            Github
                         </a>
                         <br />
                         <a
@@ -185,7 +186,6 @@ const Projects = () => {
                             <li>Contact page</li>
                             <li>Login page</li>
                             <li>Register page</li>
-                            <li>Everything...</li>
                         </ul>
                         <h5>Skills Applied</h5>
                         <ul>
@@ -219,7 +219,7 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
+                    <div className='homeText projectContent'>
                         <h4>TMDB</h4>
                         <a
                             href='https://github.com/tmansuroglu/TMDB-Project'
@@ -249,7 +249,6 @@ const Projects = () => {
                             <li>Main Page</li>
                             <li>Navbar Dropdowns</li>
                             <li>Visual Design</li>
-                            <li>Everything...</li>
                         </ul>
                         <h5>Skills Applied</h5>
                         <ul>
@@ -277,7 +276,7 @@ const Projects = () => {
                     }}
                     icon={<i class='fas fa-project-diagram projectIcon'></i>}
                 >
-                    <div className='projectContent'>
+                    <div className='homeText projectContent'>
                         <h4>Madlibz</h4>
                         <a
                             href='https://github.com/tmansuroglu/Madlibzz'
@@ -334,7 +333,7 @@ const Projects = () => {
                     icon={<i class='fas fa-play startIcon'></i>}
                 ></VerticalTimelineElement>
             </VerticalTimeline>
-        </div>
+        </Container>
     );
 };
 

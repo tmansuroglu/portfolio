@@ -4,3 +4,4 @@
 -   footer
 -   font is too small
 -   netlify links
+-   separate projects code

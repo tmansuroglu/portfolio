@@ -49,6 +49,6 @@
     }
 }
 
-.navbar-toggler {
+#root .navbar-toggler {
     background: white;
 }

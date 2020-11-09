@@ -12,7 +12,12 @@
     margin-top: clamp(5%, 8%, 10%);
 }
 
-.container {
-    margin-left: max(12%, 50px);
-    max-width: 80%;
+#root .container {
+    max-width: 89%;
+    margin-left: max(10%, 40px);
+    margin-right: max(10%, 40px);
+}
+
+#root .vertical-timeline-element-content p {
+    font-size: 1rem;
 }
