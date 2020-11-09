@@ -3,3 +3,4 @@
 -   scroll to top
 -   footer
 -   font is too small
+-   netlify links

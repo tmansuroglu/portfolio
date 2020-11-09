@@ -8,7 +8,7 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
     const [loading, setLoading] = useState(false);
     const [emailStatus, setEmailStatus] = useState();
     init('user_oNgyWxSIi4RmaCad8IwY4');
-    const { register, handleSubmit, errors } = useForm();
+    const { register, handleSubmit } = useForm();
     const handleClose = () => {
         setModalVisibility(false);
         setEmailStatus(false);

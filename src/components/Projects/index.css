@@ -6,3 +6,14 @@
 .projectContent {
     color: black;
 }
+
+.startIcon {
+    margin: 40% 30% 30% 40%;
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 1170px) {
+    .vertical-timeline-element-date {
+        display: none !important;
+    }
+}
