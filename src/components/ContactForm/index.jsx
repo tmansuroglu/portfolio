@@ -1,88 +1,101 @@
 import React, { useState } from 'react';
 import './index.css';
-import { Modal } from 'react-bootstrap';
+import { Modal, Form, Button, Spinner } from 'react-bootstrap';
+import { useForm } from 'react-hook-form';
+import emailjs, { init } from 'emailjs-com';
 
 const ContactForm = ({ setModalVisibility, modalVisibility }) => {
-    const [contact, setContact] = useState({
-        name: '',
-        email: '',
-        message: '',
-    });
-
-    const encode = data => {
-        return Object.keys(data)
-            .map(
-                key =>
-                    encodeURIComponent(key) +
-                    '=' +
-                    encodeURIComponent(data[key])
-            )
-            .join('&');
+    const [loading, setLoading] = useState(false);
+    const [emailStatus, setEmailStatus] = useState();
+    init('user_oNgyWxSIi4RmaCad8IwY4');
+    const { register, handleSubmit, errors } = useForm();
+    const handleClose = () => {
+        setModalVisibility(false);
+        setEmailStatus(false);
+    };
+    const onSubmit = data => {
+        setLoading(true);
+        emailjs
+            .send('portfolioService', 'template_zrfyuoi', {
+                name: data.name,
+                email: data.email,
+                message: data.message,
+            })
+            .then(resp => {
+                setLoading(false);
+                setEmailStatus(true);
+            })
+            .catch(err => {
+                alert('Sending email failed!');
+                setLoading(false);
+                setEmailStatus(false);
+            });
     };
 
-    const handleSubmit = e => {
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact', ...contact }),
-        })
-            .then(() => alert('Success!'))
-            .catch(error => alert(error));
-
-        e.preventDefault();
-    };
-    const handleChange = e => {
-        setContact({ ...contact, [e.target.name]: e.target.value });
-    };
-
-    const handleClose = () => setModalVisibility(false);
     return (
         <Modal
             show={modalVisibility}
             onHide={handleClose}
             backdrop='static'
-            centered
+            className='contactModal'
         >
             <Modal.Header closeButton>
                 <Modal.Title>Contact Form</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <form onSubmit={handleSubmit} name='contact'>
-                    <p>
-                        <label>
-                            Your Name:{' '}
-                            <input
-                                type='text'
-                                name='name'
-                                value={contact.name}
-                                onChange={handleChange}
-                            />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Your Email:{' '}
-                            <input
-                                type='email'
-                                name='email'
-                                value={contact.email}
-                                onChange={handleChange}
-                            />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Message:{' '}
-                            <textarea
-                                name='message'
-                                value={contact.message}
-                                onChange={handleChange}
-                            />
-                        </label>
-                    </p>
-                    <p>
-                        <button type='submit'>Send</button>
-                    </p>
+                <form onSubmit={handleSubmit(onSubmit)} className='contactForm'>
+                    {/* register your input into the hook by invoking the "register" function */}
+                    <Form.Group>
+                        <Form.Label for='name'>Name</Form.Label>
+                        <Form.Control
+                            type='text'
+                            name='name'
+                            ref={register({ required: true })}
+                            placeholder='John Doe'
+                        />
+                    </Form.Group>
+
+                    {/* include validation with required or other standard HTML validation rules */}
+                    <Form.Group>
+                        <Form.Label for='email'>Email</Form.Label>
+                        <Form.Control
+                            name='email'
+                            type='email'
+                            placeholder='name@example.com'
+                            ref={register({ required: true })}
+                        />
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label for='message'>Message</Form.Label>
+                        <Form.Control
+                            name='message'
+                            placeholder='Type here..'
+                            as='textarea'
+                            rows={3}
+                            ref={register({ required: true })}
+                        />
+                    </Form.Group>
+                    <div className='sendDiv'>
+                        <Button type='submit' className='sendButton'>
+                            Send{'  '}{' '}
+                            {loading ? (
+                                <Spinner
+                                    as='span'
+                                    animation='border'
+                                    size='sm'
+                                    role='status'
+                                    aria-hidden='true'
+                                />
+                            ) : (
+                                ''
+                            )}
+                            {emailStatus ? (
+                                <i class='far fa-check-circle'></i>
+                            ) : (
+                                ''
+                            )}
+                        </Button>
+                    </div>
                 </form>
             </Modal.Body>
         </Modal>

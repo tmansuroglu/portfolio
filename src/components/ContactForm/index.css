@@ -1,0 +1,17 @@
+.spinner-border {
+    margin-left: 2%;
+}
+
+.fa-check-circle {
+    margin-left: 2%;
+}
+
+.sendDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendButton {
+    width: 23%;
+}
