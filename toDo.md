@@ -2,3 +2,4 @@
 -   add photo
 -   scroll to top
 -   footer
+-   font is too small
