@@ -21,6 +21,7 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
     };
 
     const handleSubmit = e => {
+        console.log(contact);
         fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -33,7 +34,6 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
     };
 
     const handleChange = e => {
-        console.log(e.target.name, e.target.value);
         setContact({ ...contact, [e.target.name]: e.target.value });
     };
 
