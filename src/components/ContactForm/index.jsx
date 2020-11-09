@@ -69,7 +69,7 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
                         <Form.Label for='message'>Message</Form.Label>
                         <Form.Control
                             name='message'
-                            placeholder='Type here..'
+                            placeholder='Type here...'
                             as='textarea'
                             rows={3}
                             ref={register({ required: true })}

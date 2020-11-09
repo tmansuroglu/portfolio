@@ -1,7 +1,6 @@
 -   finish thinkific
 -   add photo
--   scroll to top
--   footer
 -   font is too small
 -   netlify links
 -   separate projects code
+-   timeline comments when screen is too small

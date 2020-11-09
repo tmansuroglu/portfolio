@@ -326,7 +326,7 @@ const Projects = () => {
                     contentArrowStyle={{
                         borderRight: '7px solid  white',
                     }}
-                    date='July 2020, Re-Coded Bootcamp Starts'
+                    date='July 2020, Re-Coded Bootcamp Started'
                     iconStyle={{
                         background: 'white',
                     }}
