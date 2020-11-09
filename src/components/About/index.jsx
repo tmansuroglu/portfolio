@@ -12,9 +12,9 @@ const About = () => {
                 <p>
                     Tarkan Mansuroğlu is a front-end web developer. He started
                     learning coding by himself and continued his coding
-                    education with “Re-Coded Front-End Web Development
+                    education through “Re-Coded Front-End Web Development
                     Bootcamp”. Tarkan Mansuroğlu is a passionate learner and
-                    enjoys solving complex problems.
+                    enjoys complex problems.
                 </p>
                 <p>
                     His desire to tackle difficult things always made him stand
@@ -23,9 +23,9 @@ const About = () => {
                     enthusiast and top finance student of his university. Later,
                     he graduated with highest CGPA and continued being a
                     physically active person. During these years he wanted to
-                    figure out what he expected from life. This led him to
-                    develop an analytical mindset to master his personality. His
-                    new mindset consequently led him to coding.
+                    figure out what he expected from life. While trying, he
+                    developed an analytical mindset. Consequently, he got
+                    attracted to coding.
                 </p>
                 <p>
                     He is currently looking for new challenges to conquer and
