@@ -1,14 +1,14 @@
 import React from 'react';
 import './index.css';
-import { Popover, OverlayTrigger } from 'react-bootstrap';
+import { Popover, OverlayTrigger, Button } from 'react-bootstrap';
 
 const Sidebar = () => {
     const phonePopover = (
         <Popover id='popover-basic'>
             <Popover.Content>
-                <a href='tel:+905523600893'>
-                    <span>+90 552 360 08 93</span>
-                </a>
+                <Button href='tel:+905523600893' variant='link'>
+                    +90 552 360 08 93
+                </Button>
             </Popover.Content>
         </Popover>
     );
@@ -16,9 +16,12 @@ const Sidebar = () => {
     const emailPopover = (
         <Popover id='popover-basic'>
             <Popover.Content>
-                <a href='mailto: tarkanmansuroglu@hotmail.com'>
+                <Button
+                    href='mailto: tarkanmansuroglu@hotmail.com'
+                    variant='link'
+                >
                     tarkanmansuroglu@hotmail.com
-                </a>
+                </Button>
             </Popover.Content>
         </Popover>
     );
