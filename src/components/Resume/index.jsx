@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import './index.css';
 import { Container } from 'react-bootstrap';
-import { Document } from 'react-pdf';
+import webViewer from '@pdftron/webviewer';
 
 const Resume = () => {
+    const viewerDiv = useRef(null);
+
+    useEffect(() => {
+        webViewer({ path: 'lib', initialDoc: 'resume.pdf' }, viewerDiv.current);
+    }, []);
     return (
-        <Container id='resume'>
-            <h1 className='homeTitle'>Resume</h1>
+        <Container>
+            <h1 className='homeTitle' id='resume'>
+                Resume
+            </h1>
+            <div className='webViewer' ref={viewerDiv}></div>
         </Container>
     );
 };
