@@ -7,7 +7,10 @@ const Resume = () => {
     const viewerDiv = useRef(null);
 
     useEffect(() => {
-        webViewer({ path: 'lib', initialDoc: 'resume.pdf' }, viewerDiv.current);
+        webViewer(
+            { path: 'lib', initialDoc: 'resume.pdf', isReadOnly: true },
+            viewerDiv.current
+        );
     }, []);
     return (
         <Container>
