@@ -24,6 +24,10 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
             .then(resp => {
                 setLoading(false);
                 setEmailStatus(true);
+                setTimeout(() => {
+                    setModalVisibility(false);
+                    setEmailStatus(false);
+                }, 1250);
             })
             .catch(err => {
                 alert('Sending email failed!');
@@ -36,8 +40,8 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
         <Modal
             show={modalVisibility}
             onHide={handleClose}
-            backdrop='static'
             className='contactModal'
+            id='contact'
         >
             <Modal.Header closeButton>
                 <Modal.Title>Contact Form</Modal.Title>

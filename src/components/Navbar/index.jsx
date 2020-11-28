@@ -52,6 +52,7 @@ const Navigation = () => {
                                 Resume
                             </HashLink>
                             <HashLink
+                                to='#contact'
                                 smooth
                                 className='text-light navbarContainer__navs__nav'
                                 onClick={() => setModalVisibility(true)}

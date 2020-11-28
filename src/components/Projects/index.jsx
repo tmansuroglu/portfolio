@@ -26,7 +26,9 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-project-diagram projectIcon'></i>}
+                    icon={
+                        <i className='fas fa-project-diagram projectIcon'></i>
+                    }
                 >
                     <div className='homeText projectContent'>
                         <h4>Portfolio</h4>
@@ -58,7 +60,6 @@ const Projects = () => {
                             <li>Responsive Design</li>
                             <li>Git and Github</li>
                             <li>Testing (Jest)</li>
-                            <li>Routing</li>
                         </ul>
                     </div>
                 </VerticalTimelineElement>
@@ -75,7 +76,9 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-project-diagram projectIcon'></i>}
+                    icon={
+                        <i className='fas fa-project-diagram projectIcon'></i>
+                    }
                 >
                     <div className='homeText projectContent'>
                         <h4>Juniper</h4>
@@ -149,7 +152,9 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-project-diagram projectIcon'></i>}
+                    icon={
+                        <i className='fas fa-project-diagram projectIcon'></i>
+                    }
                 >
                     <div className='homeText projectContent'>
                         <h4>FoodCheck</h4>
@@ -217,7 +222,9 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-project-diagram projectIcon'></i>}
+                    icon={
+                        <i className='fas fa-project-diagram projectIcon'></i>
+                    }
                 >
                     <div className='homeText projectContent'>
                         <h4>TMDB</h4>
@@ -274,7 +281,9 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-project-diagram projectIcon'></i>}
+                    icon={
+                        <i className='fas fa-project-diagram projectIcon'></i>
+                    }
                 >
                     <div className='homeText projectContent'>
                         <h4>Madlibz</h4>
@@ -330,7 +339,7 @@ const Projects = () => {
                     iconStyle={{
                         background: 'white',
                     }}
-                    icon={<i class='fas fa-play startIcon'></i>}
+                    icon={<i className='fas fa-play startIcon'></i>}
                 ></VerticalTimelineElement>
             </VerticalTimeline>
         </Container>

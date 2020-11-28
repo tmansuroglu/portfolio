@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import { Container } from 'react-bootstrap';
+import { Document } from 'react-pdf';
 
 const Resume = () => {
     return (

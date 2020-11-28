@@ -33,7 +33,7 @@ const Sidebar = () => {
                     rel='noreferrer'
                     href='https://www.instagram.com/tarkanmansuroglu/'
                 >
-                    <i class='fab fa-instagram icon fa-3x'></i>
+                    <i className='fab fa-instagram icon fa-3x'></i>
                 </a>
             </div>
             <div className='iconContainer'>
@@ -42,7 +42,7 @@ const Sidebar = () => {
                     rel='noreferrer'
                     href='https://www.twitter.com'
                 >
-                    <i class='fab fa-twitter icon fa-3x'></i>
+                    <i className='fab fa-twitter icon fa-3x'></i>
                 </a>
             </div>
             <div className='iconContainer'>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                     rel='noreferrer'
                     href='https://github.com/tmansuroglu'
                 >
-                    <i class='fab fa-github icon fa-3x'></i>
+                    <i className='fab fa-github icon fa-3x'></i>
                 </a>
             </div>
             <div className='iconContainer'>
@@ -60,7 +60,7 @@ const Sidebar = () => {
                     rel='noreferrer'
                     href='https://www.linkedin.com/in/tarkan-mansuro%C4%9Flu-3385301bb/'
                 >
-                    <i class='fab fa-linkedin-in icon fa-3x'></i>
+                    <i className='fab fa-linkedin-in icon fa-3x'></i>
                 </a>
             </div>
             <div className='iconContainer'>
@@ -71,7 +71,7 @@ const Sidebar = () => {
                     rootClose={true}
                     rootCloseEvent='click'
                 >
-                    <i class='fas fa-envelope-open icon fa-3x'></i>
+                    <i className='fas fa-envelope-open icon fa-3x'></i>
                 </OverlayTrigger>
             </div>
             <div className='iconContainer'>
@@ -82,7 +82,7 @@ const Sidebar = () => {
                     rootClose={true}
                     rootCloseEvent='click'
                 >
-                    <i class='fas fa-phone fa-3x icon'></i>
+                    <i className='fas fa-phone fa-3x icon'></i>
                 </OverlayTrigger>
             </div>
         </div>

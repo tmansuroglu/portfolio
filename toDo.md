@@ -3,4 +3,5 @@
 -   font is too small
 -   netlify links
 -   separate projects code
--   timeline comments when screen is too small
+-   timeline comments doesnt show up when screen is too small
+-   contact form #
