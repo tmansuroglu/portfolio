@@ -7,9 +7,9 @@
     height: 100vh;
 }
 
-.downloadResumePdf,
-.viewPdf {
-    margin-left: 10px;
+.resumeButtonColItem {
+    width: 100%;
+    margin: 5px;
 }
 
 .resumeContainer {
@@ -17,4 +17,9 @@
 }
 
 .resume {
+    margin-top: 20px;
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
 }
