@@ -14,16 +14,6 @@ const Resume = () => {
             >
                 View resume in Google Docs
             </a>
-            <br />
-            <a
-                href='https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing'
-                target='_blank'
-                rel='noreferrer'
-                className='hrefLink'
-            >
-                Download resume from Google Drive
-            </a>
-            <br />
             <iframe
                 src='resume.pdf'
                 title='resume'
