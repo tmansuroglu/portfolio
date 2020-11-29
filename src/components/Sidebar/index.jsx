@@ -40,7 +40,7 @@ const Sidebar = () => {
                 <a
                     target='_blank'
                     rel='noreferrer'
-                    href='https://www.twitter.com'
+                    href='https://twitter.com/T_Mansuroglu'
                 >
                     <i className='fab fa-twitter icon fa-3x'></i>
                 </a>
@@ -58,7 +58,7 @@ const Sidebar = () => {
                 <a
                     target='_blank'
                     rel='noreferrer'
-                    href='https://www.linkedin.com/in/tarkan-mansuro%C4%9Flu-3385301bb/'
+                    href='https://www.linkedin.com/in/tarkanmansuroglu/'
                 >
                     <i className='fab fa-linkedin-in icon fa-3x'></i>
                 </a>

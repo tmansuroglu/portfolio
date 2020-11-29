@@ -1,9 +1,10 @@
 -   add photo
--   font is too small
--   netlify links
 -   add collapsable and continue your story in about section
--   change skills applied
 -   language
 -   tests
 -   foodcheck loads too slow
+-   add foodcheck login info
+-   fix foodcheck chart
 -   madlibz broken
+-   add blog
+-   copy to clipboard
