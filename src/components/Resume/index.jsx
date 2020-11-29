@@ -1,23 +1,24 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import './index.css';
 import { Container } from 'react-bootstrap';
-import webViewer from '@pdftron/webviewer';
 
 const Resume = () => {
-    const viewerDiv = useRef(null);
-
-    useEffect(() => {
-        webViewer(
-            { path: 'lib', initialDoc: 'resume.pdf', isReadOnly: true },
-            viewerDiv.current
-        );
-    }, []);
     return (
         <Container>
-            <h1 className='homeTitle' id='resume'>
-                Resume
-            </h1>
-            <div className='webViewer' ref={viewerDiv}></div>
+            <h1 className='homeTitle'>Resume</h1>
+            <a
+                href='https://docs.google.com/document/d/1ZJmw9fsLZJDZKE32afpMMZXos12eTN-c29GJtLfOp1Q/edit?usp=sharing'
+                target='_blank'
+                rel='noreferrer'
+            >
+                View resume in Google Docs
+            </a>
+            <iframe
+                src='resume.pdf'
+                title='resume'
+                id='resume'
+                className='resume'
+            />
         </Container>
     );
 };
