@@ -11,15 +11,14 @@
     background: white;
 }
 
-.resume {
-    margin-top: 20px;
+.resumeHtml {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    word-wrap: break-word;
+    font-size: 1.2rem;
 }
 
 .resumeContact,
@@ -34,4 +33,11 @@
 
 .resumeDownloadLink {
     padding: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .resumeEmail {
+        word-wrap: break-word;
+        font-size: 1.4rem;
+    }
 }

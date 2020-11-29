@@ -18,14 +18,17 @@ const Resume = () => {
                         >
                             Download Resume
                         </a>
-                        <div className='resume homeText'>
+                        <div className='resumeHtml homeText'>
                             <h1 className='resumeName'>Tarkan Mansuroğlu</h1>
                             <p className='resumeContact'>
                                 <a href='tel:+905523600893'>
                                     +90 552 360 08 93
                                 </a>{' '}
                                 |{' '}
-                                <a href='mailto: mansuroglu99@gmail.com'>
+                                <a
+                                    href='mailto: mansuroglu99@gmail.com'
+                                    className='resumeEmail'
+                                >
                                     mansuroglu99@gmail.com
                                 </a>{' '}
                                 |{' '}
