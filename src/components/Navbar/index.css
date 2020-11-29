@@ -1,7 +1,7 @@
 .navbarContainer {
     background: black;
     height: 8%;
-    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 25px 10px 0px rgba(0, 0, 0, 1);
 }
 
 .navbarContainer__navs {
@@ -23,15 +23,8 @@
 }
 
 .navbar-collapse {
-    background: rgb(251, 250, 255);
-    background: linear-gradient(
-        0deg,
-        rgba(251, 250, 255, 1) 0%,
-        rgba(247, 247, 247, 0.5298494397759104) 0%,
-        rgba(0, 0, 0, 0.9164040616246498) 0%,
-        rgba(0, 0, 0, 0.8239670868347339) 0%
-    );
-    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 25px 10px 0px rgba(0, 0, 0, 1);
+    background: black;
 }
 
 .navbar-toggler-icon {

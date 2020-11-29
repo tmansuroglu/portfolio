@@ -14,7 +14,7 @@ const Navigation = () => {
                 setModalVisibility={setModalVisibility}
             />
             <Navbar
-                collapseOnSelect
+                collapseOnSelect={true}
                 expand='sm'
                 className='navbarContainer'
                 fixed='top'
