@@ -4,3 +4,6 @@
 -   add collapsable and continue your story in about section
 -   change skills applied
 -   language
+-   tests
+-   foodcheck loads too slow
+-   madlibz broken
