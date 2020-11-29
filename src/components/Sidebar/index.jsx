@@ -16,11 +16,8 @@ const Sidebar = () => {
     const emailPopover = (
         <Popover id='popover-basic'>
             <Popover.Content>
-                <Button
-                    href='mailto: tarkanmansuroglu@hotmail.com'
-                    variant='link'
-                >
-                    tarkanmansuroglu@hotmail.com
+                <Button href='mailto: mansuroglu99@gmail.com' variant='link'>
+                    mansuroglu99@gmail.com
                 </Button>
             </Popover.Content>
         </Popover>

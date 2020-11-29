@@ -221,7 +221,7 @@ const Projects = () => {
                             target='_blank'
                             rel='noreferrer'
                         >
-                            Github link
+                            Github
                         </a>
                         <br />
                         <a

@@ -4,6 +4,10 @@
 -   add photo
 -   finish thinkific
 -   Add readme to projects
+-   check links
+-   update resume
+-   is portfolio considered as a project?
+-   separate long scripts
 
 2nd priority
 
