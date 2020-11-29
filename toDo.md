@@ -5,6 +5,7 @@
 -   foodcheck loads too slow
 -   add foodcheck login info
 -   fix foodcheck chart
--   madlibz broken
 -   add blog
--   copy to clipboard
+-   copy to clipboard for email
+-   pdf looks bad
+-   burger doesnt close on clicking page
