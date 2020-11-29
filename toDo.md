@@ -1,7 +1,6 @@
--   finish thinkific
 -   add photo
 -   font is too small
 -   netlify links
--   separate projects code
--   timeline comments doesnt show up when screen is too small
--   contact form #
+-   add collapsable and continue your story in about section
+-   change skills applied
+-   language
