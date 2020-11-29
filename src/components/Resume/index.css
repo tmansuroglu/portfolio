@@ -1,13 +1,10 @@
-.resume {
-    width: 100%;
-    height: 1200px;
-    background: transparent;
-    margin-top: 20px;
-}
-
-.googleDocsLink {
+.hrefLink {
     font-size: large;
 }
 
-.googleDocsLink:hover {
+#resume {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: black;
+    background: white;
 }
