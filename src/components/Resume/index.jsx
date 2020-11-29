@@ -1,25 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
-import { Container } from 'react-bootstrap';
+import { Container, Button, Collapse } from 'react-bootstrap';
 
 const Resume = () => {
+    const [isCollapsableOpen, setIsCollapsableOpen] = useState(false);
     return (
-        <Container>
-            <h1 className='homeTitle'>Resume</h1>
+        <Container className='resumeContainer'>
+            <h1 className='homeTitle' id='resume'>
+                Resume
+            </h1>
             <a
                 href='https://docs.google.com/document/d/1ZJmw9fsLZJDZKE32afpMMZXos12eTN-c29GJtLfOp1Q/edit?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
-                className='hrefLink'
             >
-                View resume in Google Docs
+                <Button variant='light'>View resume in Google Docs</Button>
             </a>
-            <iframe
-                src='resume.pdf'
-                title='resume'
-                id='resume'
-                className='resume'
-            />
+            <Button
+                className='viewPdf'
+                variant='light'
+                onClick={() => setIsCollapsableOpen(!isCollapsableOpen)}
+                aria-controls='resumePdfCollapsable'
+                aria-expanded={isCollapsableOpen}
+            >
+                View Resume as PDF
+            </Button>
+            <a
+                href='https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing'
+                target='_blank'
+                rel='noreferrer'
+                className='downloadResumePdf'
+            >
+                <Button variant='light'>
+                    Download Resume PDF from Google Drive
+                </Button>
+            </a>
+            <Collapse in={isCollapsableOpen} id='resumePdfCollapsable'>
+                <div>
+                    <iframe
+                        src='resume.pdf'
+                        title='resume'
+                        className='resumePdf'
+                    />
+                </div>
+            </Collapse>
+            <div className='resume homeText'>asdasd</div>
         </Container>
     );
 };
