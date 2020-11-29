@@ -19,7 +19,10 @@ const Navigation = () => {
                 className='navbarContainer'
                 fixed='top'
             >
-                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+                <Navbar.Toggle
+                    aria-controls='responsive-navbar-nav'
+                    collapseOnSelect={true}
+                />
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='navbarContainer__navs d-flex justify-content-around'>
                         <Router>
