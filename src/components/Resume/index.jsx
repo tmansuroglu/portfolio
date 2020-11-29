@@ -10,6 +10,7 @@ const Resume = () => {
                 href='https://docs.google.com/document/d/1ZJmw9fsLZJDZKE32afpMMZXos12eTN-c29GJtLfOp1Q/edit?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
+                className='googleDocsLink'
             >
                 View resume in Google Docs
             </a>
