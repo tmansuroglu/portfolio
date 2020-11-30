@@ -11,3 +11,21 @@
     margin: 40% 30% 30% 40%;
     transform: scale(1.5);
 }
+
+@media only screen and (max-width: 600px) {
+    .vertical-timeline-element-content {
+        margin-left: 0 !important;
+    }
+
+    .vertical-timeline-element-icon {
+        display: none;
+    }
+
+    .vertical-timeline-element-content-arrow {
+        display: none;
+    }
+
+    .vertical-timeline::before {
+        display: none;
+    }
+}
