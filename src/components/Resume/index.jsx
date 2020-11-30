@@ -10,7 +10,7 @@ const Resume = () => {
             </h1>
             <div className='resumeTabs'>
                 <Tabs defaultActiveKey='html'>
-                    <Tab eventKey='html' title='View resume as HTML'>
+                    <Tab eventKey='html' title='Text'>
                         <a
                             href='resume.pdf'
                             download
@@ -254,7 +254,7 @@ const Resume = () => {
                             </ul>
                         </div>
                     </Tab>
-                    <Tab eventKey='pdf' title='View resume as PDF'>
+                    <Tab eventKey='pdf' title='PDF'>
                         <iframe
                             loading='eager'
                             src='resume.pdf'

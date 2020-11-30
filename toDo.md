@@ -8,7 +8,6 @@
 -   update resume
 -   is portfolio considered as a project?
 -   separate long scripts
--   sidebar should disappear for 450px and below
 
 2nd priority
 
