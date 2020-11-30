@@ -34,10 +34,3 @@
 .resumeDownloadLink {
     padding: 10px;
 }
-
-@media only screen and (max-width: 400px) {
-    .resumeEmail {
-        word-wrap: break-word;
-        font-size: 1.4rem;
-    }
-}
