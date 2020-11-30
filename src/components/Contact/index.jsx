@@ -1,13 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import { Modal, Form, Button, Spinner } from 'react-bootstrap';
+import {
+    Modal,
+    Form,
+    Button,
+    Spinner,
+    OverlayTrigger,
+    Popover,
+    Row,
+    Col,
+} from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import emailjs, { init } from 'emailjs-com';
 
 const Contact = ({ setModalVisibility, modalVisibility }) => {
     const [loading, setLoading] = useState(false);
     const [emailStatus, setEmailStatus] = useState();
-    const [shouldShowIcons, setShouldShowIcons] = useState(false);
+    const [shouldShowAllContactOpt, setShouldShowAllContactOpt] = useState(
+        false
+    );
     init('user_oNgyWxSIi4RmaCad8IwY4');
     const { register, handleSubmit } = useForm();
     const handleClose = () => {
@@ -39,9 +50,92 @@ const Contact = ({ setModalVisibility, modalVisibility }) => {
 
     useEffect(() => {
         window.outerWidth < 578
-            ? setShouldShowIcons(true)
-            : setShouldShowIcons(false);
+            ? setShouldShowAllContactOpt(true)
+            : setShouldShowAllContactOpt(false);
     }, [modalVisibility]);
+
+    const phonePopover = (
+        <Popover id='popover-basic'>
+            <Popover.Content>
+                <Button href='tel:+905523600893' variant='link'>
+                    +90 552 360 08 93
+                </Button>
+            </Popover.Content>
+        </Popover>
+    );
+
+    const emailPopover = (
+        <Popover id='popover-basic'>
+            <Popover.Content>
+                <Button href='mailto: mansuroglu99@gmail.com' variant='link'>
+                    mansuroglu99@gmail.com
+                </Button>
+            </Popover.Content>
+        </Popover>
+    );
+
+    const contactInfo = (
+        <Row className='contactInfo'>
+            <Col xs={4}>
+                <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://www.linkedin.com/in/tarkanmansuroglu/'
+                >
+                    <i className='fab fa-linkedin-in fa-3x contactLinkedIn'></i>
+                </a>
+            </Col>
+            <Col xs={4}>
+                <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://github.com/tmansuroglu'
+                >
+                    <i className='fab fa-github fa-3x contactGithub'></i>
+                </a>
+            </Col>
+            <Col xs={4}>
+                <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://www.instagram.com/tarkanmansuroglu/'
+                >
+                    <i className='fab fa-instagram fa-3x contactInstagram'></i>
+                </a>
+            </Col>
+            <Col xs={4}>
+                <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://twitter.com/T_Mansuroglu'
+                >
+                    <i className='fab fa-twitter fa-3x contactTwitter'></i>
+                </a>
+            </Col>
+            <Col xs={4}>
+                <OverlayTrigger
+                    trigger='click'
+                    placement='bottom'
+                    overlay={phonePopover}
+                    rootClose={true}
+                    rootCloseEvent='click'
+                >
+                    <i className='fas fa-mobile-alt fa-3x'></i>
+                </OverlayTrigger>
+            </Col>
+            <Col xs={4}>
+                <OverlayTrigger
+                    trigger='click'
+                    placement='bottom'
+                    overlay={emailPopover}
+                    rootClose={true}
+                    rootCloseEvent='click'
+                >
+                    <i className='far fa-envelope fa-3x'></i>
+                </OverlayTrigger>
+            </Col>
+        </Row>
+    );
 
     return (
         <Modal
@@ -51,7 +145,11 @@ const Contact = ({ setModalVisibility, modalVisibility }) => {
             id='contact'
         >
             <Modal.Header closeButton>
-                <Modal.Title>Contact Form</Modal.Title>
+                <Modal.Title>
+                    {shouldShowAllContactOpt ? contactInfo : ''}
+                    <br />
+                    Contact Form
+                </Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <form onSubmit={handleSubmit(onSubmit)} className='contactForm'>
