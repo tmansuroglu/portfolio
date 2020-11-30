@@ -23,7 +23,7 @@ const Resume = () => {
                                 <h1 className='resumeName'>
                                     Tarkan Mansuroğlu
                                 </h1>
-                                <p className='resumeContact'>
+                                {/* <p className='resumeContact'>
                                     <a href='tel:+905523600893'>
                                         +90 552 360 08 93
                                     </a>{' '}
@@ -50,7 +50,7 @@ const Resume = () => {
                                     >
                                         LinkedIn
                                     </a>
-                                </p>
+                                </p> */}
                                 <p>
                                     Front-end web developer with
                                     multidisciplinary background. Graduated from
