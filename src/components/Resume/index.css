@@ -8,13 +8,10 @@
 }
 
 .resumeTabs {
-    background: white;
     margin-right: 5%;
 }
 
 .resumeHtml {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 30px;
@@ -33,7 +30,18 @@
 }
 
 .resumeDownloadLink {
-    padding: 10px;
+    margin-top: 20px;
+}
+
+.nav-tabs {
+    border-color: black !important;
+    background-color: white;
+    border-radius: 2px;
+    width: 124px;
+}
+
+.resumeHtmlContainer {
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 400px) {
