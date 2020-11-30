@@ -4,10 +4,8 @@ import { Container } from 'react-bootstrap';
 
 const About = () => {
     return (
-        <Container>
-            <h1 className='homeTitle' id={'about'}>
-                About
-            </h1>
+        <Container id='about'>
+            <h1 className='homeTitle'>About</h1>
             <div className='homeText'>
                 <p>
                     Tarkan Mansuroğlu is a front-end web developer. He started

@@ -13,16 +13,8 @@ const Navigation = () => {
                 modalVisibility={modalVisibility}
                 setModalVisibility={setModalVisibility}
             />
-            <Navbar
-                collapseOnSelect={true}
-                expand='sm'
-                className='navbarContainer'
-                fixed='top'
-            >
-                <Navbar.Toggle
-                    aria-controls='responsive-navbar-nav'
-                    collapseOnSelect={true}
-                />
+            <Navbar expand='sm' className='navbarContainer' fixed='top'>
+                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='navbarContainer__navs d-flex justify-content-around'>
                         <Router>
