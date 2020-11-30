@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import { Modal, Form, Button, Spinner } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import emailjs, { init } from 'emailjs-com';
 
-const ContactForm = ({ setModalVisibility, modalVisibility }) => {
+const Contact = ({ setModalVisibility, modalVisibility }) => {
     const [loading, setLoading] = useState(false);
     const [emailStatus, setEmailStatus] = useState();
+    const [shouldShowIcons, setShouldShowIcons] = useState(false);
     init('user_oNgyWxSIi4RmaCad8IwY4');
     const { register, handleSubmit } = useForm();
     const handleClose = () => {
@@ -35,6 +36,12 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
                 setEmailStatus(false);
             });
     };
+
+    useEffect(() => {
+        window.outerWidth < 578
+            ? setShouldShowIcons(true)
+            : setShouldShowIcons(false);
+    }, [modalVisibility]);
 
     return (
         <Modal
@@ -106,4 +113,4 @@ const ContactForm = ({ setModalVisibility, modalVisibility }) => {
     );
 };
 
-export default ContactForm;
+export default Contact;

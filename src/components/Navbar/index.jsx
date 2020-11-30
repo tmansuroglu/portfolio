@@ -3,13 +3,13 @@ import './index.css';
 import { Nav, Navbar } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import ContactForm from '../ContactForm';
+import Contact from '../Contact';
 
 const Navigation = () => {
     const [modalVisibility, setModalVisibility] = useState(false);
     return (
         <>
-            <ContactForm
+            <Contact
                 modalVisibility={modalVisibility}
                 setModalVisibility={setModalVisibility}
             />
@@ -52,7 +52,7 @@ const Navigation = () => {
                                 className='text-light navbarContainer__navs__nav'
                                 onClick={() => setModalVisibility(true)}
                             >
-                                Contact Form
+                                Contact
                             </HashLink>
                         </Router>
                     </Nav>
@@ -63,5 +63,3 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
-// <Navbar collapseOnSelect expand='lg' >
