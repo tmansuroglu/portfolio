@@ -26,7 +26,7 @@ const About = () => {
                 <p>
                     During these years, he wanted to figure out what he expected
                     from life. While searching for his purpose, he realized that
-                    to build his future, first he needs to decypher himself.
+                    to build his future, first he needs to decipher himself.
                     This process helped him develop an analytical mindset.
                     Consequently, his new mentality lead him to coding.
                 </p>
