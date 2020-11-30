@@ -23,34 +23,38 @@ const Resume = () => {
                                 <h1 className='resumeName'>
                                     Tarkan Mansuroğlu
                                 </h1>
-                                {/* <p className='resumeContact'>
-                                    <a href='tel:+905523600893'>
-                                        +90 552 360 08 93
-                                    </a>{' '}
-                                    |{' '}
-                                    <a
-                                        href='mailto: mansuroglu99@gmail.com'
-                                        className='resumeEmail'
-                                    >
-                                        mansuroglu99@gmail.com
-                                    </a>{' '}
-                                    |{' '}
-                                    <a
-                                        target='_blank'
-                                        rel='noreferrer'
-                                        href='https://github.com/tmansuroglu'
-                                    >
-                                        Github
-                                    </a>{' '}
-                                    |{' '}
-                                    <a
-                                        target='_blank'
-                                        rel='noreferrer'
-                                        href='https://www.linkedin.com/in/tarkanmansuroglu/'
-                                    >
-                                        LinkedIn
-                                    </a>
-                                </p> */}
+                                {window.outerWidth < 578 ? (
+                                    <p className='resumeContact'>
+                                        <a href='tel:+905523600893'>
+                                            +90 552 360 08 93
+                                        </a>{' '}
+                                        |{' '}
+                                        <a
+                                            href='mailto: mansuroglu99@gmail.com'
+                                            className='resumeEmail'
+                                        >
+                                            mansuroglu99@gmail.com
+                                        </a>{' '}
+                                        |{' '}
+                                        <a
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            href='https://github.com/tmansuroglu'
+                                        >
+                                            Github
+                                        </a>{' '}
+                                        |{' '}
+                                        <a
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            href='https://www.linkedin.com/in/tarkanmansuroglu/'
+                                        >
+                                            LinkedIn
+                                        </a>
+                                    </p>
+                                ) : (
+                                    ''
+                                )}
                                 <p>
                                     Front-end web developer with
                                     multidisciplinary background. Graduated from
