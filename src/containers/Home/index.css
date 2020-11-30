@@ -13,11 +13,19 @@
 }
 
 #root .container {
-    max-width: 89%;
-    margin-left: max(10%, 40px);
-    margin-right: max(10%, 40px);
+    margin: 0;
+    padding-left: 7%;
+    padding-right: 5%;
+    max-width: 100%;
 }
 
 #root .vertical-timeline-element-content p {
     font-size: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+    #root .container {
+        padding-left: 5%;
+        padding-right: 3%;
+    }
 }
