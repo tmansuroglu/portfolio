@@ -5,7 +5,8 @@
 }
 
 #root .navbarContainer__navs {
-    width: 100%;
+    text-align: center;
+    width: 95vw;
     font-family: 'Arimo', sans-serif;
 }
 
@@ -25,8 +26,8 @@
 
 @media only screen and (max-width: 575px) {
     .navbarContainer__navs__nav {
-        padding: 10px;
-        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
 
