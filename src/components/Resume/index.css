@@ -7,9 +7,6 @@
     margin-bottom: 50px;
 }
 
-.resumeTabs {
-}
-
 .resumeHtml {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -33,7 +30,7 @@
     border-color: black !important;
     background-color: white;
     border-radius: 2px;
-    width: 124px;
+    width: 130px;
 }
 
 .resumeHtmlContainer {
