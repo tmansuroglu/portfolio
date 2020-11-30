@@ -5,7 +5,6 @@
 -   finish thinkific
 -   Add readme to projects
 -   check links
--   update resume
 -   separate long scripts
 -   fix about text
 

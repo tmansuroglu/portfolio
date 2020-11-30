@@ -13,7 +13,7 @@ const Resume = () => {
                     <Tab eventKey='html' title='Text'>
                         <div className='resumeHtmlContainer'>
                             <a
-                                href='resume.pdf'
+                                href='TarkanMansurogluResume.pdf'
                                 download
                                 className='resumeDownloadLink'
                             >
@@ -59,12 +59,13 @@ const Resume = () => {
                                     Front-end web developer with
                                     multidisciplinary background. Graduated from
                                     Front-End Web Development bootcamps of
-                                    Flatiron School and Re:Coded. Also studied
+                                    Flatiron School and Re:Coded. Also, studied
                                     international finance at Eastern
-                                    Mediterranean University. Working and
-                                    studying in international environments since
-                                    2013. Transitioned to coding because he
-                                    loves complex problems and learning.
+                                    Mediterranean University. Actively involved
+                                    in international environments since 2013.
+                                    Transitioned to coding because he is a
+                                    problem solver and the tech world never
+                                    lacks problems.
                                 </p>
                                 <h2>
                                     <strong>TECHNICAL PROJECTS</strong>
@@ -161,7 +162,7 @@ const Resume = () => {
                                         </a>
                                     </small>
                                 </h4>
-                                <span>Developing an IMDB clone</span>
+                                <span>IMDB clone</span>
                                 <ul>
                                     <li>Developed with vanilla JS</li>
                                     <li>Created UI with Bootstrap</li>
@@ -277,7 +278,7 @@ const Resume = () => {
                     <Tab eventKey='pdf' title='PDF'>
                         <iframe
                             loading='eager'
-                            src='resume.pdf'
+                            src='TarkanMansurogluResume.pdf'
                             title='resume'
                             className='resumePdf'
                         />
