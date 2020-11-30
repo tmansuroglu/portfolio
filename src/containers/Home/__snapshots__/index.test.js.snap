@@ -1,0 +1,1233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+Array [
+  <nav
+    className="navbarContainer navbar navbar-expand-sm navbar-light fixed-top"
+  >
+    <button
+      aria-controls="responsive-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="responsive-navbar-nav"
+    >
+      <div
+        className="navbarContainer__navs d-flex justify-content-around navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="text-light navbarContainer__navs__nav"
+          href="/#top"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="text-light navbarContainer__navs__nav"
+          href="/#about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          className="text-light navbarContainer__navs__nav"
+          href="/#projects"
+          onClick={[Function]}
+        >
+          Projects
+        </a>
+        <a
+          className="text-light navbarContainer__navs__nav"
+          href="/#resume"
+          onClick={[Function]}
+        >
+          Resume
+        </a>
+        <a
+          className="text-light navbarContainer__navs__nav"
+          href="/#contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="sidebar"
+  >
+    <div
+      className="iconContainer"
+    >
+      <i
+        className="fas fa-phone fa-3x icon"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <i
+        className="fas fa-envelope-open icon fa-3x"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <a
+        href="https://www.linkedin.com/in/tarkanmansuroglu/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-linkedin-in icon fa-3x"
+        />
+      </a>
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <a
+        href="https://github.com/tmansuroglu"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-github icon fa-3x"
+        />
+      </a>
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <a
+        href="https://www.instagram.com/tarkanmansuroglu/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-instagram icon fa-3x"
+        />
+      </a>
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <a
+        href="https://twitter.com/T_Mansuroglu"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-twitter icon fa-3x"
+        />
+      </a>
+    </div>
+  </div>,
+  <div
+    className="homeText container"
+    id="introduction"
+  >
+    <span
+      className="name"
+    >
+      Tarkan Mansuroğlu
+    </span>
+    <p
+      className="loop styles_typicalWrapper__1_Uvh"
+    />
+  </div>,
+  <div
+    className="container"
+    id="about"
+  >
+    <h1
+      className="homeTitle"
+    >
+      About
+    </h1>
+    <div
+      className="homeText"
+    >
+      <p>
+        Tarkan Mansuroğlu is a front-end web developer. He started learning coding by himself and continued his coding education through “Re-Coded Front-End Web Development Bootcamp”. He became a coder because he is a lifelong learner and addicted to the sensation that comes after solving a tech problem.
+      </p>
+      <p>
+        He discovered his appetite for challenges in his early 20s. At age 20, he was severely obese and academically lost. At 22 he dropped from 175kg to 95 kg, became a fitness enthusiast and top finance student of his university. Later, he graduated with highest CGPA and continued being a physically active person.
+      </p>
+      <p>
+        During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first he needs to decipher himself. This process helped him develop an analytical mindset. Consequently, his new mentality lead him to coding.
+      </p>
+      <p>
+        He is currently looking for new challenges to conquer and technologies to learn.
+      </p>
+    </div>
+  </div>,
+  <div
+    className="container"
+  >
+    <h1
+      className="homeTitle"
+      id="projects"
+    >
+      Projects
+    </h1>
+    <div
+      className="vertical-timeline vertical-timeline--two-columns"
+    >
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              Juniper
+            </h4>
+            <a
+              href="https://github.com/ReCoded-Org/capstone-istanbul-juniper"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+            <br />
+            <a
+              href="https://juniper-ist.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               teaching middle-eastern youth about environmental problems through games.
+            </p>
+            <br />
+            <h5>
+              My Responsibilities
+            </h5>
+            <ul>
+              <li>
+                Developing a memory game
+              </li>
+              <li>
+                Code reviewing
+              </li>
+              <li>
+                Bug bashing
+              </li>
+              <li>
+                Developing games page
+              </li>
+              <li>
+                Scrum master for 1 week
+              </li>
+              <li>
+                Helping colleagues whenever needed
+              </li>
+              <li>
+                Developing twitter section of homepage
+              </li>
+            </ul>
+            <h5>
+              Skills Applied
+            </h5>
+            <ul>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                React
+              </li>
+              <li>
+                Git and Github
+              </li>
+              <li>
+                AGILE Methodologies
+              </li>
+              <li>
+                Teamwork
+              </li>
+              <li>
+                Firebase
+              </li>
+              <li>
+                Ant Design
+              </li>
+              <li>
+                Responsive Design
+              </li>
+              <li>
+                Figma
+              </li>
+              <li>
+                Testing (Jest)
+              </li>
+              <li>
+                Routing
+              </li>
+              <li>
+                i18n
+              </li>
+            </ul>
+          </div>
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              FoodCheck
+            </h4>
+            <a
+              href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+            <br />
+            <a
+              href="https://foodcheck.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               creating a quick and easy to use weekly diet and calory tracker
+            </p>
+            <br />
+            <h5>
+              My Responsibilities
+            </h5>
+            <ul>
+              <li>
+                App planning
+              </li>
+              <li>
+                Setting up redux
+              </li>
+              <li>
+                Setting up firebase
+              </li>
+              <li>
+                Setting up food API
+              </li>
+              <li>
+                Diet management page
+              </li>
+              <li>
+                Creating charts
+              </li>
+              <li>
+                Responsive design
+              </li>
+              <li>
+                Home page
+              </li>
+              <li>
+                Contact page
+              </li>
+              <li>
+                Login page
+              </li>
+              <li>
+                Register page
+              </li>
+            </ul>
+            <h5>
+              Skills Applied
+            </h5>
+            <ul>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                React
+              </li>
+              <li>
+                Redux
+              </li>
+              <li>
+                API Usage
+              </li>
+              <li>
+                Firebase
+              </li>
+              <li>
+                Ant Design
+              </li>
+              <li>
+                Responsive Design
+              </li>
+              <li>
+                Git and Github
+              </li>
+              <li>
+                Chart.js
+              </li>
+              <li>
+                Routing
+              </li>
+            </ul>
+          </div>
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              Portfolio
+            </h4>
+            <a
+              href="https://github.com/tmansuroglu/portfolio"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+            <br />
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               building a portfolio website to create an online presence.
+            </p>
+            <br />
+            <h5>
+              My Responsibilities
+            </h5>
+            <ul>
+              <li>
+                Solo Project
+              </li>
+            </ul>
+            <h5>
+              Skills Applied
+            </h5>
+            <ul>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                React
+              </li>
+              <li>
+                Emailjs
+              </li>
+              <li>
+                Bootstrap
+              </li>
+              <li>
+                Responsive Design
+              </li>
+              <li>
+                Git and Github
+              </li>
+              <li>
+                Testing (Jest)
+              </li>
+            </ul>
+          </div>
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              TMDB
+            </h4>
+            <a
+              href="https://github.com/tmansuroglu/TMDB-Project"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+            <br />
+            <a
+              href="https://tmdbproject.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               creating an IMDB clone.
+            </p>
+            <br />
+            <h5>
+              My Responsibilities
+            </h5>
+            <ul>
+              <li>
+                Setting up TMDB API
+              </li>
+              <li>
+                Movie/Tv Series Page
+              </li>
+              <li>
+                Actor/Actress Page
+              </li>
+              <li>
+                Search Page
+              </li>
+              <li>
+                Main Page
+              </li>
+              <li>
+                Navbar Dropdowns
+              </li>
+              <li>
+                Visual Design
+              </li>
+            </ul>
+            <h5>
+              Skills Applied
+            </h5>
+            <ul>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Bootstrap
+              </li>
+              <li>
+                Responsive Design
+              </li>
+              <li>
+                API Usage
+              </li>
+            </ul>
+          </div>
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              Madlibz
+            </h4>
+            <a
+              href="https://github.com/tmansuroglu/Madlibzz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github link
+            </a>
+            <br />
+            <a
+              href="https://madlibz.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               creating a Madlibz game.
+            </p>
+            <br />
+            <h5>
+              My Responsibilities
+            </h5>
+            <ul>
+              <li>
+                Game Logic
+              </li>
+              <li>
+                Setting up i18n
+              </li>
+              <li>
+                Visual Design
+              </li>
+              <li>
+                Responsive Design
+              </li>
+            </ul>
+            <h5>
+              Skills Applied
+            </h5>
+            <ul>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Regular Expression
+              </li>
+              <li>
+                i18n
+              </li>
+              <li>
+                Bootstrap
+              </li>
+              <li>
+                Visual Design
+              </li>
+              <li>
+                Responsive Design
+              </li>
+              <li>
+                Teamwork
+              </li>
+            </ul>
+          </div>
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element vertical-timeline-element--no-children"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-play startIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          
+          <span
+            className="vertical-timeline-element-date"
+          >
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="resumeContainer container"
+  >
+    <h1
+      className="homeTitle"
+      id="resume"
+    >
+      Resume
+    </h1>
+    <div
+      className="resumeTabs"
+    >
+      <nav
+        className="nav nav-tabs"
+        onKeyDown={[Function]}
+        role="tablist"
+      >
+        <a
+          aria-selected={true}
+          className="nav-item nav-link active"
+          data-rb-event-key="html"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="tab"
+        >
+          Text
+        </a>
+        <a
+          aria-selected={false}
+          className="nav-item nav-link"
+          data-rb-event-key="pdf"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="tab"
+          tabIndex={-1}
+        >
+          PDF
+        </a>
+      </nav>
+      <div
+        className="tab-content"
+      >
+        <div
+          aria-hidden={false}
+          aria-labelledby={null}
+          className="fade tab-pane active show"
+          id={null}
+          role="tabpanel"
+        >
+          <div
+            className="resumeHtmlContainer"
+          >
+            <a
+              className="resumeDownloadLink"
+              download={true}
+              href="TarkanMansurogluResume.pdf"
+            >
+              Download Resume
+            </a>
+            <div
+              className="resumeHtml homeText"
+            >
+              <h1
+                className="resumeName"
+              >
+                Tarkan Mansuroğlu
+              </h1>
+              
+              <p>
+                Front-end web developer with multidisciplinary background. Graduated from Front-End Web Development bootcamps of Flatiron School and Re:Coded. Also, studied international finance at Eastern Mediterranean University. Actively involved in international environments since 2013. Transitioned to coding because he is a problem solver and the tech world never lacks problems.
+              </p>
+              <h2>
+                <strong>
+                  TECHNICAL PROJECTS
+                </strong>
+              </h2>
+              <h4>
+                <strong>
+                  Juniper
+                </strong>
+                 
+                <small>
+                  -
+                   
+                  <a
+                    href="https://github.com/ReCoded-Org/capstone-istanbul-juniper"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                   
+                  |
+                   
+                  <a
+                    href="https://juniper-ist.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                </small>
+              </h4>
+              <span>
+                An educational website designed to teach youth living in MENA region about environmental issues through games.
+              </span>
+              <ul>
+                <li>
+                  Built with React
+                </li>
+                <li>
+                  Created games with JavaScript, CSS, Ant Design and other small libraries
+                </li>
+                <li>
+                  Tested with Jest
+                </li>
+                <li>
+                  Implemented AGILE methodologies
+                </li>
+                <li>
+                  Used i18next for translations
+                </li>
+                <li>
+                  Used Git and Github for version management
+                </li>
+              </ul>
+              <h4>
+                <strong>
+                  Foodcheck
+                </strong>
+                 
+                <small>
+                  -
+                   
+                  <a
+                    href="https://github.com/tmansuroglu/Foodcheck"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                   
+                  |
+                   
+                  <a
+                    href="https://foodcheck.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                </small>
+              </h4>
+              <span>
+                A web app designed to track and analyze diet and dietary goals
+              </span>
+              <ul>
+                <li>
+                  Developed with React
+                </li>
+                <li>
+                  Managed states with Redux
+                </li>
+                <li>
+                  Provided data with Nutritionix API
+                </li>
+                <li>
+                  Provided backend with Firebase
+                </li>
+              </ul>
+              <h4>
+                <strong>
+                  TMDB
+                </strong>
+                 
+                <small>
+                  -
+                   
+                  <a
+                    href="https://github.com/tmansuroglu/TMDB-Project"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                   
+                  |
+                   
+                  <a
+                    href="https://tmdbproject.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                </small>
+              </h4>
+              <span>
+                IMDB clone
+              </span>
+              <ul>
+                <li>
+                  Developed with vanilla JS
+                </li>
+                <li>
+                  Created UI with Bootstrap
+                </li>
+                <li>
+                  Provided data with TMDB API
+                </li>
+              </ul>
+              <h2>
+                <strong>
+                  TECHNICAL SKILLS
+                </strong>
+              </h2>
+              <p>
+                HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, Bootstrap, Ant Design, i18next, Firebase, API usage
+              </p>
+              <h2>
+                <strong>
+                  EMPLOYMENT HISTORY
+                </strong>
+              </h2>
+              <h4>
+                <a
+                  href="https://www.recodedlabs.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Re:Coded Labs
+                </a>
+              </h4>
+              <span>
+                Junior Developer Intern, 2020
+              </span>
+              <ul>
+                <li>
+                  Learned and practised HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, responsive design, AGILE etc.
+                </li>
+                <li>
+                  Built projects
+                </li>
+              </ul>
+              <h4>
+                <a
+                  href="https://fbe.emu.edu.tr/en/academic-units/banking-and-finance"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Eastern Mediterranean University Banking and Finance Department
+                </a>
+              </h4>
+              <span>
+                Assistant - 2018-2019
+              </span>
+              <ul>
+                <li>
+                  Helped department communication (translations and paperwork)
+                </li>
+                <li>
+                  Managed archive
+                </li>
+              </ul>
+              <h2>
+                <strong>
+                  EDUCATION
+                </strong>
+              </h2>
+              <h4>
+                <strong>
+                  Re:Coded Bootcamp
+                </strong>
+                (
+                <a
+                  href="https://www.re-coded.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Re:Coded
+                </a>
+                 
+                +
+                 
+                <a
+                  href="https://flatironschool.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Flatiron School
+                </a>
+                ) - 2020
+              </h4>
+              <ul>
+                <li>
+                  Front End Web Development (HTML, CSS, JavaScript, React)
+                </li>
+                <li>
+                  5 month intense web development program run by Re:Coded with Flatiron School's curriculum.
+                </li>
+              </ul>
+              <h4>
+                <a
+                  href="https://www.emu.edu.tr/en"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Eastern Mediterranean University
+                </a>
+                 
+                - 2019
+              </h4>
+              <ul>
+                <li>
+                  Degree: Bachelor of Science in International Finance
+                </li>
+                <li>
+                  Top student 4.00 out of 4.00 CGPA
+                </li>
+              </ul>
+              <h2>
+                <strong>
+                  LANGUAGES
+                </strong>
+              </h2>
+              <ul>
+                <li>
+                  English
+                </li>
+                <li>
+                  Turkish
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          aria-labelledby={null}
+          className="fade tab-pane"
+          id={null}
+          role="tabpanel"
+        >
+          <iframe
+            className="resumePdf"
+            loading="eager"
+            src="TarkanMansurogluResume.pdf"
+            title="resume"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

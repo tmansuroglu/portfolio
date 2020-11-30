@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="iconContainer"
+  >
+    <i
+      className="fas fa-phone fa-3x icon"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <i
+      className="fas fa-envelope-open icon fa-3x"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <a
+      href="https://www.linkedin.com/in/tarkanmansuroglu/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-linkedin-in icon fa-3x"
+      />
+    </a>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <a
+      href="https://github.com/tmansuroglu"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-github icon fa-3x"
+      />
+    </a>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <a
+      href="https://www.instagram.com/tarkanmansuroglu/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-instagram icon fa-3x"
+      />
+    </a>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <a
+      href="https://twitter.com/T_Mansuroglu"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-twitter icon fa-3x"
+      />
+    </a>
+  </div>
+</div>
+`;

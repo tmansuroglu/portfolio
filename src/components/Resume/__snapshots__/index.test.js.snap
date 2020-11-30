@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume renders correctly 1`] = `
+<div
+  className="resumeContainer container"
+>
+  <h1
+    className="homeTitle"
+    id="resume"
+  >
+    Resume
+  </h1>
+  <div
+    className="resumeTabs"
+  >
+    <nav
+      className="nav nav-tabs"
+      onKeyDown={[Function]}
+      role="tablist"
+    >
+      <a
+        aria-selected={true}
+        className="nav-item nav-link active"
+        data-rb-event-key="html"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="tab"
+      >
+        Text
+      </a>
+      <a
+        aria-selected={false}
+        className="nav-item nav-link"
+        data-rb-event-key="pdf"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="tab"
+        tabIndex={-1}
+      >
+        PDF
+      </a>
+    </nav>
+    <div
+      className="tab-content"
+    >
+      <div
+        aria-hidden={false}
+        aria-labelledby={null}
+        className="fade tab-pane active show"
+        id={null}
+        role="tabpanel"
+      >
+        <div
+          className="resumeHtmlContainer"
+        >
+          <a
+            className="resumeDownloadLink"
+            download={true}
+            href="TarkanMansurogluResume.pdf"
+          >
+            Download Resume
+          </a>
+          <div
+            className="resumeHtml homeText"
+          >
+            <h1
+              className="resumeName"
+            >
+              Tarkan Mansuroğlu
+            </h1>
+            
+            <p>
+              Front-end web developer with multidisciplinary background. Graduated from Front-End Web Development bootcamps of Flatiron School and Re:Coded. Also, studied international finance at Eastern Mediterranean University. Actively involved in international environments since 2013. Transitioned to coding because he is a problem solver and the tech world never lacks problems.
+            </p>
+            <h2>
+              <strong>
+                TECHNICAL PROJECTS
+              </strong>
+            </h2>
+            <h4>
+              <strong>
+                Juniper
+              </strong>
+               
+              <small>
+                -
+                 
+                <a
+                  href="https://github.com/ReCoded-Org/capstone-istanbul-juniper"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                 
+                |
+                 
+                <a
+                  href="https://juniper-ist.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Demo
+                </a>
+              </small>
+            </h4>
+            <span>
+              An educational website designed to teach youth living in MENA region about environmental issues through games.
+            </span>
+            <ul>
+              <li>
+                Built with React
+              </li>
+              <li>
+                Created games with JavaScript, CSS, Ant Design and other small libraries
+              </li>
+              <li>
+                Tested with Jest
+              </li>
+              <li>
+                Implemented AGILE methodologies
+              </li>
+              <li>
+                Used i18next for translations
+              </li>
+              <li>
+                Used Git and Github for version management
+              </li>
+            </ul>
+            <h4>
+              <strong>
+                Foodcheck
+              </strong>
+               
+              <small>
+                -
+                 
+                <a
+                  href="https://github.com/tmansuroglu/Foodcheck"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                 
+                |
+                 
+                <a
+                  href="https://foodcheck.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Demo
+                </a>
+              </small>
+            </h4>
+            <span>
+              A web app designed to track and analyze diet and dietary goals
+            </span>
+            <ul>
+              <li>
+                Developed with React
+              </li>
+              <li>
+                Managed states with Redux
+              </li>
+              <li>
+                Provided data with Nutritionix API
+              </li>
+              <li>
+                Provided backend with Firebase
+              </li>
+            </ul>
+            <h4>
+              <strong>
+                TMDB
+              </strong>
+               
+              <small>
+                -
+                 
+                <a
+                  href="https://github.com/tmansuroglu/TMDB-Project"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                 
+                |
+                 
+                <a
+                  href="https://tmdbproject.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Demo
+                </a>
+              </small>
+            </h4>
+            <span>
+              IMDB clone
+            </span>
+            <ul>
+              <li>
+                Developed with vanilla JS
+              </li>
+              <li>
+                Created UI with Bootstrap
+              </li>
+              <li>
+                Provided data with TMDB API
+              </li>
+            </ul>
+            <h2>
+              <strong>
+                TECHNICAL SKILLS
+              </strong>
+            </h2>
+            <p>
+              HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, Bootstrap, Ant Design, i18next, Firebase, API usage
+            </p>
+            <h2>
+              <strong>
+                EMPLOYMENT HISTORY
+              </strong>
+            </h2>
+            <h4>
+              <a
+                href="https://www.recodedlabs.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Re:Coded Labs
+              </a>
+            </h4>
+            <span>
+              Junior Developer Intern, 2020
+            </span>
+            <ul>
+              <li>
+                Learned and practised HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, responsive design, AGILE etc.
+              </li>
+              <li>
+                Built projects
+              </li>
+            </ul>
+            <h4>
+              <a
+                href="https://fbe.emu.edu.tr/en/academic-units/banking-and-finance"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Eastern Mediterranean University Banking and Finance Department
+              </a>
+            </h4>
+            <span>
+              Assistant - 2018-2019
+            </span>
+            <ul>
+              <li>
+                Helped department communication (translations and paperwork)
+              </li>
+              <li>
+                Managed archive
+              </li>
+            </ul>
+            <h2>
+              <strong>
+                EDUCATION
+              </strong>
+            </h2>
+            <h4>
+              <strong>
+                Re:Coded Bootcamp
+              </strong>
+              (
+              <a
+                href="https://www.re-coded.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Re:Coded
+              </a>
+               
+              +
+               
+              <a
+                href="https://flatironschool.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Flatiron School
+              </a>
+              ) - 2020
+            </h4>
+            <ul>
+              <li>
+                Front End Web Development (HTML, CSS, JavaScript, React)
+              </li>
+              <li>
+                5 month intense web development program run by Re:Coded with Flatiron School's curriculum.
+              </li>
+            </ul>
+            <h4>
+              <a
+                href="https://www.emu.edu.tr/en"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Eastern Mediterranean University
+              </a>
+               
+              - 2019
+            </h4>
+            <ul>
+              <li>
+                Degree: Bachelor of Science in International Finance
+              </li>
+              <li>
+                Top student 4.00 out of 4.00 CGPA
+              </li>
+            </ul>
+            <h2>
+              <strong>
+                LANGUAGES
+              </strong>
+            </h2>
+            <ul>
+              <li>
+                English
+              </li>
+              <li>
+                Turkish
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        aria-labelledby={null}
+        className="fade tab-pane"
+        id={null}
+        role="tabpanel"
+      >
+        <iframe
+          className="resumePdf"
+          loading="eager"
+          src="TarkanMansurogluResume.pdf"
+          title="resume"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

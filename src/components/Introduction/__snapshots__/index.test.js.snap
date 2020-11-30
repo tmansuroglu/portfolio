@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro renders correctly 1`] = `
+<div
+  className="homeText container"
+  id="introduction"
+>
+  <span
+    className="name"
+  >
+    Tarkan Mansuroğlu
+  </span>
+  <p
+    className="loop styles_typicalWrapper__1_Uvh"
+  />
+</div>
+`;
