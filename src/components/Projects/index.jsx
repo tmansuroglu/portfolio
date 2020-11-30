@@ -12,7 +12,7 @@ const Projects = () => {
             <h1 className='homeTitle' id='projects'>
                 Projects
             </h1>
-            <VerticalTimeline>
+            <VerticalTimeline animate={false}>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--work'
                     contentStyle={{
