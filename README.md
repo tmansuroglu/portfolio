@@ -2,13 +2,6 @@
 
 My personal portfolio site.
 
-## Table of contents
-* [General info](#general-info)
-* [Screenshots](#Example)
-* [Technologies](#technologies)
-* [Status](#status)
-* [License](#license)
-
 ## General info
 This project is built to be cornerstone of my online presence. It is easy on the eye, easy to navigate, quick and open ended. 
 
