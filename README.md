@@ -4,12 +4,9 @@ My personal portfolio site.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
+* [Screenshots](#Example)
 * [Technologies](#technologies)
-* [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
 * [License](#license)
 
 ## General info
