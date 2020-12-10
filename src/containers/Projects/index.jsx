@@ -10,11 +10,11 @@ import TMDB from '../../components/TMDB';
 
 const Projects = () => {
   return (
-    <Container>
+    <Container className='projectsContainer'>
       <h1 className='homeTitle' id='projects'>
         Projects
       </h1>
-      <VerticalTimeline className='verticalTimeline'>
+      <VerticalTimeline animate={false} className='verticalTimeline'>
         <Juniper />
         <Portfolio />
         <FoodCheck />

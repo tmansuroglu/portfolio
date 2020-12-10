@@ -6,6 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 import Contact from '../../containers/Contact';
 
 const Navigation = () => {
+  const [expanded, setExpanded] = useState(false);
   const [modalVisibility, setModalVisibility] = useState(false);
   const scrollWithOffset = el => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
@@ -19,8 +20,16 @@ const Navigation = () => {
         modalVisibility={modalVisibility}
         setModalVisibility={setModalVisibility}
       />
-      <Navbar expand='sm' className='navbarContainer' fixed='top'>
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar
+        expand='sm'
+        className='navbarContainer'
+        fixed='top'
+        expanded={expanded}
+      >
+        <Navbar.Toggle
+          aria-controls='responsive-navbar-nav'
+          onClick={() => setExpanded(expanded ? false : 'expanded')}
+        />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='navbarContainer__navs d-flex justify-content-around'>
             <Router>

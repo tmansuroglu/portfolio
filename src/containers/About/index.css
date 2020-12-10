@@ -15,10 +15,8 @@
   .tarkanDiv {
     float: left;
     width: 100%;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
     margin-bottom: 40px;
+    text-align: center;
   }
   .aboutBigScreen {
     display: none;
