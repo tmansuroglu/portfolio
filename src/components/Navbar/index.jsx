@@ -3,7 +3,7 @@ import './index.css';
 import { Nav, Navbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Contact from '../Contact';
+import Contact from '../../containers/Contact';
 
 const Navigation = () => {
   const [modalVisibility, setModalVisibility] = useState(false);

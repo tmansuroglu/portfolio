@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.css';
 import { Container } from 'react-bootstrap';
-import Education from '../Education';
-import EmploymentHistory from '../EmploymentHistory';
-import TechnicalSkills from '../TechnicalSkills';
-import WhoIsTarkan from '../WhoIsTarkan';
+import Education from '../../components/Education';
+import EmploymentHistory from '../../components/EmploymentHistory';
+import TechnicalSkills from '../../components/TechnicalSkills';
+import WhoIsTarkan from '../../components/WhoIsTarkan';
 
 const About = () => {
   return (
