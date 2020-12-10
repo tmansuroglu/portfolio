@@ -7,7 +7,8 @@
 }
 
 .verticalTimeline {
-  margin-top: 80px !important;
+  margin-top: 40px !important;
+  margin-bottom: 80px !important;
   min-width: 100% !important;
 }
 
@@ -24,6 +25,16 @@
 
 .projectIcon {
   transform: scale(1.3);
+}
+
+.vertical-timeline {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 40px !important;
+}
+
+#root .vertical-timeline-element-content p {
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 1169px) {

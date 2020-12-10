@@ -1,75 +1,50 @@
 .navbarContainer {
-    background: black;
-    height: 60px;
-    box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
+  background: black;
+  height: 60px;
+  box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
 }
 
 #root .navbarContainer__navs {
-    text-align: center;
-    width: 100%;
-    font-family: 'Arimo', sans-serif;
+  text-align: center;
+  width: 100%;
+  font-family: 'Arimo', sans-serif;
 }
 
 .navbarContainer__navs__nav:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar-collapse {
-    box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
-    background: black;
+  box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
+  background: black;
 }
 
 .navbar-toggler-icon {
-    background-color: white;
-    border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 575px) {
-    .navbarContainer__navs__nav {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
+  .navbarContainer__navs__nav {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
 
 #root .navbar-toggler {
-    background: white;
+  background: white;
 }
 
-/*
-.navbarContainer {
-    background: black;
-    height: 12%;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+#dropdown-basic-button2,
+#dropdown-basic-button {
+  color: white;
 }
 
-.navbarContainer__navs {
-    width: 100%;
-    font-family: 'Arimo', sans-serif;
+#dropdown-basic-button2:focus,
+#dropdown-basic-button:focus {
+  border-color: gray;
 }
 
-.navbarContainer__navs__nav:hover {
-    text-decoration: none;
+.navbarContainer__navs__nav__button:focus {
+  border-color: gray;
 }
-
-.navbar-collapse {
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
-    background: black;
-}
-
-.navbar-toggler-icon {
-    background-color: white;
-    border-radius: 10px;
-}
-
-@media only screen and (max-width: 575px) {
-    .navbarContainer__navs__nav {
-        padding: 10px;
-        text-align: center;
-        width: 100vw;
-    }
-}
-
-#root .navbar-toggler {
-    background: white;
-}
-*/
