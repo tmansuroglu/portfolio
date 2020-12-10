@@ -50,20 +50,6 @@ const Navigation = () => {
                 </HashLink>
                 <HashLink
                   smooth
-                  to='#education'
-                  scroll={el => scrollWithOffset(el)}
-                >
-                  <Dropdown.Item>Education</Dropdown.Item>
-                </HashLink>
-                <HashLink
-                  smooth
-                  to='#languages'
-                  scroll={el => scrollWithOffset(el)}
-                >
-                  <Dropdown.Item>Languages</Dropdown.Item>
-                </HashLink>
-                <HashLink
-                  smooth
                   to='#technicalSkills'
                   scroll={el => scrollWithOffset(el)}
                 >
@@ -75,6 +61,20 @@ const Navigation = () => {
                   scroll={el => scrollWithOffset(el)}
                 >
                   <Dropdown.Item>Employment History</Dropdown.Item>
+                </HashLink>
+                <HashLink
+                  smooth
+                  to='#education'
+                  scroll={el => scrollWithOffset(el)}
+                >
+                  <Dropdown.Item>Education</Dropdown.Item>
+                </HashLink>
+                <HashLink
+                  smooth
+                  to='#languages'
+                  scroll={el => scrollWithOffset(el)}
+                >
+                  <Dropdown.Item>Languages</Dropdown.Item>
                 </HashLink>
               </DropdownButton>
               <HashLink
