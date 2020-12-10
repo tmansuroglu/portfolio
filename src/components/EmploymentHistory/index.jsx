@@ -4,7 +4,9 @@ import './index.css';
 const EmploymentHistory = () => {
   return (
     <>
-      <h2 id='employmentHistory'>Employment History</h2>
+      <h2 id='employmentHistory' className='homePageHeader'>
+        Employment History
+      </h2>
       <h4>
         <a target='_blank' href='https://www.recodedlabs.com/' rel='noreferrer'>
           Re:Coded Labs

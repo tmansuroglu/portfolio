@@ -15,7 +15,9 @@ const About = () => {
         <TechnicalSkills />
         <EmploymentHistory />
         <Education />
-        <h2 id='languages'>Languages</h2>
+        <h2 id='languages' className='homePageHeader'>
+          Languages
+        </h2>
         <ul>
           <li>English</li>
           <li>Turkish</li>

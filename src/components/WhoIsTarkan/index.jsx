@@ -4,7 +4,9 @@ import './index.css';
 const WhoIsTarkan = () => {
   return (
     <>
-      <h2 id='whoIsTarkan'>Who is Tarkan Mansuroğlu?</h2>
+      <h2 id='whoIsTarkan' className='homePageHeader'>
+        Who is Tarkan Mansuroğlu?
+      </h2>
       <p>
         Tarkan Mansuroğlu is a front-end web developer. He started learning
         coding by himself and continued his coding education through “Re-Coded

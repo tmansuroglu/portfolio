@@ -4,7 +4,9 @@ import './index.css';
 const Education = () => {
   return (
     <>
-      <h2 id='education'>Education</h2>
+      <h2 id='education' className='homePageHeader'>
+        Education
+      </h2>
       <h4>
         <strong>Re:Coded Bootcamp</strong>(
         <a target='_blank' rel='noreferrer' href='https://www.re-coded.com/'>
