@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Container, Image, Row, Col } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import Education from '../../components/Education';
 import EmploymentHistory from '../../components/EmploymentHistory';
 import TechnicalSkills from '../../components/TechnicalSkills';
