@@ -57,18 +57,19 @@ const Navigation = () => {
                 </HashLink>
                 <HashLink
                   smooth
-                  to='#employmentHistory'
-                  scroll={el => scrollWithOffset(el)}
-                >
-                  <Dropdown.Item>Employment History</Dropdown.Item>
-                </HashLink>
-                <HashLink
-                  smooth
                   to='#education'
                   scroll={el => scrollWithOffset(el)}
                 >
                   <Dropdown.Item>Education</Dropdown.Item>
                 </HashLink>
+                <HashLink
+                  smooth
+                  to='#employmentHistory'
+                  scroll={el => scrollWithOffset(el)}
+                >
+                  <Dropdown.Item>Employment History</Dropdown.Item>
+                </HashLink>
+
                 <HashLink
                   smooth
                   to='#languages'
@@ -92,7 +93,7 @@ const Navigation = () => {
               </HashLink>
               <Button
                 variant='link'
-                className='text-light navbarContainer__navs__nav__button'
+                className='text-light navbarContainer__navs__nav__button resumeButton'
                 href='https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing'
                 target='_blank'
                 rel='noreferrer'

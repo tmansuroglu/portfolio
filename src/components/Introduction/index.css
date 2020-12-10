@@ -1,15 +1,15 @@
 .name {
-    font-size: clamp(1.8rem, 5vw, 5rem);
-    font-family: 'Montserrat', sans-serif;
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .loop {
-    height: 80px;
-    margin-top: 3%;
-    font-size: clamp(1.3em, 3vw, 4rem);
-    font-family: 'Montserrat', sans-serif;
+  height: 80px;
+  margin-top: 3%;
+  font-size: clamp(1.3em, 3vw, 4rem);
+  font-family: 'Montserrat', sans-serif;
 }
 
 #introduction {
-    padding-top: max(10%, 20vh);
+  padding-top: max(10%, 20vh);
 }

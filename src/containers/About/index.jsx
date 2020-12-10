@@ -13,8 +13,8 @@ const About = () => {
       <div className='homeText'>
         <WhoIsTarkan />
         <TechnicalSkills />
-        <EmploymentHistory />
         <Education />
+        <EmploymentHistory />
         <h2 id='languages' className='homePageHeader'>
           Languages
         </h2>

@@ -8,17 +8,15 @@ const EmploymentHistory = () => {
         Employment History
       </h2>
       <h4>
-        <a target='_blank' href='https://www.recodedlabs.com/' rel='noreferrer'>
-          Re:Coded Labs
-        </a>
+        <strong>Re:Coded Labs</strong>
       </h4>
-      <span>Junior Developer Intern, 2020</span>
+      <span>Junior Developer Intern - 2020</span>
       <ul>
+        <li>Built technical and soft skills</li>
         <li>
-          Learned and practised HTML, CSS, JavaScript, React, Redux, Firebase,
-          Git, Github, responsive design, AGILE etc.
+          Practiced AGILE Methodologies, pair programming and teamwork to build
+          projects
         </li>
-        <li>Built projects</li>
       </ul>
       <h4>
         <a
