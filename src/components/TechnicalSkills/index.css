@@ -1,0 +1,32 @@
+.skillDiv {
+  text-align: center;
+  width: 120px;
+}
+
+.skillIcon {
+  font-size: 5rem;
+}
+
+.svgIcon {
+  height: 80px;
+}
+
+.bootstrapLogo {
+  color: #563d7c;
+}
+
+.gitLogo {
+  color: #f34f29;
+}
+
+.reactLogo {
+  color: #61dbfb;
+}
+
+.javaScriptLogo {
+  color: #f0db4f;
+}
+
+.cssLogo {
+  color: #2965f1;
+}
