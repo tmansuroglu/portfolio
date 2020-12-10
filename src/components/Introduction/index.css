@@ -4,12 +4,12 @@
 }
 
 .loop {
-  height: 80px;
+  height: 55px;
   margin-top: 3%;
   font-size: clamp(1.3em, 3vw, 4rem);
   font-family: 'Montserrat', sans-serif;
 }
 
 #introduction {
-  padding-top: max(10%, 20vh);
+  padding-top: max(3%, 6vh);
 }

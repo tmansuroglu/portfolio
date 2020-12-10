@@ -1,4 +1,30 @@
 .interactiveText {
-    font-weight: 600;
-    text-decoration: underline;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.tarkanImage {
+  float: right;
+}
+
+.aboutSmallScreen {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .tarkanDiv {
+    float: left;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .aboutBigScreen {
+    display: none;
+  }
+
+  .aboutSmallScreen {
+    display: inline-block;
+  }
 }

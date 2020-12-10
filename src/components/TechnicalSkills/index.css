@@ -1,6 +1,6 @@
 .skillDiv {
   text-align: center;
-  width: 120px;
+  width: 130px;
 }
 
 .skillIcon {
@@ -29,4 +29,14 @@
 
 .cssLogo {
   color: #2965f1;
+}
+
+@media only screen and (max-width: 434px) {
+  .skillRow {
+    justify-content: center;
+  }
+
+  .skillDiv {
+    margin-top: 30px;
+  }
 }

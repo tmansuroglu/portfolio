@@ -14,7 +14,7 @@ const TechnicalSkills = () => {
       <h2 id='technicalSkills' className='homePageHeader'>
         Technical Skills
       </h2>
-      <Row className='justify-content-around'>
+      <Row className='skillRow'>
         <div className='skillDiv'>
           HTML5 <br />
           <img src={htmlLogo} alt='html logo' className='svgIcon' />
