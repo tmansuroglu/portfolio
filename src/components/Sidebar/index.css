@@ -1,33 +1,33 @@
 .sidebar {
-    bottom: 0;
-    width: max(5%, 50px);
-    max-height: 85%;
-    margin-left: 1%;
-    font-size: 0.5rem;
-    position: fixed;
+  bottom: 0;
+  width: max(5%, 50px);
+  max-height: 85%;
+  margin-left: 2%;
+  font-size: 0.5rem;
+  position: fixed;
 }
 
 .icon {
-    color: white;
-    margin-top: min(30px, 100%);
-    margin-bottom: min(30px, 100%);
-    cursor: pointer;
+  color: white;
+  margin-top: min(30px, 100%);
+  margin-bottom: min(30px, 100%);
+  cursor: pointer;
 }
 
 .fa-phone {
-    color: white;
+  color: white;
 }
 
 .notification {
-    color: white;
+  color: white;
 }
 
 .iconContainer {
-    margin: auto;
+  margin: auto;
 }
 
 @media only screen and (max-width: 577px) {
-    .sidebar {
-        display: none;
-    }
+  .sidebar {
+    display: none;
+  }
 }

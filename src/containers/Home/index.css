@@ -1,31 +1,36 @@
 .homeText {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    line-height: min(2rem, 8vw);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: min(2rem, 8vw);
 }
 
 .homeTitle {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: max(2rem, 4.5vw);
-    margin-top: clamp(5%, 8%, 10%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: max(2rem, 4.5vw);
+  margin-top: clamp(5%, 8%, 10%);
 }
 
 #root .container {
-    margin: 0;
-    padding-left: 7%;
-    padding-right: 5%;
-    max-width: 100%;
+  margin: 0;
+  padding-left: 7%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+
+.vertical-timeline {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 #root .vertical-timeline-element-content p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-@media only screen and (max-width: 700px) {
-    #root .container {
-        padding-left: 5%;
-        padding-right: 3%;
-    }
+@media only screen and (max-width: 750px) {
+  #root .container {
+    padding-left: 10%;
+    padding-right: 7%;
+  }
 }
