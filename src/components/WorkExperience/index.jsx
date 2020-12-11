@@ -5,9 +5,9 @@ const EmploymentHistory = () => {
   return (
     <>
       <h2 id='employmentHistory' className='homePageHeader'>
-        Employment History
+        Work Experience
       </h2>
-      <h4>
+      {/* <h4>
         <strong>Re:Coded Labs</strong>
       </h4>
       <span>Junior Developer Intern - 2020</span>
@@ -31,7 +31,7 @@ const EmploymentHistory = () => {
       <ul>
         <li>Helped department communication (translations and paperwork)</li>
         <li>Managed archive</li>
-      </ul>
+      </ul> */}
     </>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import { Container, Image } from 'react-bootstrap';
 import Education from '../../components/Education';
-import EmploymentHistory from '../../components/EmploymentHistory';
+import EmploymentHistory from '../../components/WorkExperience';
 import TechnicalSkills from '../../components/TechnicalSkills';
 import WhoIsTarkan from '../../components/WhoIsTarkan';
 import tarkanImage from '../../img/tarkanImage.png';
@@ -23,9 +23,9 @@ const About = () => {
         </div>
         <h1 className='homeTitle aboutSmallScreen'>About</h1>
         <WhoIsTarkan />
-        <TechnicalSkills />
         <Education />
         <EmploymentHistory />
+        <TechnicalSkills />
       </div>
     </Container>
   );
