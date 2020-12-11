@@ -7,34 +7,22 @@ const Education = () => {
       <h2 id='education' className='homePageHeader'>
         Education
       </h2>
-      <h4>
-        <strong>Re:Coded Bootcamp</strong>(
+      <p>
+        In 2020, Tarkan Mansuroğlu graduated from{' '}
         <a target='_blank' rel='noreferrer' href='https://www.re-coded.com/'>
           Re:Coded
-        </a>{' '}
-        +{' '}
+        </a>
+        's front end web development bootcamp that is a collaboration between{' '}
         <a target='_blank' rel='noreferrer' href='https://flatironschool.com/'>
           Flatiron School
-        </a>
-        ) - 2020
-      </h4>
-      <ul>
-        <li>Front End Web Development (HTML, CSS, JavaScript, React)</li>
-        <li>
-          5 month intense web development program run by Re:Coded with Flatiron
-          School's curriculum.
-        </li>
-      </ul>
-      <h4>
+        </a>{' '}
+        and Re:Coded. Prior to his coding education, he was a finance graduate.
+        In 2019, he graduated from international finance program of{' '}
         <a target='_blank' rel='noreferrer' href='https://www.emu.edu.tr/en'>
           Eastern Mediterranean University
         </a>{' '}
-        - 2019
-      </h4>
-      <ul>
-        <li>Degree: Bachelor of Science in International Finance</li>
-        <li>Top student 4.00 out of 4.00 CGPA</li>
-      </ul>
+        as top student with 4.00 out of 4.00 CGPA.
+      </p>
     </>
   );
 };
