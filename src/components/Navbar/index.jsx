@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import { Nav, Navbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -6,11 +6,16 @@ import { HashLink } from 'react-router-hash-link';
 import Contact from '../../containers/Contact';
 
 const Navigation = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [modalVisibility, setModalVisibility] = useState(false);
   const scrollWithOffset = el => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -120;
     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+  };
+
+  const changeCollapseState = () => {
+    setIsExpanded(!isExpanded);
   };
 
   return (
@@ -19,8 +24,17 @@ const Navigation = () => {
         modalVisibility={modalVisibility}
         setModalVisibility={setModalVisibility}
       />
-      <Navbar expand='sm' className='navbarContainer' fixed='top'>
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar
+        expand='sm'
+        className='navbarContainer'
+        fixed='top'
+        collapseOnSelect={true}
+        expanded={isExpanded}
+      >
+        <Navbar.Toggle
+          aria-controls='responsive-navbar-nav'
+          onClick={changeCollapseState}
+        />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='navbarContainer__navs d-flex justify-content-around'>
             <Router>
@@ -32,6 +46,7 @@ const Navigation = () => {
                 <Button
                   variant='link'
                   className='text-light navbarContainer__navs__nav__button'
+                  onClick={changeCollapseState}
                 >
                   Home
                 </Button>
@@ -46,28 +61,36 @@ const Navigation = () => {
                   to='#whoIsTarkan'
                   scroll={el => scrollWithOffset(el)}
                 >
-                  <Dropdown.Item>Who is Tarkan Mansuroğlu?</Dropdown.Item>
+                  <Dropdown.Item onClick={changeCollapseState}>
+                    Who is Tarkan Mansuroğlu?
+                  </Dropdown.Item>
                 </HashLink>
                 <HashLink
                   smooth
                   to='#education'
                   scroll={el => scrollWithOffset(el)}
                 >
-                  <Dropdown.Item>Education</Dropdown.Item>
+                  <Dropdown.Item onClick={changeCollapseState}>
+                    Education
+                  </Dropdown.Item>
                 </HashLink>
                 <HashLink
                   smooth
                   to='#employmentHistory'
                   scroll={el => scrollWithOffset(el)}
                 >
-                  <Dropdown.Item>Work Experience</Dropdown.Item>
+                  <Dropdown.Item onClick={changeCollapseState}>
+                    Work Experience
+                  </Dropdown.Item>
                 </HashLink>
                 <HashLink
                   smooth
                   to='#technicalSkills'
                   scroll={el => scrollWithOffset(el)}
                 >
-                  <Dropdown.Item>Technical Skills</Dropdown.Item>
+                  <Dropdown.Item onClick={changeCollapseState}>
+                    Technical Skills
+                  </Dropdown.Item>
                 </HashLink>
               </DropdownButton>
               <HashLink
@@ -79,6 +102,7 @@ const Navigation = () => {
                 <Button
                   variant='link'
                   className='text-light navbarContainer__navs__nav__button'
+                  onClick={changeCollapseState}
                 >
                   Projects
                 </Button>
@@ -89,13 +113,17 @@ const Navigation = () => {
                 href='https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
+                onClick={changeCollapseState}
               >
                 Resume
               </Button>
               <Button
                 variant='link'
                 className='text-light navbarContainer__navs__nav__button'
-                onClick={() => setModalVisibility(true)}
+                onClick={() => {
+                  changeCollapseState();
+                  setModalVisibility(true);
+                }}
               >
                 Contact
               </Button>

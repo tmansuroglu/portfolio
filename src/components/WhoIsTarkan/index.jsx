@@ -24,7 +24,7 @@ const WhoIsTarkan = () => {
       <p>
         During these years, he wanted to figure out what he expected from life.
         While searching for his purpose, he realized that to build his future,
-        first he needs to understand himself. This revelation pushed him to
+        first, he needs to understand himself. This revelation pushed him to
         develop an analytical mindset. Consequently, he realized that problem
         solving is the main drive of things he enjoys and consistent at. Thus,
         he decided to try coding and fell in love with it.
