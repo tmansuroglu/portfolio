@@ -26,13 +26,6 @@ const About = () => {
         <TechnicalSkills />
         <Education />
         <EmploymentHistory />
-        <h2 id='languages' className='homePageHeader'>
-          Languages
-        </h2>
-        <ul>
-          <li>English</li>
-          <li>Turkish</li>
-        </ul>
       </div>
     </Container>
   );
