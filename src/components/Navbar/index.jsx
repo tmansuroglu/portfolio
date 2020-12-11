@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import { Nav, Navbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -15,7 +15,10 @@ const Navigation = () => {
   };
 
   const changeCollapseState = () => {
-    setIsExpanded(!isExpanded);
+    if(window.outerWidth < 578){
+      setIsExpanded(!isExpanded);
+    }
+    else return
   };
 
   return (

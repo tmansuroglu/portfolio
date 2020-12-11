@@ -26,8 +26,8 @@ const WhoIsTarkan = () => {
         While searching for his purpose, he realized that to build his future,
         first, he needs to understand himself. This revelation pushed him to
         develop an analytical mindset. Consequently, he realized that problem
-        solving is the main drive of things he enjoys and consistent at. Thus,
-        he decided to try coding and fell in love with it.
+        solving is the main drive of things he enjoys. Thus, when he started
+        coding, he fell in love with it.
       </p>
     </>
   );
