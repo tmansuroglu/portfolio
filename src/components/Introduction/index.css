@@ -11,5 +11,13 @@
 }
 
 #introduction {
+  padding-right: 0 !important ;
   padding-top: max(3%, 6vh);
+  width: 60%;
+}
+
+@media only screen and (max-width: 890px) {
+  #introduction {
+    width: 100%;
+  }
 }

@@ -2,27 +2,3 @@
   font-weight: 600;
   text-decoration: underline;
 }
-
-.tarkanImage {
-  float: right;
-}
-
-.aboutSmallScreen {
-  display: none;
-}
-
-@media only screen and (max-width: 1000px) {
-  .tarkanDiv {
-    float: left;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  .aboutBigScreen {
-    display: none;
-  }
-
-  .aboutSmallScreen {
-    display: inline-block;
-  }
-}
