@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkExperience renders correctly 1`] = `
+Array [
+  <h2
+    className="homePageHeader"
+    id="employmentHistory"
+  >
+    Work Experience
+  </h2>,
+  <p>
+    Tarkan worked as junior developer intern for Re:Coded in 2020. His efforts were focused on improving his
+     
+    <a
+      href="#technicalSkills"
+      onClick={[Function]}
+    >
+      technical skills
+    </a>
+    , building 
+    <a
+      href="#projects"
+      onClick={[Function]}
+    >
+      projects
+    </a>
+     and soft skills(business communication, teamwork, agile product management, time management...).
+  </p>,
+  <p>
+    Before, he was working for banking and finance department of EMU as a student assistant. His main responsibilities were: contributing to department communication, archive management and translation.
+  </p>,
+  <p>
+    Also, he was peer teaching statistics, finance, economics and math to social science students.
+  </p>,
+]
+`;

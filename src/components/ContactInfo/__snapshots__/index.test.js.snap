@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfo renders correctly 1`] = `
+<div
+  className="contactInfo row"
+>
+  <div
+    className="col-4"
+  >
+    <a
+      href="https://www.linkedin.com/in/tarkanmansuroglu/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-linkedin-in fa-3x contactLinkedIn"
+      />
+    </a>
+  </div>
+  <div
+    className="col-4"
+  >
+    <a
+      href="https://github.com/tmansuroglu"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-github fa-3x contactGithub"
+      />
+    </a>
+  </div>
+  <div
+    className="col-4"
+  >
+    <a
+      href="https://www.instagram.com/tarkanmansuroglu/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-instagram fa-3x contactInstagram"
+      />
+    </a>
+  </div>
+  <div
+    className="col-4"
+  >
+    <a
+      href="https://twitter.com/T_Mansuroglu"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-twitter fa-3x contactTwitter"
+      />
+    </a>
+  </div>
+  <div
+    className="col-4"
+  >
+    <i
+      className="fas fa-mobile-alt fa-3x"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="col-4"
+  >
+    <i
+      className="far fa-envelope fa-3x"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

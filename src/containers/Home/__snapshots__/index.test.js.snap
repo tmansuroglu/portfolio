@@ -30,36 +30,63 @@ Array [
           href="/#top"
           onClick={[Function]}
         >
-          Home
+          <button
+            className="text-light navbarContainer__navs__nav__button btn btn-link"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Home
+          </button>
         </a>
-        <a
-          className="text-light navbarContainer__navs__nav"
-          href="/#about"
-          onClick={[Function]}
+        <div
+          className="dropdown"
+          onKeyDown={[Function]}
         >
-          About
-        </a>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-toggle btn btn-link"
+            disabled={false}
+            id="dropdown-basic-button"
+            onClick={[Function]}
+            type="button"
+          >
+            About
+          </button>
+        </div>
         <a
           className="text-light navbarContainer__navs__nav"
           href="/#projects"
           onClick={[Function]}
         >
-          Projects
+          <button
+            className="text-light navbarContainer__navs__nav__button btn btn-link"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Projects
+          </button>
         </a>
         <a
-          className="text-light navbarContainer__navs__nav"
-          href="/#resume"
+          className="text-light navbarContainer__navs__nav__button resumeButton btn btn-link"
+          href="https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing"
           onClick={[Function]}
+          onKeyDown={[Function]}
+          rel="noreferrer"
+          target="_blank"
         >
           Resume
         </a>
-        <a
-          className="text-light navbarContainer__navs__nav"
-          href="/#contact"
+        <button
+          className="text-light navbarContainer__navs__nav__button btn btn-link"
+          disabled={false}
           onClick={[Function]}
+          type="button"
         >
           Contact
-        </a>
+        </button>
       </div>
     </div>
   </nav>,
@@ -139,11 +166,11 @@ Array [
     className="homeText container"
     id="introduction"
   >
-    <span
+    <h1
       className="name"
     >
       Tarkan Mansuroğlu
-    </span>
+    </h1>
     <p
       className="loop styles_typicalWrapper__1_Uvh"
     />
@@ -153,13 +180,33 @@ Array [
     id="about"
   >
     <h1
-      className="homeTitle"
+      className="homeTitle aboutBigScreen"
     >
       About
     </h1>
     <div
       className="homeText"
     >
+      <div
+        className="tarkanDiv"
+      >
+        <img
+          alt="tarkan mansuroğlu's picture"
+          className="tarkanImage img-fluid rounded-circle"
+          src="tarkanImage.png"
+        />
+      </div>
+      <h1
+        className="homeTitle aboutSmallScreen"
+      >
+        About
+      </h1>
+      <h2
+        className="homePageHeader"
+        id="whoIsTarkan"
+      >
+        Who is Tarkan Mansuroğlu?
+      </h2>
       <p>
         Tarkan Mansuroğlu is a front-end web developer. He started learning coding by himself and continued his coding education through “Re-Coded Front-End Web Development Bootcamp”. He became a coder because he is a lifelong learner and addicted to the sensation that comes after solving a tech problem.
       </p>
@@ -167,15 +214,210 @@ Array [
         He discovered his appetite for challenges in his early 20s. At age 20, he was severely obese and academically lost. At 22 he dropped from 175kg to 95 kg, became a fitness enthusiast and top finance student of his university. Later, he graduated with highest CGPA and continued being a physically active person.
       </p>
       <p>
-        During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first he needs to decipher himself. This process helped him develop an analytical mindset. Consequently, his new mentality lead him to coding.
+        During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first, he needs to understand himself. This revelation pushed him to develop an analytical mindset. Consequently, he realized that problem solving is the main drive of things he enjoys. Thus, when he started coding, he fell in love with it.
+      </p>
+      <h2
+        className="homePageHeader"
+        id="education"
+      >
+        Education
+      </h2>
+      <p>
+        In 2020, Tarkan Mansuroğlu graduated from
+         
+        <a
+          href="https://www.re-coded.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Re:Coded
+        </a>
+        's front end web development bootcamp, which is a collaboration between
+         
+        <a
+          href="https://flatironschool.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Flatiron School
+        </a>
+         
+        and Re:Coded. Prior to his coding education, he was a finance graduate. In 2019, he graduated from international finance program of
+         
+        <a
+          href="https://www.emu.edu.tr/en"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Eastern Mediterranean University(EMU)
+        </a>
+         
+        as top student with 4.00 out of 4.00 CGPA.
+      </p>
+      <h2
+        className="homePageHeader"
+        id="employmentHistory"
+      >
+        Work Experience
+      </h2>
+      <p>
+        Tarkan worked as junior developer intern for Re:Coded in 2020. His efforts were focused on improving his
+         
+        <a
+          href="#technicalSkills"
+          onClick={[Function]}
+        >
+          technical skills
+        </a>
+        , building 
+        <a
+          href="#projects"
+          onClick={[Function]}
+        >
+          projects
+        </a>
+         and soft skills(business communication, teamwork, agile product management, time management...).
       </p>
       <p>
-        He is currently looking for new challenges to conquer and technologies to learn.
+        Before, he was working for banking and finance department of EMU as a student assistant. His main responsibilities were: contributing to department communication, archive management and translation.
       </p>
+      <p>
+        Also, he was peer teaching statistics, finance, economics and math to social science students.
+      </p>
+      <h2
+        className="homePageHeader"
+        id="technicalSkills"
+      >
+        Technical Skills
+      </h2>
+      <div
+        className="skillRow row"
+      >
+        <div
+          className="skillDiv"
+        >
+          HTML5 
+          <br />
+          <img
+            alt="html logo"
+            className="svgIcon"
+            src="htmlLogo.svg"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          CSS 
+          <br />
+          <i
+            class="fab fa-css3-alt skillIcon cssLogo"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          JavaScript 
+          <br />
+          <i
+            class="fab fa-js-square skillIcon javaScriptLogo"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          React 
+          <br />
+          <i
+            class="fab fa-react skillIcon reactLogo"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Git 
+          <br />
+          <i
+            class="fab fa-git skillIcon gitLogo"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Github 
+          <br />
+          <i
+            class="fab fa-github skillIcon"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Bootstrap 
+          <br />
+          <i
+            class="fab fa-bootstrap skillIcon bootstrapLogo"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Ant Design 
+          <br />
+          <img
+            alt="ant design logo"
+            className="svgIcon"
+            src="antDesignLogo.svg"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Firebase 
+          <br />
+          <img
+            alt="firebase logo"
+            className="svgIcon"
+            src="firebaseLogo.svg"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Redux 
+          <br />
+          <img
+            alt="redux logo"
+            className="svgIcon"
+            src="reduxLogo.svg"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          i18next 
+          <br />
+          <img
+            alt="i18n logo"
+            className="svgIcon"
+            src="i18nLogo.svg"
+          />
+        </div>
+        <div
+          className="skillDiv"
+        >
+          Jest 
+          <br />
+          <img
+            alt="jest logo"
+            className="svgIcon"
+            src="jestLogo.svg"
+          />
+        </div>
+      </div>
     </div>
   </div>,
   <div
-    className="container"
+    className="projectsContainer container"
   >
     <h1
       className="homeTitle"
@@ -184,7 +426,7 @@ Array [
       Projects
     </h1>
     <div
-      className="vertical-timeline vertical-timeline--two-columns"
+      className="verticalTimeline vertical-timeline vertical-timeline--two-columns"
     >
       <div
         className="vertical-timeline-element--work vertical-timeline-element"
@@ -235,7 +477,9 @@ Array [
             >
               Github
             </a>
-            <br />
+             
+            |
+             
             <a
               href="https://juniper-ist.netlify.app/"
               rel="noreferrer"
@@ -250,235 +494,96 @@ Array [
                teaching middle-eastern youth about environmental problems through games.
             </p>
             <br />
-            <h5>
-              My Responsibilities
-            </h5>
-            <ul>
-              <li>
-                Developing a memory game
-              </li>
-              <li>
-                Code reviewing
-              </li>
-              <li>
-                Bug bashing
-              </li>
-              <li>
-                Developing games page
-              </li>
-              <li>
-                Scrum master for 1 week
-              </li>
-              <li>
-                Helping colleagues whenever needed
-              </li>
-              <li>
-                Developing twitter section of homepage
-              </li>
-            </ul>
-            <h5>
-              Skills Applied
-            </h5>
-            <ul>
-              <li>
-                HTML
-              </li>
-              <li>
-                CSS
-              </li>
-              <li>
-                JavaScript
-              </li>
-              <li>
-                React
-              </li>
-              <li>
-                Git and Github
-              </li>
-              <li>
-                AGILE Methodologies
-              </li>
-              <li>
-                Teamwork
-              </li>
-              <li>
-                Firebase
-              </li>
-              <li>
-                Ant Design
-              </li>
-              <li>
-                Responsive Design
-              </li>
-              <li>
-                Figma
-              </li>
-              <li>
-                Testing (Jest)
-              </li>
-              <li>
-                Routing
-              </li>
-              <li>
-                i18n
-              </li>
-            </ul>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  Skills Applied
+                </h5>
+                <ul>
+                  <li>
+                    HTML
+                  </li>
+                  <li>
+                    CSS
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    React
+                  </li>
+                  <li>
+                    Git and Github
+                  </li>
+                  <li>
+                    AGILE Methodologies
+                  </li>
+                  <li>
+                    Teamwork
+                  </li>
+                  <li>
+                    Firebase
+                  </li>
+                  <li>
+                    Ant Design
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                  <li>
+                    Figma
+                  </li>
+                  <li>
+                    Testing (Jest)
+                  </li>
+                  <li>
+                    Routing
+                  </li>
+                  <li>
+                    i18n
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  My Responsibilities
+                </h5>
+                <ul>
+                  <li>
+                    Developing a memory game
+                  </li>
+                  <li>
+                    Code reviewing
+                  </li>
+                  <li>
+                    Bug bashing
+                  </li>
+                  <li>
+                    Developing games page
+                  </li>
+                  <li>
+                    Scrum master for 1 week
+                  </li>
+                  <li>
+                    Helping colleagues whenever needed
+                  </li>
+                  <li>
+                    Developing twitter section of homepage
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <span
-            className="vertical-timeline-element-date"
+            className="date vertical-timeline-element-date"
           >
-            
-          </span>
-        </div>
-      </div>
-      <div
-        className="vertical-timeline-element--work vertical-timeline-element"
-        id=""
-        style={null}
-      >
-        <span
-          className="vertical-timeline-element-icon is-hidden"
-          onClick={null}
-          style={
-            Object {
-              "background": "white",
-            }
-          }
-        >
-          <i
-            className="fas fa-project-diagram projectIcon"
-          />
-        </span>
-        <div
-          className="vertical-timeline-element-content is-hidden"
-          onClick={null}
-          style={
-            Object {
-              "background": "white",
-              "color": "white",
-            }
-          }
-        >
-          <div
-            className="vertical-timeline-element-content-arrow"
-            style={
-              Object {
-                "borderRight": "7px solid  white",
-              }
-            }
-          />
-          <div
-            className="homeText projectContent"
-          >
-            <h4>
-              FoodCheck
-            </h4>
-            <a
-              href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Github
-            </a>
-            <br />
-            <a
-              href="https://foodcheck.netlify.app/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Demo
-            </a>
-            <p>
-              <strong>
-                Goal:
-              </strong>
-               creating a quick and easy to use weekly diet and calory tracker
-            </p>
-            <br />
-            <h5>
-              My Responsibilities
-            </h5>
-            <ul>
-              <li>
-                App planning
-              </li>
-              <li>
-                Setting up redux
-              </li>
-              <li>
-                Setting up firebase
-              </li>
-              <li>
-                Setting up food API
-              </li>
-              <li>
-                Diet management page
-              </li>
-              <li>
-                Creating charts
-              </li>
-              <li>
-                Responsive design
-              </li>
-              <li>
-                Home page
-              </li>
-              <li>
-                Contact page
-              </li>
-              <li>
-                Login page
-              </li>
-              <li>
-                Register page
-              </li>
-            </ul>
-            <h5>
-              Skills Applied
-            </h5>
-            <ul>
-              <li>
-                HTML
-              </li>
-              <li>
-                CSS
-              </li>
-              <li>
-                JavaScript
-              </li>
-              <li>
-                React
-              </li>
-              <li>
-                Redux
-              </li>
-              <li>
-                API Usage
-              </li>
-              <li>
-                Firebase
-              </li>
-              <li>
-                Ant Design
-              </li>
-              <li>
-                Responsive Design
-              </li>
-              <li>
-                Git and Github
-              </li>
-              <li>
-                Chart.js
-              </li>
-              <li>
-                Routing
-              </li>
-            </ul>
-          </div>
-          <span
-            className="vertical-timeline-element-date"
-          >
-            
+            Nov 2020
           </span>
         </div>
       </div>
@@ -539,51 +644,228 @@ Array [
                building a portfolio website to create an online presence.
             </p>
             <br />
-            <h5>
-              My Responsibilities
-            </h5>
-            <ul>
-              <li>
-                Solo Project
-              </li>
-            </ul>
-            <h5>
-              Skills Applied
-            </h5>
-            <ul>
-              <li>
-                HTML
-              </li>
-              <li>
-                CSS
-              </li>
-              <li>
-                JavaScript
-              </li>
-              <li>
-                React
-              </li>
-              <li>
-                Emailjs
-              </li>
-              <li>
-                Bootstrap
-              </li>
-              <li>
-                Responsive Design
-              </li>
-              <li>
-                Git and Github
-              </li>
-              <li>
-                Testing (Jest)
-              </li>
-            </ul>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  Skills Applied
+                </h5>
+                <ul>
+                  <li>
+                    HTML
+                  </li>
+                  <li>
+                    CSS
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    React
+                  </li>
+                  <li>
+                    Emailjs
+                  </li>
+                  <li>
+                    Bootstrap
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                  <li>
+                    Git and Github
+                  </li>
+                  <li>
+                    Testing (Jest)
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  My Responsibilities
+                </h5>
+                <ul>
+                  <li>
+                    Solo Project
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <span
-            className="vertical-timeline-element-date"
+            className="date vertical-timeline-element-date"
           >
-            
+            Nov 2020
+          </span>
+        </div>
+      </div>
+      <div
+        className="vertical-timeline-element--work vertical-timeline-element"
+        id=""
+        style={null}
+      >
+        <span
+          className="vertical-timeline-element-icon is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <i
+            className="fas fa-project-diagram projectIcon"
+          />
+        </span>
+        <div
+          className="vertical-timeline-element-content is-hidden"
+          onClick={null}
+          style={
+            Object {
+              "background": "white",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className="vertical-timeline-element-content-arrow"
+            style={
+              Object {
+                "borderRight": "7px solid  white",
+              }
+            }
+          />
+          <div
+            className="homeText projectContent"
+          >
+            <h4>
+              FoodCheck
+            </h4>
+            <a
+              href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+             
+            |
+             
+            <a
+              href="https://foodcheck.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <p>
+              <strong>
+                Goal:
+              </strong>
+               creating a quick and easy to use weekly diet and calory tracker
+            </p>
+            <br />
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  Skills Applied
+                </h5>
+                <ul>
+                  <li>
+                    HTML
+                  </li>
+                  <li>
+                    CSS
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    React
+                  </li>
+                  <li>
+                    Redux
+                  </li>
+                  <li>
+                    API Usage
+                  </li>
+                  <li>
+                    Firebase
+                  </li>
+                  <li>
+                    Ant Design
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                  <li>
+                    Git and Github
+                  </li>
+                  <li>
+                    Chart.js
+                  </li>
+                  <li>
+                    Routing
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  My Responsibilities
+                </h5>
+                <ul>
+                  <li>
+                    App planning
+                  </li>
+                  <li>
+                    Setting up redux
+                  </li>
+                  <li>
+                    Setting up firebase
+                  </li>
+                  <li>
+                    Setting up food API
+                  </li>
+                  <li>
+                    Diet management page
+                  </li>
+                  <li>
+                    Creating charts
+                  </li>
+                  <li>
+                    Responsive design
+                  </li>
+                  <li>
+                    Home page
+                  </li>
+                  <li>
+                    Contact page
+                  </li>
+                  <li>
+                    Login page
+                  </li>
+                  <li>
+                    Register page
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span
+            className="date vertical-timeline-element-date"
+          >
+            Sept 2020
           </span>
         </div>
       </div>
@@ -636,7 +918,9 @@ Array [
             >
               Github
             </a>
-            <br />
+             
+            |
+             
             <a
               href="https://tmdbproject.netlify.app/"
               rel="noreferrer"
@@ -651,60 +935,72 @@ Array [
                creating an IMDB clone.
             </p>
             <br />
-            <h5>
-              My Responsibilities
-            </h5>
-            <ul>
-              <li>
-                Setting up TMDB API
-              </li>
-              <li>
-                Movie/Tv Series Page
-              </li>
-              <li>
-                Actor/Actress Page
-              </li>
-              <li>
-                Search Page
-              </li>
-              <li>
-                Main Page
-              </li>
-              <li>
-                Navbar Dropdowns
-              </li>
-              <li>
-                Visual Design
-              </li>
-            </ul>
-            <h5>
-              Skills Applied
-            </h5>
-            <ul>
-              <li>
-                HTML
-              </li>
-              <li>
-                CSS
-              </li>
-              <li>
-                JavaScript
-              </li>
-              <li>
-                Bootstrap
-              </li>
-              <li>
-                Responsive Design
-              </li>
-              <li>
-                API Usage
-              </li>
-            </ul>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  Skills Applied
+                </h5>
+                <ul>
+                  <li>
+                    HTML
+                  </li>
+                  <li>
+                    CSS
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    Bootstrap
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                  <li>
+                    API Usage
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  My Responsibilities
+                </h5>
+                <ul>
+                  <li>
+                    Setting up TMDB API
+                  </li>
+                  <li>
+                    Movie/Tv Series Page
+                  </li>
+                  <li>
+                    Actor/Actress Page
+                  </li>
+                  <li>
+                    Search Page
+                  </li>
+                  <li>
+                    Main Page
+                  </li>
+                  <li>
+                    Navbar Dropdowns
+                  </li>
+                  <li>
+                    Visual Design
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <span
-            className="vertical-timeline-element-date"
+            className="date vertical-timeline-element-date"
           >
-            
+            Sept 2020
           </span>
         </div>
       </div>
@@ -755,9 +1051,11 @@ Array [
               rel="noreferrer"
               target="_blank"
             >
-              Github link
+              Github
             </a>
-            <br />
+             
+            |
+             
             <a
               href="https://madlibz.netlify.app/"
               rel="noreferrer"
@@ -772,459 +1070,73 @@ Array [
                creating a Madlibz game.
             </p>
             <br />
-            <h5>
-              My Responsibilities
-            </h5>
-            <ul>
-              <li>
-                Game Logic
-              </li>
-              <li>
-                Setting up i18n
-              </li>
-              <li>
-                Visual Design
-              </li>
-              <li>
-                Responsive Design
-              </li>
-            </ul>
-            <h5>
-              Skills Applied
-            </h5>
-            <ul>
-              <li>
-                HTML
-              </li>
-              <li>
-                CSS
-              </li>
-              <li>
-                JavaScript
-              </li>
-              <li>
-                Regular Expression
-              </li>
-              <li>
-                i18n
-              </li>
-              <li>
-                Bootstrap
-              </li>
-              <li>
-                Visual Design
-              </li>
-              <li>
-                Responsive Design
-              </li>
-              <li>
-                Teamwork
-              </li>
-            </ul>
-          </div>
-          <span
-            className="vertical-timeline-element-date"
-          >
-            
-          </span>
-        </div>
-      </div>
-      <div
-        className="vertical-timeline-element--work vertical-timeline-element vertical-timeline-element--no-children"
-        id=""
-        style={null}
-      >
-        <span
-          className="vertical-timeline-element-icon is-hidden"
-          onClick={null}
-          style={
-            Object {
-              "background": "white",
-            }
-          }
-        >
-          <i
-            className="fas fa-play startIcon"
-          />
-        </span>
-        <div
-          className="vertical-timeline-element-content is-hidden"
-          onClick={null}
-          style={
-            Object {
-              "color": "white",
-            }
-          }
-        >
-          <div
-            className="vertical-timeline-element-content-arrow"
-            style={
-              Object {
-                "borderRight": "7px solid  white",
-              }
-            }
-          />
-          
-          <span
-            className="vertical-timeline-element-date"
-          >
-            
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>,
-  <div
-    className="resumeContainer container"
-  >
-    <h1
-      className="homeTitle"
-      id="resume"
-    >
-      Resume
-    </h1>
-    <div
-      className="resumeTabs"
-    >
-      <nav
-        className="nav nav-tabs"
-        onKeyDown={[Function]}
-        role="tablist"
-      >
-        <a
-          aria-selected={true}
-          className="nav-item nav-link active"
-          data-rb-event-key="html"
-          href="#"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          role="tab"
-        >
-          Text
-        </a>
-        <a
-          aria-selected={false}
-          className="nav-item nav-link"
-          data-rb-event-key="pdf"
-          href="#"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          role="tab"
-          tabIndex={-1}
-        >
-          PDF
-        </a>
-      </nav>
-      <div
-        className="tab-content"
-      >
-        <div
-          aria-hidden={false}
-          aria-labelledby={null}
-          className="fade tab-pane active show"
-          id={null}
-          role="tabpanel"
-        >
-          <div
-            className="resumeHtmlContainer"
-          >
-            <a
-              className="resumeDownloadLink"
-              download={true}
-              href="TarkanMansurogluResume.pdf"
-            >
-              Download Resume
-            </a>
             <div
-              className="resumeHtml homeText"
+              className="row"
             >
-              <h1
-                className="resumeName"
+              <div
+                className="col-md-6 col-12"
               >
-                Tarkan Mansuroğlu
-              </h1>
-              
-              <p>
-                Front-end web developer with multidisciplinary background. Graduated from Front-End Web Development bootcamps of Flatiron School and Re:Coded. Also, studied international finance at Eastern Mediterranean University. Actively involved in international environments since 2013. Transitioned to coding because he is a problem solver and the tech world never lacks problems.
-              </p>
-              <h2>
-                <strong>
-                  TECHNICAL PROJECTS
-                </strong>
-              </h2>
-              <h4>
-                <strong>
-                  Juniper
-                </strong>
-                 
-                <small>
-                  -
-                   
-                  <a
-                    href="https://github.com/ReCoded-Org/capstone-istanbul-juniper"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                   
-                  |
-                   
-                  <a
-                    href="https://juniper-ist.netlify.app/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Demo
-                  </a>
-                </small>
-              </h4>
-              <span>
-                An educational website designed to teach youth living in MENA region about environmental issues through games.
-              </span>
-              <ul>
-                <li>
-                  Built with React
-                </li>
-                <li>
-                  Created games with JavaScript, CSS, Ant Design and other small libraries
-                </li>
-                <li>
-                  Tested with Jest
-                </li>
-                <li>
-                  Implemented AGILE methodologies
-                </li>
-                <li>
-                  Used i18next for translations
-                </li>
-                <li>
-                  Used Git and Github for version management
-                </li>
-              </ul>
-              <h4>
-                <strong>
-                  Foodcheck
-                </strong>
-                 
-                <small>
-                  -
-                   
-                  <a
-                    href="https://github.com/tmansuroglu/Foodcheck"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                   
-                  |
-                   
-                  <a
-                    href="https://foodcheck.netlify.app/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Demo
-                  </a>
-                </small>
-              </h4>
-              <span>
-                A web app designed to track and analyze diet and dietary goals
-              </span>
-              <ul>
-                <li>
-                  Developed with React
-                </li>
-                <li>
-                  Managed states with Redux
-                </li>
-                <li>
-                  Provided data with Nutritionix API
-                </li>
-                <li>
-                  Provided backend with Firebase
-                </li>
-              </ul>
-              <h4>
-                <strong>
-                  TMDB
-                </strong>
-                 
-                <small>
-                  -
-                   
-                  <a
-                    href="https://github.com/tmansuroglu/TMDB-Project"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                   
-                  |
-                   
-                  <a
-                    href="https://tmdbproject.netlify.app/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Demo
-                  </a>
-                </small>
-              </h4>
-              <span>
-                IMDB clone
-              </span>
-              <ul>
-                <li>
-                  Developed with vanilla JS
-                </li>
-                <li>
-                  Created UI with Bootstrap
-                </li>
-                <li>
-                  Provided data with TMDB API
-                </li>
-              </ul>
-              <h2>
-                <strong>
-                  TECHNICAL SKILLS
-                </strong>
-              </h2>
-              <p>
-                HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, Bootstrap, Ant Design, i18next, Firebase, API usage
-              </p>
-              <h2>
-                <strong>
-                  EMPLOYMENT HISTORY
-                </strong>
-              </h2>
-              <h4>
-                <a
-                  href="https://www.recodedlabs.com/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Re:Coded Labs
-                </a>
-              </h4>
-              <span>
-                Junior Developer Intern, 2020
-              </span>
-              <ul>
-                <li>
-                  Learned and practised HTML, CSS, JavaScript, React, Redux, Firebase, Git, Github, responsive design, AGILE etc.
-                </li>
-                <li>
-                  Built projects
-                </li>
-              </ul>
-              <h4>
-                <a
-                  href="https://fbe.emu.edu.tr/en/academic-units/banking-and-finance"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Eastern Mediterranean University Banking and Finance Department
-                </a>
-              </h4>
-              <span>
-                Assistant - 2018-2019
-              </span>
-              <ul>
-                <li>
-                  Helped department communication (translations and paperwork)
-                </li>
-                <li>
-                  Managed archive
-                </li>
-              </ul>
-              <h2>
-                <strong>
-                  EDUCATION
-                </strong>
-              </h2>
-              <h4>
-                <strong>
-                  Re:Coded Bootcamp
-                </strong>
-                (
-                <a
-                  href="https://www.re-coded.com/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Re:Coded
-                </a>
-                 
-                +
-                 
-                <a
-                  href="https://flatironschool.com/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Flatiron School
-                </a>
-                ) - 2020
-              </h4>
-              <ul>
-                <li>
-                  Front End Web Development (HTML, CSS, JavaScript, React)
-                </li>
-                <li>
-                  5 month intense web development program run by Re:Coded with Flatiron School's curriculum.
-                </li>
-              </ul>
-              <h4>
-                <a
-                  href="https://www.emu.edu.tr/en"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Eastern Mediterranean University
-                </a>
-                 
-                - 2019
-              </h4>
-              <ul>
-                <li>
-                  Degree: Bachelor of Science in International Finance
-                </li>
-                <li>
-                  Top student 4.00 out of 4.00 CGPA
-                </li>
-              </ul>
-              <h2>
-                <strong>
-                  LANGUAGES
-                </strong>
-              </h2>
-              <ul>
-                <li>
-                  English
-                </li>
-                <li>
-                  Turkish
-                </li>
-              </ul>
+                <h5>
+                  Skills Applied
+                </h5>
+                <ul>
+                  <li>
+                    HTML
+                  </li>
+                  <li>
+                    CSS
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    Regular Expression
+                  </li>
+                  <li>
+                    i18n
+                  </li>
+                  <li>
+                    Bootstrap
+                  </li>
+                  <li>
+                    Visual Design
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                  <li>
+                    Teamwork
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6 col-12"
+              >
+                <h5>
+                  My Responsibilities
+                </h5>
+                <ul>
+                  <li>
+                    Game Logic
+                  </li>
+                  <li>
+                    Setting up i18n
+                  </li>
+                  <li>
+                    Visual Design
+                  </li>
+                  <li>
+                    Responsive Design
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          aria-labelledby={null}
-          className="fade tab-pane"
-          id={null}
-          role="tabpanel"
-        >
-          <iframe
-            className="resumePdf"
-            loading="eager"
-            src="TarkanMansurogluResume.pdf"
-            title="resume"
-          />
+          <span
+            className="date vertical-timeline-element-date"
+          >
+            Aug 2020
+          </span>
         </div>
       </div>
     </div>

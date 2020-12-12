@@ -2,7 +2,7 @@
 
 exports[`Projects renders correctly 1`] = `
 <div
-  className="container"
+  className="projectsContainer container"
 >
   <h1
     className="homeTitle"
@@ -11,7 +11,7 @@ exports[`Projects renders correctly 1`] = `
     Projects
   </h1>
   <div
-    className="vertical-timeline vertical-timeline--two-columns"
+    className="verticalTimeline vertical-timeline vertical-timeline--two-columns"
   >
     <div
       className="vertical-timeline-element--work vertical-timeline-element"
@@ -62,7 +62,9 @@ exports[`Projects renders correctly 1`] = `
           >
             Github
           </a>
-          <br />
+           
+          |
+           
           <a
             href="https://juniper-ist.netlify.app/"
             rel="noreferrer"
@@ -77,235 +79,96 @@ exports[`Projects renders correctly 1`] = `
              teaching middle-eastern youth about environmental problems through games.
           </p>
           <br />
-          <h5>
-            My Responsibilities
-          </h5>
-          <ul>
-            <li>
-              Developing a memory game
-            </li>
-            <li>
-              Code reviewing
-            </li>
-            <li>
-              Bug bashing
-            </li>
-            <li>
-              Developing games page
-            </li>
-            <li>
-              Scrum master for 1 week
-            </li>
-            <li>
-              Helping colleagues whenever needed
-            </li>
-            <li>
-              Developing twitter section of homepage
-            </li>
-          </ul>
-          <h5>
-            Skills Applied
-          </h5>
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              React
-            </li>
-            <li>
-              Git and Github
-            </li>
-            <li>
-              AGILE Methodologies
-            </li>
-            <li>
-              Teamwork
-            </li>
-            <li>
-              Firebase
-            </li>
-            <li>
-              Ant Design
-            </li>
-            <li>
-              Responsive Design
-            </li>
-            <li>
-              Figma
-            </li>
-            <li>
-              Testing (Jest)
-            </li>
-            <li>
-              Routing
-            </li>
-            <li>
-              i18n
-            </li>
-          </ul>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                Skills Applied
+              </h5>
+              <ul>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  React
+                </li>
+                <li>
+                  Git and Github
+                </li>
+                <li>
+                  AGILE Methodologies
+                </li>
+                <li>
+                  Teamwork
+                </li>
+                <li>
+                  Firebase
+                </li>
+                <li>
+                  Ant Design
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+                <li>
+                  Figma
+                </li>
+                <li>
+                  Testing (Jest)
+                </li>
+                <li>
+                  Routing
+                </li>
+                <li>
+                  i18n
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                My Responsibilities
+              </h5>
+              <ul>
+                <li>
+                  Developing a memory game
+                </li>
+                <li>
+                  Code reviewing
+                </li>
+                <li>
+                  Bug bashing
+                </li>
+                <li>
+                  Developing games page
+                </li>
+                <li>
+                  Scrum master for 1 week
+                </li>
+                <li>
+                  Helping colleagues whenever needed
+                </li>
+                <li>
+                  Developing twitter section of homepage
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <span
-          className="vertical-timeline-element-date"
+          className="date vertical-timeline-element-date"
         >
-          
-        </span>
-      </div>
-    </div>
-    <div
-      className="vertical-timeline-element--work vertical-timeline-element"
-      id=""
-      style={null}
-    >
-      <span
-        className="vertical-timeline-element-icon is-hidden"
-        onClick={null}
-        style={
-          Object {
-            "background": "white",
-          }
-        }
-      >
-        <i
-          className="fas fa-project-diagram projectIcon"
-        />
-      </span>
-      <div
-        className="vertical-timeline-element-content is-hidden"
-        onClick={null}
-        style={
-          Object {
-            "background": "white",
-            "color": "white",
-          }
-        }
-      >
-        <div
-          className="vertical-timeline-element-content-arrow"
-          style={
-            Object {
-              "borderRight": "7px solid  white",
-            }
-          }
-        />
-        <div
-          className="homeText projectContent"
-        >
-          <h4>
-            FoodCheck
-          </h4>
-          <a
-            href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Github
-          </a>
-          <br />
-          <a
-            href="https://foodcheck.netlify.app/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Demo
-          </a>
-          <p>
-            <strong>
-              Goal:
-            </strong>
-             creating a quick and easy to use weekly diet and calory tracker
-          </p>
-          <br />
-          <h5>
-            My Responsibilities
-          </h5>
-          <ul>
-            <li>
-              App planning
-            </li>
-            <li>
-              Setting up redux
-            </li>
-            <li>
-              Setting up firebase
-            </li>
-            <li>
-              Setting up food API
-            </li>
-            <li>
-              Diet management page
-            </li>
-            <li>
-              Creating charts
-            </li>
-            <li>
-              Responsive design
-            </li>
-            <li>
-              Home page
-            </li>
-            <li>
-              Contact page
-            </li>
-            <li>
-              Login page
-            </li>
-            <li>
-              Register page
-            </li>
-          </ul>
-          <h5>
-            Skills Applied
-          </h5>
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              React
-            </li>
-            <li>
-              Redux
-            </li>
-            <li>
-              API Usage
-            </li>
-            <li>
-              Firebase
-            </li>
-            <li>
-              Ant Design
-            </li>
-            <li>
-              Responsive Design
-            </li>
-            <li>
-              Git and Github
-            </li>
-            <li>
-              Chart.js
-            </li>
-            <li>
-              Routing
-            </li>
-          </ul>
-        </div>
-        <span
-          className="vertical-timeline-element-date"
-        >
-          
+          Nov 2020
         </span>
       </div>
     </div>
@@ -366,51 +229,228 @@ exports[`Projects renders correctly 1`] = `
              building a portfolio website to create an online presence.
           </p>
           <br />
-          <h5>
-            My Responsibilities
-          </h5>
-          <ul>
-            <li>
-              Solo Project
-            </li>
-          </ul>
-          <h5>
-            Skills Applied
-          </h5>
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              React
-            </li>
-            <li>
-              Emailjs
-            </li>
-            <li>
-              Bootstrap
-            </li>
-            <li>
-              Responsive Design
-            </li>
-            <li>
-              Git and Github
-            </li>
-            <li>
-              Testing (Jest)
-            </li>
-          </ul>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                Skills Applied
+              </h5>
+              <ul>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  React
+                </li>
+                <li>
+                  Emailjs
+                </li>
+                <li>
+                  Bootstrap
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+                <li>
+                  Git and Github
+                </li>
+                <li>
+                  Testing (Jest)
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                My Responsibilities
+              </h5>
+              <ul>
+                <li>
+                  Solo Project
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <span
-          className="vertical-timeline-element-date"
+          className="date vertical-timeline-element-date"
         >
-          
+          Nov 2020
+        </span>
+      </div>
+    </div>
+    <div
+      className="vertical-timeline-element--work vertical-timeline-element"
+      id=""
+      style={null}
+    >
+      <span
+        className="vertical-timeline-element-icon is-hidden"
+        onClick={null}
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      >
+        <i
+          className="fas fa-project-diagram projectIcon"
+        />
+      </span>
+      <div
+        className="vertical-timeline-element-content is-hidden"
+        onClick={null}
+        style={
+          Object {
+            "background": "white",
+            "color": "white",
+          }
+        }
+      >
+        <div
+          className="vertical-timeline-element-content-arrow"
+          style={
+            Object {
+              "borderRight": "7px solid  white",
+            }
+          }
+        />
+        <div
+          className="homeText projectContent"
+        >
+          <h4>
+            FoodCheck
+          </h4>
+          <a
+            href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Github
+          </a>
+           
+          |
+           
+          <a
+            href="https://foodcheck.netlify.app/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Demo
+          </a>
+          <p>
+            <strong>
+              Goal:
+            </strong>
+             creating a quick and easy to use weekly diet and calory tracker
+          </p>
+          <br />
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                Skills Applied
+              </h5>
+              <ul>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  React
+                </li>
+                <li>
+                  Redux
+                </li>
+                <li>
+                  API Usage
+                </li>
+                <li>
+                  Firebase
+                </li>
+                <li>
+                  Ant Design
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+                <li>
+                  Git and Github
+                </li>
+                <li>
+                  Chart.js
+                </li>
+                <li>
+                  Routing
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                My Responsibilities
+              </h5>
+              <ul>
+                <li>
+                  App planning
+                </li>
+                <li>
+                  Setting up redux
+                </li>
+                <li>
+                  Setting up firebase
+                </li>
+                <li>
+                  Setting up food API
+                </li>
+                <li>
+                  Diet management page
+                </li>
+                <li>
+                  Creating charts
+                </li>
+                <li>
+                  Responsive design
+                </li>
+                <li>
+                  Home page
+                </li>
+                <li>
+                  Contact page
+                </li>
+                <li>
+                  Login page
+                </li>
+                <li>
+                  Register page
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <span
+          className="date vertical-timeline-element-date"
+        >
+          Sept 2020
         </span>
       </div>
     </div>
@@ -463,7 +503,9 @@ exports[`Projects renders correctly 1`] = `
           >
             Github
           </a>
-          <br />
+           
+          |
+           
           <a
             href="https://tmdbproject.netlify.app/"
             rel="noreferrer"
@@ -478,60 +520,72 @@ exports[`Projects renders correctly 1`] = `
              creating an IMDB clone.
           </p>
           <br />
-          <h5>
-            My Responsibilities
-          </h5>
-          <ul>
-            <li>
-              Setting up TMDB API
-            </li>
-            <li>
-              Movie/Tv Series Page
-            </li>
-            <li>
-              Actor/Actress Page
-            </li>
-            <li>
-              Search Page
-            </li>
-            <li>
-              Main Page
-            </li>
-            <li>
-              Navbar Dropdowns
-            </li>
-            <li>
-              Visual Design
-            </li>
-          </ul>
-          <h5>
-            Skills Applied
-          </h5>
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              Bootstrap
-            </li>
-            <li>
-              Responsive Design
-            </li>
-            <li>
-              API Usage
-            </li>
-          </ul>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                Skills Applied
+              </h5>
+              <ul>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  Bootstrap
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+                <li>
+                  API Usage
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                My Responsibilities
+              </h5>
+              <ul>
+                <li>
+                  Setting up TMDB API
+                </li>
+                <li>
+                  Movie/Tv Series Page
+                </li>
+                <li>
+                  Actor/Actress Page
+                </li>
+                <li>
+                  Search Page
+                </li>
+                <li>
+                  Main Page
+                </li>
+                <li>
+                  Navbar Dropdowns
+                </li>
+                <li>
+                  Visual Design
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <span
-          className="vertical-timeline-element-date"
+          className="date vertical-timeline-element-date"
         >
-          
+          Sept 2020
         </span>
       </div>
     </div>
@@ -582,9 +636,11 @@ exports[`Projects renders correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Github link
+            Github
           </a>
-          <br />
+           
+          |
+           
           <a
             href="https://madlibz.netlify.app/"
             rel="noreferrer"
@@ -599,103 +655,72 @@ exports[`Projects renders correctly 1`] = `
              creating a Madlibz game.
           </p>
           <br />
-          <h5>
-            My Responsibilities
-          </h5>
-          <ul>
-            <li>
-              Game Logic
-            </li>
-            <li>
-              Setting up i18n
-            </li>
-            <li>
-              Visual Design
-            </li>
-            <li>
-              Responsive Design
-            </li>
-          </ul>
-          <h5>
-            Skills Applied
-          </h5>
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              Regular Expression
-            </li>
-            <li>
-              i18n
-            </li>
-            <li>
-              Bootstrap
-            </li>
-            <li>
-              Visual Design
-            </li>
-            <li>
-              Responsive Design
-            </li>
-            <li>
-              Teamwork
-            </li>
-          </ul>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                Skills Applied
+              </h5>
+              <ul>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  Regular Expression
+                </li>
+                <li>
+                  i18n
+                </li>
+                <li>
+                  Bootstrap
+                </li>
+                <li>
+                  Visual Design
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+                <li>
+                  Teamwork
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-md-6 col-12"
+            >
+              <h5>
+                My Responsibilities
+              </h5>
+              <ul>
+                <li>
+                  Game Logic
+                </li>
+                <li>
+                  Setting up i18n
+                </li>
+                <li>
+                  Visual Design
+                </li>
+                <li>
+                  Responsive Design
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <span
-          className="vertical-timeline-element-date"
+          className="date vertical-timeline-element-date"
         >
-          
-        </span>
-      </div>
-    </div>
-    <div
-      className="vertical-timeline-element--work vertical-timeline-element vertical-timeline-element--no-children"
-      id=""
-      style={null}
-    >
-      <span
-        className="vertical-timeline-element-icon is-hidden"
-        onClick={null}
-        style={
-          Object {
-            "background": "white",
-          }
-        }
-      >
-        <i
-          className="fas fa-play startIcon"
-        />
-      </span>
-      <div
-        className="vertical-timeline-element-content is-hidden"
-        onClick={null}
-        style={
-          Object {
-            "color": "white",
-          }
-        }
-      >
-        <div
-          className="vertical-timeline-element-content-arrow"
-          style={
-            Object {
-              "borderRight": "7px solid  white",
-            }
-          }
-        />
-        
-        <span
-          className="vertical-timeline-element-date"
-        >
-          
+          Aug 2020
         </span>
       </div>
     </div>

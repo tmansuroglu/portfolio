@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Juniper renders correctly 1`] = `
+<div
+  className="vertical-timeline-element--work vertical-timeline-element"
+  id=""
+  style={null}
+>
+  <span
+    className="vertical-timeline-element-icon is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+      }
+    }
+  >
+    <i
+      className="fas fa-project-diagram projectIcon"
+    />
+  </span>
+  <div
+    className="vertical-timeline-element-content is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+        "color": "white",
+      }
+    }
+  >
+    <div
+      className="vertical-timeline-element-content-arrow"
+      style={
+        Object {
+          "borderRight": "7px solid  white",
+        }
+      }
+    />
+    <div
+      className="homeText projectContent"
+    >
+      <h4>
+        Juniper
+      </h4>
+      <a
+        href="https://github.com/ReCoded-Org/capstone-istanbul-juniper"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Github
+      </a>
+       
+      |
+       
+      <a
+        href="https://juniper-ist.netlify.app/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Demo
+      </a>
+      <p>
+        <strong>
+          Goal:
+        </strong>
+         teaching middle-eastern youth about environmental problems through games.
+      </p>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            Skills Applied
+          </h5>
+          <ul>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS
+            </li>
+            <li>
+              JavaScript
+            </li>
+            <li>
+              React
+            </li>
+            <li>
+              Git and Github
+            </li>
+            <li>
+              AGILE Methodologies
+            </li>
+            <li>
+              Teamwork
+            </li>
+            <li>
+              Firebase
+            </li>
+            <li>
+              Ant Design
+            </li>
+            <li>
+              Responsive Design
+            </li>
+            <li>
+              Figma
+            </li>
+            <li>
+              Testing (Jest)
+            </li>
+            <li>
+              Routing
+            </li>
+            <li>
+              i18n
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            My Responsibilities
+          </h5>
+          <ul>
+            <li>
+              Developing a memory game
+            </li>
+            <li>
+              Code reviewing
+            </li>
+            <li>
+              Bug bashing
+            </li>
+            <li>
+              Developing games page
+            </li>
+            <li>
+              Scrum master for 1 week
+            </li>
+            <li>
+              Helping colleagues whenever needed
+            </li>
+            <li>
+              Developing twitter section of homepage
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span
+      className="date vertical-timeline-element-date"
+    >
+      Nov 2020
+    </span>
+  </div>
+</div>
+`;

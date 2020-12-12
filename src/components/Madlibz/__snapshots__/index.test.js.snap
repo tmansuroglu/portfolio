@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Madlibz renders correctly 1`] = `
+<div
+  className="vertical-timeline-element--work vertical-timeline-element"
+  id=""
+  style={null}
+>
+  <span
+    className="vertical-timeline-element-icon is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+      }
+    }
+  >
+    <i
+      className="fas fa-project-diagram projectIcon"
+    />
+  </span>
+  <div
+    className="vertical-timeline-element-content is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+        "color": "white",
+      }
+    }
+  >
+    <div
+      className="vertical-timeline-element-content-arrow"
+      style={
+        Object {
+          "borderRight": "7px solid  white",
+        }
+      }
+    />
+    <div
+      className="homeText projectContent"
+    >
+      <h4>
+        Madlibz
+      </h4>
+      <a
+        href="https://github.com/tmansuroglu/Madlibzz"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Github
+      </a>
+       
+      |
+       
+      <a
+        href="https://madlibz.netlify.app/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Demo
+      </a>
+      <p>
+        <strong>
+          Goal:
+        </strong>
+         creating a Madlibz game.
+      </p>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            Skills Applied
+          </h5>
+          <ul>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS
+            </li>
+            <li>
+              JavaScript
+            </li>
+            <li>
+              Regular Expression
+            </li>
+            <li>
+              i18n
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              Visual Design
+            </li>
+            <li>
+              Responsive Design
+            </li>
+            <li>
+              Teamwork
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            My Responsibilities
+          </h5>
+          <ul>
+            <li>
+              Game Logic
+            </li>
+            <li>
+              Setting up i18n
+            </li>
+            <li>
+              Visual Design
+            </li>
+            <li>
+              Responsive Design
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span
+      className="date vertical-timeline-element-date"
+    >
+      Aug 2020
+    </span>
+  </div>
+</div>
+`;

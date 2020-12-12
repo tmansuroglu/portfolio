@@ -6,13 +6,33 @@ exports[`About renders correctly 1`] = `
   id="about"
 >
   <h1
-    className="homeTitle"
+    className="homeTitle aboutBigScreen"
   >
     About
   </h1>
   <div
     className="homeText"
   >
+    <div
+      className="tarkanDiv"
+    >
+      <img
+        alt="tarkan mansuroğlu's picture"
+        className="tarkanImage img-fluid rounded-circle"
+        src="tarkanImage.png"
+      />
+    </div>
+    <h1
+      className="homeTitle aboutSmallScreen"
+    >
+      About
+    </h1>
+    <h2
+      className="homePageHeader"
+      id="whoIsTarkan"
+    >
+      Who is Tarkan Mansuroğlu?
+    </h2>
     <p>
       Tarkan Mansuroğlu is a front-end web developer. He started learning coding by himself and continued his coding education through “Re-Coded Front-End Web Development Bootcamp”. He became a coder because he is a lifelong learner and addicted to the sensation that comes after solving a tech problem.
     </p>
@@ -20,40 +40,206 @@ exports[`About renders correctly 1`] = `
       He discovered his appetite for challenges in his early 20s. At age 20, he was severely obese and academically lost. At 22 he dropped from 175kg to 95 kg, became a fitness enthusiast and top finance student of his university. Later, he graduated with highest CGPA and continued being a physically active person.
     </p>
     <p>
-      During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first he needs to decipher himself. This process helped him develop an analytical mindset. Consequently, his new mentality lead him to coding.
+      During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first, he needs to understand himself. This revelation pushed him to develop an analytical mindset. Consequently, he realized that problem solving is the main drive of things he enjoys. Thus, when he started coding, he fell in love with it.
+    </p>
+    <h2
+      className="homePageHeader"
+      id="education"
+    >
+      Education
+    </h2>
+    <p>
+      In 2020, Tarkan Mansuroğlu graduated from
+       
+      <a
+        href="https://www.re-coded.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Re:Coded
+      </a>
+      's front end web development bootcamp, which is a collaboration between
+       
+      <a
+        href="https://flatironschool.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Flatiron School
+      </a>
+       
+      and Re:Coded. Prior to his coding education, he was a finance graduate. In 2019, he graduated from international finance program of
+       
+      <a
+        href="https://www.emu.edu.tr/en"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Eastern Mediterranean University(EMU)
+      </a>
+       
+      as top student with 4.00 out of 4.00 CGPA.
+    </p>
+    <h2
+      className="homePageHeader"
+      id="employmentHistory"
+    >
+      Work Experience
+    </h2>
+    <p>
+      Tarkan worked as junior developer intern for Re:Coded in 2020. His efforts were focused on improving his
+       
+      <a
+        href="#technicalSkills"
+        onClick={[Function]}
+      >
+        technical skills
+      </a>
+      , building 
+      <a
+        href="#projects"
+        onClick={[Function]}
+      >
+        projects
+      </a>
+       and soft skills(business communication, teamwork, agile product management, time management...).
     </p>
     <p>
-      He is currently looking for new challenges to conquer and technologies to learn.
-    </p>
-  </div>
-</div>
-`;
-
-exports[`StayUpToDate renders correctly 1`] = `
-<div
-  className="container"
-  id="about"
->
-  <h1
-    className="homeTitle"
-  >
-    About
-  </h1>
-  <div
-    className="homeText"
-  >
-    <p>
-      Tarkan Mansuroğlu is a front-end web developer. He started learning coding by himself and continued his coding education through “Re-Coded Front-End Web Development Bootcamp”. He became a coder because he is a lifelong learner and addicted to the sensation that comes after solving a tech problem.
+      Before, he was working for banking and finance department of EMU as a student assistant. His main responsibilities were: contributing to department communication, archive management and translation.
     </p>
     <p>
-      He discovered his appetite for challenges in his early 20s. At age 20, he was severely obese and academically lost. At 22 he dropped from 175kg to 95 kg, became a fitness enthusiast and top finance student of his university. Later, he graduated with highest CGPA and continued being a physically active person.
+      Also, he was peer teaching statistics, finance, economics and math to social science students.
     </p>
-    <p>
-      During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first he needs to decipher himself. This process helped him develop an analytical mindset. Consequently, his new mentality lead him to coding.
-    </p>
-    <p>
-      He is currently looking for new challenges to conquer and technologies to learn.
-    </p>
+    <h2
+      className="homePageHeader"
+      id="technicalSkills"
+    >
+      Technical Skills
+    </h2>
+    <div
+      className="skillRow row"
+    >
+      <div
+        className="skillDiv"
+      >
+        HTML5 
+        <br />
+        <img
+          alt="html logo"
+          className="svgIcon"
+          src="htmlLogo.svg"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        CSS 
+        <br />
+        <i
+          class="fab fa-css3-alt skillIcon cssLogo"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        JavaScript 
+        <br />
+        <i
+          class="fab fa-js-square skillIcon javaScriptLogo"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        React 
+        <br />
+        <i
+          class="fab fa-react skillIcon reactLogo"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Git 
+        <br />
+        <i
+          class="fab fa-git skillIcon gitLogo"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Github 
+        <br />
+        <i
+          class="fab fa-github skillIcon"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Bootstrap 
+        <br />
+        <i
+          class="fab fa-bootstrap skillIcon bootstrapLogo"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Ant Design 
+        <br />
+        <img
+          alt="ant design logo"
+          className="svgIcon"
+          src="antDesignLogo.svg"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Firebase 
+        <br />
+        <img
+          alt="firebase logo"
+          className="svgIcon"
+          src="firebaseLogo.svg"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Redux 
+        <br />
+        <img
+          alt="redux logo"
+          className="svgIcon"
+          src="reduxLogo.svg"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        i18next 
+        <br />
+        <img
+          alt="i18n logo"
+          className="svgIcon"
+          src="i18nLogo.svg"
+        />
+      </div>
+      <div
+        className="skillDiv"
+      >
+        Jest 
+        <br />
+        <img
+          alt="jest logo"
+          className="svgIcon"
+          src="jestLogo.svg"
+        />
+      </div>
+    </div>
   </div>
 </div>
 `;

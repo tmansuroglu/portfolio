@@ -5,11 +5,11 @@ exports[`Intro renders correctly 1`] = `
   className="homeText container"
   id="introduction"
 >
-  <span
+  <h1
     className="name"
   >
     Tarkan Mansuroğlu
-  </span>
+  </h1>
   <p
     className="loop styles_typicalWrapper__1_Uvh"
   />

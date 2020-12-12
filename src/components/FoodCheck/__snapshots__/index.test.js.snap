@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Foodcheck renders correctly 1`] = `
+<div
+  className="vertical-timeline-element--work vertical-timeline-element"
+  id=""
+  style={null}
+>
+  <span
+    className="vertical-timeline-element-icon is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+      }
+    }
+  >
+    <i
+      className="fas fa-project-diagram projectIcon"
+    />
+  </span>
+  <div
+    className="vertical-timeline-element-content is-hidden"
+    onClick={null}
+    style={
+      Object {
+        "background": "white",
+        "color": "white",
+      }
+    }
+  >
+    <div
+      className="vertical-timeline-element-content-arrow"
+      style={
+        Object {
+          "borderRight": "7px solid  white",
+        }
+      }
+    />
+    <div
+      className="homeText projectContent"
+    >
+      <h4>
+        FoodCheck
+      </h4>
+      <a
+        href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Github
+      </a>
+       
+      |
+       
+      <a
+        href="https://foodcheck.netlify.app/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Demo
+      </a>
+      <p>
+        <strong>
+          Goal:
+        </strong>
+         creating a quick and easy to use weekly diet and calory tracker
+      </p>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            Skills Applied
+          </h5>
+          <ul>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS
+            </li>
+            <li>
+              JavaScript
+            </li>
+            <li>
+              React
+            </li>
+            <li>
+              Redux
+            </li>
+            <li>
+              API Usage
+            </li>
+            <li>
+              Firebase
+            </li>
+            <li>
+              Ant Design
+            </li>
+            <li>
+              Responsive Design
+            </li>
+            <li>
+              Git and Github
+            </li>
+            <li>
+              Chart.js
+            </li>
+            <li>
+              Routing
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-md-6 col-12"
+        >
+          <h5>
+            My Responsibilities
+          </h5>
+          <ul>
+            <li>
+              App planning
+            </li>
+            <li>
+              Setting up redux
+            </li>
+            <li>
+              Setting up firebase
+            </li>
+            <li>
+              Setting up food API
+            </li>
+            <li>
+              Diet management page
+            </li>
+            <li>
+              Creating charts
+            </li>
+            <li>
+              Responsive design
+            </li>
+            <li>
+              Home page
+            </li>
+            <li>
+              Contact page
+            </li>
+            <li>
+              Login page
+            </li>
+            <li>
+              Register page
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span
+      className="date vertical-timeline-element-date"
+    >
+      Sept 2020
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TechnicalSkills renders correctly 1`] = `
+Array [
+  <h2
+    className="homePageHeader"
+    id="technicalSkills"
+  >
+    Technical Skills
+  </h2>,
+  <div
+    className="skillRow row"
+  >
+    <div
+      className="skillDiv"
+    >
+      HTML5 
+      <br />
+      <img
+        alt="html logo"
+        className="svgIcon"
+        src="htmlLogo.svg"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      CSS 
+      <br />
+      <i
+        class="fab fa-css3-alt skillIcon cssLogo"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      JavaScript 
+      <br />
+      <i
+        class="fab fa-js-square skillIcon javaScriptLogo"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      React 
+      <br />
+      <i
+        class="fab fa-react skillIcon reactLogo"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Git 
+      <br />
+      <i
+        class="fab fa-git skillIcon gitLogo"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Github 
+      <br />
+      <i
+        class="fab fa-github skillIcon"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Bootstrap 
+      <br />
+      <i
+        class="fab fa-bootstrap skillIcon bootstrapLogo"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Ant Design 
+      <br />
+      <img
+        alt="ant design logo"
+        className="svgIcon"
+        src="antDesignLogo.svg"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Firebase 
+      <br />
+      <img
+        alt="firebase logo"
+        className="svgIcon"
+        src="firebaseLogo.svg"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Redux 
+      <br />
+      <img
+        alt="redux logo"
+        className="svgIcon"
+        src="reduxLogo.svg"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      i18next 
+      <br />
+      <img
+        alt="i18n logo"
+        className="svgIcon"
+        src="i18nLogo.svg"
+      />
+    </div>
+    <div
+      className="skillDiv"
+    >
+      Jest 
+      <br />
+      <img
+        alt="jest logo"
+        className="svgIcon"
+        src="jestLogo.svg"
+      />
+    </div>
+  </div>,
+]
+`;

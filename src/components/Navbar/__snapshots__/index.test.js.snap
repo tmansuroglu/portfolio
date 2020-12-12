@@ -29,36 +29,63 @@ exports[`Navbar renders correctly 1`] = `
         href="/#top"
         onClick={[Function]}
       >
-        Home
+        <button
+          className="text-light navbarContainer__navs__nav__button btn btn-link"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Home
+        </button>
       </a>
-      <a
-        className="text-light navbarContainer__navs__nav"
-        href="/#about"
-        onClick={[Function]}
+      <div
+        className="dropdown"
+        onKeyDown={[Function]}
       >
-        About
-      </a>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="dropdown-toggle btn btn-link"
+          disabled={false}
+          id="dropdown-basic-button"
+          onClick={[Function]}
+          type="button"
+        >
+          About
+        </button>
+      </div>
       <a
         className="text-light navbarContainer__navs__nav"
         href="/#projects"
         onClick={[Function]}
       >
-        Projects
+        <button
+          className="text-light navbarContainer__navs__nav__button btn btn-link"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Projects
+        </button>
       </a>
       <a
-        className="text-light navbarContainer__navs__nav"
-        href="/#resume"
+        className="text-light navbarContainer__navs__nav__button resumeButton btn btn-link"
+        href="https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing"
         onClick={[Function]}
+        onKeyDown={[Function]}
+        rel="noreferrer"
+        target="_blank"
       >
         Resume
       </a>
-      <a
-        className="text-light navbarContainer__navs__nav"
-        href="/#contact"
+      <button
+        className="text-light navbarContainer__navs__nav__button btn btn-link"
+        disabled={false}
         onClick={[Function]}
+        type="button"
       >
         Contact
-      </a>
+      </button>
     </div>
   </div>
 </nav>

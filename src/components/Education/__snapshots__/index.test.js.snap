@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education renders correctly 1`] = `
+Array [
+  <h2
+    className="homePageHeader"
+    id="education"
+  >
+    Education
+  </h2>,
+  <p>
+    In 2020, Tarkan Mansuroğlu graduated from
+     
+    <a
+      href="https://www.re-coded.com/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Re:Coded
+    </a>
+    's front end web development bootcamp, which is a collaboration between
+     
+    <a
+      href="https://flatironschool.com/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Flatiron School
+    </a>
+     
+    and Re:Coded. Prior to his coding education, he was a finance graduate. In 2019, he graduated from international finance program of
+     
+    <a
+      href="https://www.emu.edu.tr/en"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Eastern Mediterranean University(EMU)
+    </a>
+     
+    as top student with 4.00 out of 4.00 CGPA.
+  </p>,
+]
+`;
