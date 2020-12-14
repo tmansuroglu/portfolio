@@ -2,6 +2,11 @@
   color: black;
 }
 
+.projectText {
+  color: black;
+  font-size: 1.3rem !important;
+}
+
 .vertical-timeline {
   margin: auto !important;
 }

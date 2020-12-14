@@ -23,6 +23,7 @@ const TMDB = () => {
     >
       <div className='homeText projectContent'>
         <h4>TMDB</h4>
+        <small>Team Project</small> <br />
         <a
           href='https://github.com/tmansuroglu/TMDB-Project'
           target='_blank'
@@ -38,7 +39,7 @@ const TMDB = () => {
         >
           Demo
         </a>
-        <p>
+        <p className='projectText'>
           <strong>Goal:</strong> creating an IMDB clone.
         </p>
         <br />

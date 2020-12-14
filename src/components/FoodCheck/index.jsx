@@ -23,6 +23,7 @@ const FoodCheck = () => {
     >
       <div className='homeText projectContent'>
         <h4>FoodCheck</h4>
+        <small>Solo Project</small> <br />
         <a
           href='https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project'
           target='_blank'
@@ -38,7 +39,7 @@ const FoodCheck = () => {
         >
           Demo
         </a>
-        <p>
+        <p className='projectText'>
           <strong>Goal:</strong> creating a quick and easy to use weekly diet
           and calory tracker
         </p>
@@ -52,29 +53,13 @@ const FoodCheck = () => {
               <li>JavaScript</li>
               <li>React</li>
               <li>Redux</li>
-              <li>API Usage</li>
+              <li>API Usage (nutritionix API)</li>
               <li>Firebase</li>
               <li>Ant Design</li>
               <li>Responsive Design</li>
               <li>Git and Github</li>
               <li>Chart.js</li>
               <li>Routing</li>
-            </ul>
-          </Col>
-          <Col xs={12} md={6}>
-            <h5>My Responsibilities</h5>
-            <ul>
-              <li>App planning</li>
-              <li>Setting up redux</li>
-              <li>Setting up firebase</li>
-              <li>Setting up food API</li>
-              <li>Diet management page</li>
-              <li>Creating charts</li>
-              <li>Responsive design</li>
-              <li>Home page</li>
-              <li>Contact page</li>
-              <li>Login page</li>
-              <li>Register page</li>
             </ul>
           </Col>
         </Row>

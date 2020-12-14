@@ -23,6 +23,7 @@ const Juniper = () => {
     >
       <div className='homeText projectContent'>
         <h4>Juniper</h4>
+        <small>Team Project</small> <br />
         <a
           href='https://github.com/ReCoded-Org/capstone-istanbul-juniper'
           target='_blank'
@@ -38,12 +39,23 @@ const Juniper = () => {
         >
           Demo
         </a>
-        <p>
+        <p className='projectText'>
           <strong>Goal:</strong> teaching middle-eastern youth about
           environmental problems through games.
         </p>
         <br />
         <Row>
+          <Col xs={12}>
+            <h5>My Impact</h5>
+            <ul>
+              <li>Built signature game(memory game) of the project</li>
+              <li>
+                Elevated my teammates' work by organizing off-hour online
+                meetings
+              </li>
+              <li>Became problem solver of the team</li>
+            </ul>
+          </Col>
           <Col xs={12} md={6}>
             <h5>Skills Applied</h5>
             <ul>
@@ -71,7 +83,6 @@ const Juniper = () => {
               <li>Bug bashing</li>
               <li>Developing games page</li>
               <li>Scrum master for 1 week</li>
-              <li>Helping colleagues whenever needed</li>
               <li>Developing twitter section of homepage</li>
             </ul>
           </Col>

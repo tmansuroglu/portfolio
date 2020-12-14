@@ -23,6 +23,7 @@ const Portfolio = () => {
     >
       <div className='homeText projectContent'>
         <h4>Portfolio</h4>
+        <small>Solo Project</small> <br />
         <a
           href='https://github.com/tmansuroglu/portfolio'
           target='_blank'
@@ -31,7 +32,7 @@ const Portfolio = () => {
           Github
         </a>
         <br />
-        <p>
+        <p className='projectText'>
           <strong>Goal:</strong> building a portfolio website to create an
           online presence.
         </p>
@@ -49,12 +50,6 @@ const Portfolio = () => {
               <li>Responsive Design</li>
               <li>Git and Github</li>
               <li>Testing (Jest)</li>
-            </ul>
-          </Col>
-          <Col xs={12} md={6}>
-            <h5>My Responsibilities</h5>
-            <ul>
-              <li>Solo Project</li>
             </ul>
           </Col>
         </Row>

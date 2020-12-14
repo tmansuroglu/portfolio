@@ -23,6 +23,7 @@ const Juniper = () => {
     >
       <div className='homeText projectContent'>
         <h4>Madlibz</h4>
+        <small>Team Project</small> <br />
         <a
           href='https://github.com/tmansuroglu/Madlibzz'
           target='_blank'
@@ -34,7 +35,7 @@ const Juniper = () => {
         <a href='https://madlibz.netlify.app/' target='_blank' rel='noreferrer'>
           Demo
         </a>
-        <p>
+        <p className='projectText'>
           <strong>Goal:</strong> creating a Madlibz game.
         </p>
         <br />
