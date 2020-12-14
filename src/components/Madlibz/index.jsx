@@ -36,7 +36,8 @@ const Juniper = () => {
           Demo
         </a>
         <p className='projectText'>
-          <strong>Goal:</strong> creating a Madlibz game.
+          <strong>Goal:</strong> creating Mad Libs game as an introduction to
+          project building.
         </p>
         <br />
         <Row>

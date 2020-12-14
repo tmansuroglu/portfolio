@@ -40,7 +40,8 @@ const TMDB = () => {
           Demo
         </a>
         <p className='projectText'>
-          <strong>Goal:</strong> creating an IMDB clone.
+          <strong>Goal:</strong> creating an IMDB clone to learn object oriented
+          programming.
         </p>
         <br />
         <Row>

@@ -40,8 +40,7 @@ const FoodCheck = () => {
           Demo
         </a>
         <p className='projectText'>
-          <strong>Goal:</strong> creating a quick and easy to use weekly diet
-          and calory tracker
+          <strong>Goal:</strong> creating a quick and easy to use diet tracker
         </p>
         <br />
         <Row>

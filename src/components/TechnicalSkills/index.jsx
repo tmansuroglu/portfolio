@@ -5,7 +5,7 @@ import reduxLogo from '../../img/reduxLogo.svg';
 import firebaseLogo from '../../img/firebaseLogo.svg';
 import antDesignLogo from '../../img/antDesignLogo.svg';
 import htmlLogo from '../../img/htmlLogo.svg';
-import jestLogo from '../../img/jestLogo.svg';
+// import jestLogo from '../../img/jestLogo.svg';
 import i18nLogo from '../../img/i18nLogo.svg';
 
 const TechnicalSkills = () => {
@@ -31,10 +31,10 @@ const TechnicalSkills = () => {
           React <br />
           <i class='fab fa-react skillIcon reactLogo'></i>
         </div>
-        <div className='skillDiv'>
+        {/* <div className='skillDiv'>
           Git <br />
           <i class='fab fa-git skillIcon gitLogo'></i>
-        </div>
+        </div> */}
         <div className='skillDiv'>
           Github <br />
           <i class='fab fa-github skillIcon'></i>
@@ -59,10 +59,10 @@ const TechnicalSkills = () => {
           i18next <br />
           <img src={i18nLogo} alt='i18n logo' className='svgIcon' />
         </div>
-        <div className='skillDiv'>
+        {/* <div className='skillDiv'>
           Jest <br />
           <img src={jestLogo} alt='jest logo' className='svgIcon' />
-        </div>
+        </div> */}
       </Row>
     </>
   );
