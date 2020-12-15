@@ -15,10 +15,9 @@ const Navigation = () => {
   };
 
   const changeCollapseState = () => {
-    if(window.outerWidth < 578){
+    if (window.outerWidth < 578) {
       setIsExpanded(!isExpanded);
-    }
-    else return
+    } else return;
   };
 
   return (
@@ -113,7 +112,7 @@ const Navigation = () => {
               <Button
                 variant='link'
                 className='text-light navbarContainer__navs__nav__button resumeButton'
-                href='https://drive.google.com/file/d/1hYvgvIL-4xm-cn7JKFCq-CIULs9LJx8E/view?usp=sharing'
+                href='https://drive.google.com/file/d/17xUMhkAijWpodpJa7CNzIq9jvbj4nYuQ/view?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
                 onClick={changeCollapseState}
