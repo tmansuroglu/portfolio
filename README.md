@@ -18,7 +18,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 * Bootstrap
 * Jest
 
-To-do list:
+## To-do list:
 * Turkish translations will be added with i18n
 * Blog section will be added
 
