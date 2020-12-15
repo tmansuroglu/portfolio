@@ -5,7 +5,7 @@ My personal portfolio site.
 ## General info
 This project is built to be cornerstone of my online presence. It is easy on the eye, easy to navigate, quick and open ended. 
 
-## [Demo](http://wwww.tarkanmansuroglu.com)
+## [Demo](http://tarkanmansuroglu.com)
 ## Example
 ![Portfolio gif](https://media1.giphy.com/media/RluNMwEnBdSEAz6Ftz/giphy.gif)
 
