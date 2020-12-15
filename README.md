@@ -20,10 +20,6 @@ This project is built to be cornerstone of my online presence. It is easy on the
 To-do list:
 * Turkish translations will be added with i18n
 * Blog section will be added
-* better testing
-* Instead of portfolio, it will be an online resume. Resume section will be removed. 
-* Resume will be accessible from on outside link
-* About section will expand
 
 ## Status
 Work in progress
