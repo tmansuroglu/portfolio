@@ -23,7 +23,7 @@ const FoodCheck = () => {
     >
       <div className='homeText projectContent'>
         <h4>FoodCheck</h4>
-        <small>Solo Project</small> <br />
+        <small>Team Project</small> <br />
         <a
           href='https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project'
           target='_blank'
@@ -44,6 +44,15 @@ const FoodCheck = () => {
         </p>
         <br />
         <Row>
+          <Col xs={12}>
+            <h5>My Impact</h5>
+            <ul>
+              <li>
+                Took responsibility of whole project when teammate was facing
+                crisis and completed project before its deadline
+              </li>
+            </ul>
+          </Col>
           <Col xs={12} md={6}>
             <h5>Skills Applied</h5>
             <ul>
