@@ -1,24 +1,22 @@
-import React from 'react';
-import './index.css';
-import Navbar from '../../components/Navbar';
-import Sidebar from '../../components/Sidebar';
-import Introduction from '../../components/Introduction';
-import About from '../About';
-import Projects from '../Projects';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import tarkanImage from '../../img/tarkanImage.png';
-import { Image, Container } from 'react-bootstrap';
+import React from "react";
+import "./index.css";
+import Navbar from "../../components/Navbar";
+import Introduction from "../../components/Introduction";
+import About from "../About";
+import Projects from "../Projects";
+import "bootstrap/dist/css/bootstrap.min.css";
+import tarkanImage from "../../img/tarkanImage.png";
+import { Image, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <Sidebar />
       <Introduction />
-      <Container className='tarkanDiv'>
+      <Container className="tarkanDiv">
         <Image
           src={tarkanImage}
-          className='tarkanImage'
+          className="tarkanImage"
           alt="tarkan mansuroğlu's picture"
           roundedCircle
           fluid

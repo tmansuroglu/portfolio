@@ -1,8 +1,12 @@
-import Home from './containers/Home/index.jsx';
+import Home from "./containers/Home/index.jsx";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <Home />
+    <>
+      <Sidebar />
+      <Home />
+    </>
   );
 }
 

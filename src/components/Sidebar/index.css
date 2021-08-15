@@ -1,17 +1,19 @@
 .sidebar {
   bottom: 0;
-  width: max(5%, 50px);
-  max-height: 85%;
-  margin-left: 2%;
   font-size: 0.5rem;
   position: fixed;
+  left: 0;
+  width: 60px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-self: center;
 }
 
 .icon {
   color: white;
-  margin-top: min(30px, 100%);
-  margin-bottom: min(30px, 100%);
   cursor: pointer;
+  padding: 5px;
+  margin: 20px 0;
 }
 
 .fa-phone {

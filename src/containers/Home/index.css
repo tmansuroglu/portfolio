@@ -1,13 +1,13 @@
 .homeText {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   line-height: min(2rem, 8vw);
 }
 
 .homeTitle {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: max(4rem, 5vw);
 }
 
@@ -19,18 +19,10 @@
 
 #root .container {
   margin: 0;
-  padding-left: 7%;
-  padding-right: 5%;
+  padding: 80px 20px 0 75px;
   max-width: 100%;
   margin-top: 60px;
   margin-bottom: 60px;
-}
-
-@media only screen and (max-width: 750px) {
-  #root .container {
-    padding-left: 10%;
-    padding-right: 7%;
-  }
 }
 
 .tarkanDiv {
