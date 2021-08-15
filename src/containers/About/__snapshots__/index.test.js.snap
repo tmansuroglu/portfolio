@@ -28,7 +28,7 @@ exports[`About renders correctly 1`] = `
       About
     </h1>
     <h2
-      className="homePageHeader"
+      
       id="whoIsTarkan"
     >
       Who is Tarkan Mansuroğlu?
@@ -43,7 +43,7 @@ exports[`About renders correctly 1`] = `
       During these years, he wanted to figure out what he expected from life. While searching for his purpose, he realized that to build his future, first, he needs to understand himself. This revelation pushed him to develop an analytical mindset. Consequently, he realized that problem solving is the main drive of things he enjoys. Thus, when he started coding, he fell in love with it.
     </p>
     <h2
-      className="homePageHeader"
+      
       id="education"
     >
       Education
@@ -81,7 +81,7 @@ exports[`About renders correctly 1`] = `
       as top student with 4.00 out of 4.00 CGPA.
     </p>
     <h2
-      className="homePageHeader"
+      
       id="employmentHistory"
     >
       Work Experience
@@ -111,7 +111,7 @@ exports[`About renders correctly 1`] = `
       Also, he was peer teaching statistics, finance, economics and math to social science students.
     </p>
     <h2
-      className="homePageHeader"
+      
       id="technicalSkills"
     >
       Technical Skills

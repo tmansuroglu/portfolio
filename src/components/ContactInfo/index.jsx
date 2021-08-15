@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, OverlayTrigger, Popover, Button } from 'react-bootstrap';
+import './index.scss';
 
 const ContactInfo = () => {
   const phonePopover = (

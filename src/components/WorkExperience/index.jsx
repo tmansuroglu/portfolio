@@ -3,9 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const EmploymentHistory = () => (
   <>
-    <h2 id="employmentHistory" className="homePageHeader">
-      Work Experience
-    </h2>
+    <h2 id="employmentHistory">Work Experience</h2>
     <p>
       Tarkan worked as junior developer intern for Re:Coded in 2020. His efforts
       were focused on improving his{' '}

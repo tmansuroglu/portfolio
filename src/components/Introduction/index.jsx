@@ -5,7 +5,7 @@ import { Container, Image } from 'react-bootstrap';
 import tarkanImage from '../../assets/images/tarkanImage.png';
 
 const Introduction = () => (
-  <Container id="introduction" className="homeText intro-container">
+  <Container id="introduction">
     <div className="image-container">
       <Image
         src={tarkanImage}

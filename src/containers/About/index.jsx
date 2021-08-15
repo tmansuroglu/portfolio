@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.scss';
 import { Container } from 'react-bootstrap';
 import Education from '../../components/Education';
 import EmploymentHistory from '../../components/WorkExperience';
@@ -8,13 +7,11 @@ import WhoIsTarkan from '../../components/WhoIsTarkan';
 
 const About = () => (
   <Container id="about">
-    <h1 className="homeTitle aboutBigScreen">About</h1>
-    <div className="homeText">
-      <WhoIsTarkan />
-      <Education />
-      <EmploymentHistory />
-      <TechnicalSkills />
-    </div>
+    <h1>About</h1>
+    <WhoIsTarkan />
+    <Education />
+    <EmploymentHistory />
+    <TechnicalSkills />
   </Container>
 );
 

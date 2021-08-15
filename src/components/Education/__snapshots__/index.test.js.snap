@@ -3,7 +3,7 @@
 exports[`Education renders correctly 1`] = `
 Array [
   <h2
-    className="homePageHeader"
+    
     id="education"
   >
     Education

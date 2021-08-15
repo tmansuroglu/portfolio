@@ -19,7 +19,7 @@ const Portfolio = () => (
     }}
     icon={<i className="fas fa-project-diagram projectIcon"></i>}
   >
-    <div className="homeText projectContent">
+    <div className=" projectContent">
       <h4>Portfolio</h4>
       <small>Solo Project</small> <br />
       <a

@@ -2,6 +2,7 @@ import React from 'react';
 import { Modal, Form, Button, Spinner } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import ContactInfo from '../ContactInfo';
+import './index.scss';
 
 const ContactModal = ({
   loading,

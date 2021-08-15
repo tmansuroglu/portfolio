@@ -19,7 +19,7 @@ const Juniper = () => (
     }}
     icon={<i className="fas fa-project-diagram projectIcon"></i>}
   >
-    <div className="homeText projectContent">
+    <div className=" projectContent">
       <h4>Juniper</h4>
       <small>Team Project</small> <br />
       <a

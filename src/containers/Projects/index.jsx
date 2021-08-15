@@ -9,10 +9,8 @@ import Portfolio from '../../components/Portfolio';
 import TMDB from '../../components/TMDB';
 
 const Projects = () => (
-  <Container className="projectsContainer">
-    <h1 className="homeTitle" id="projects">
-      Projects
-    </h1>
+  <Container>
+    <h1 id="projects">Projects</h1>
     <VerticalTimeline animate={false} className="verticalTimeline">
       <Juniper />
       <Portfolio />
