@@ -2,13 +2,17 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  line-height: min(2rem, 8vw);
+  line-height: 2rem;
+}
+
+.home-container {
+  margin: 100px 0;
 }
 
 .homeTitle {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: max(4rem, 5vw);
+  font-size: 4rem;
 }
 
 .homePageHeader {
@@ -17,55 +21,8 @@
   padding-bottom: 10px;
 }
 
-#root .container {
-  margin: 0;
-  padding: 80px 20px 0 75px;
-  max-width: 100%;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 .tarkanDiv {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.tarkanImage {
-  position: absolute;
-  right: 15vw;
-  top: 110px;
-  width: 410px;
-}
-
-@media only screen and (max-width: 1600px) {
-  .tarkanImage {
-    width: 350px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .tarkanImage {
-    width: 275px;
-    right: 8vw;
-  }
-}
-
-@media only screen and (max-width: 890px) {
-  .tarkanImage {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 578px) {
-  .tarkanImage {
-    width: 100%;
-  }
 }

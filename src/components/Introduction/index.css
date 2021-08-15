@@ -1,23 +1,30 @@
 .name {
-  font-size: clamp(3rem, 5vw, 5rem);
-  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .loop {
   height: 55px;
-  margin-top: 3%;
-  font-size: clamp(1.3em, 3vw, 4rem);
-  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 #introduction {
-  padding-right: 0 !important ;
-  padding-top: max(3%, 6vh);
-  width: 60%;
+  display: inline-grid;
+  grid-template-columns: 400px auto;
 }
 
-@media only screen and (max-width: 890px) {
-  #introduction {
-    width: 100%;
-  }
+.image-container {
+  position: relative;
+}
+
+.tarkanImage {
+  width: 350px;
+}
+
+.text-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }

@@ -5,3 +5,9 @@
 body {
   background: black;
 }
+
+#root .container {
+  margin: 0;
+  padding: 20px 20px 0 75px;
+  max-width: 100%;
+}
