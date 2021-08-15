@@ -1,45 +1,44 @@
-import React from 'react';
-import './index.css';
-import { Col, Row } from 'react-bootstrap';
-import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const FoodCheck = () => {
   return (
     <VerticalTimelineElement
-      className='vertical-timeline-element--work'
-      date={'Sept 2020'}
-      dateClassName={'date'}
+      className="vertical-timeline-element--work"
+      date={"Sept 2020"}
+      dateClassName={"date"}
       contentStyle={{
-        background: 'white',
-        color: 'white',
+        background: "white",
+        color: "white",
       }}
       contentArrowStyle={{
-        borderRight: '7px solid  white',
+        borderRight: "7px solid  white",
       }}
       iconStyle={{
-        background: 'white',
+        background: "white",
       }}
-      icon={<i className='fas fa-project-diagram projectIcon'></i>}
+      icon={<i className="fas fa-project-diagram projectIcon"></i>}
     >
-      <div className='homeText projectContent'>
+      <div className="homeText projectContent">
         <h4>FoodCheck</h4>
         <small>Team Project</small> <br />
         <a
-          href='https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project'
-          target='_blank'
-          rel='noreferrer'
+          href="https://github.com/tmansuroglu/MohammadJundi-Tarkan-Project"
+          target="_blank"
+          rel="noreferrer"
         >
           Github
-        </a>{' '}
-        |{' '}
+        </a>{" "}
+        |{" "}
         <a
-          href='https://foodcheck.netlify.app/'
-          target='_blank'
-          rel='noreferrer'
+          href="https://foodcheck.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
         >
           Demo
         </a>
-        <p className='projectText'>
+        <p className="projectText">
           <strong>Goal:</strong> creating a quick and easy to use diet tracker
         </p>
         <br />

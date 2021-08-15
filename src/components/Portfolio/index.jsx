@@ -1,38 +1,37 @@
-import React from 'react';
-import './index.css';
-import { Col, Row } from 'react-bootstrap';
-import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const Portfolio = () => {
   return (
     <VerticalTimelineElement
-      date={'Nov 2020'}
-      dateClassName={'date'}
-      className='vertical-timeline-element--work'
+      date={"Nov 2020"}
+      dateClassName={"date"}
+      className="vertical-timeline-element--work"
       contentStyle={{
-        background: 'white',
-        color: 'white',
+        background: "white",
+        color: "white",
       }}
       contentArrowStyle={{
-        borderRight: '7px solid  white',
+        borderRight: "7px solid  white",
       }}
       iconStyle={{
-        background: 'white',
+        background: "white",
       }}
-      icon={<i className='fas fa-project-diagram projectIcon'></i>}
+      icon={<i className="fas fa-project-diagram projectIcon"></i>}
     >
-      <div className='homeText projectContent'>
+      <div className="homeText projectContent">
         <h4>Portfolio</h4>
         <small>Solo Project</small> <br />
         <a
-          href='https://github.com/tmansuroglu/portfolio'
-          target='_blank'
-          rel='noreferrer'
+          href="https://github.com/tmansuroglu/portfolio"
+          target="_blank"
+          rel="noreferrer"
         >
           Github
         </a>
         <br />
-        <p className='projectText'>
+        <p className="projectText">
           <strong>Goal:</strong> building a portfolio website to create an
           online presence.
         </p>

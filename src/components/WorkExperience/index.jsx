@@ -1,23 +1,22 @@
-import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import './index.css';
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const EmploymentHistory = () => {
   return (
     <>
-      <h2 id='employmentHistory' className='homePageHeader'>
+      <h2 id="employmentHistory" className="homePageHeader">
         Work Experience
       </h2>
       <p>
         Tarkan worked as junior developer intern for Re:Coded in 2020. His
-        efforts were focused on improving his{' '}
-        <AnchorLink offset='100' href='#technicalSkills'>
+        efforts were focused on improving his{" "}
+        <AnchorLink offset="100" href="#technicalSkills">
           technical skills
         </AnchorLink>
-        , building{' '}
-        <AnchorLink offset='100' href='#projects'>
+        , building{" "}
+        <AnchorLink offset="100" href="#projects">
           projects
-        </AnchorLink>{' '}
+        </AnchorLink>{" "}
         and soft skills(business communication, teamwork, agile product
         management, time management...).
       </p>

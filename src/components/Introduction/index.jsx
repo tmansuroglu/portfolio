@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./index.scss";
 import Typical from "react-typical";
 import { Container, Image } from "react-bootstrap";
 import tarkanImage from "../../img/tarkanImage.png";

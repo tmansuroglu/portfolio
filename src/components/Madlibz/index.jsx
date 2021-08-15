@@ -1,41 +1,40 @@
-import React from 'react';
-import './index.css';
-import { Col, Row } from 'react-bootstrap';
-import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const Juniper = () => {
   return (
     <VerticalTimelineElement
-      className='vertical-timeline-element--work'
-      date={'Aug 2020'}
-      dateClassName={'date'}
+      className="vertical-timeline-element--work"
+      date={"Aug 2020"}
+      dateClassName={"date"}
       contentStyle={{
-        background: 'white',
-        color: 'white',
+        background: "white",
+        color: "white",
       }}
       contentArrowStyle={{
-        borderRight: '7px solid  white',
+        borderRight: "7px solid  white",
       }}
       iconStyle={{
-        background: 'white',
+        background: "white",
       }}
-      icon={<i className='fas fa-project-diagram projectIcon'></i>}
+      icon={<i className="fas fa-project-diagram projectIcon"></i>}
     >
-      <div className='homeText projectContent'>
+      <div className="homeText projectContent">
         <h4>Madlibz</h4>
         <small>Team Project</small> <br />
         <a
-          href='https://github.com/tmansuroglu/Madlibzz'
-          target='_blank'
-          rel='noreferrer'
+          href="https://github.com/tmansuroglu/Madlibzz"
+          target="_blank"
+          rel="noreferrer"
         >
           Github
-        </a>{' '}
-        |{' '}
-        <a href='https://madlibz.netlify.app/' target='_blank' rel='noreferrer'>
+        </a>{" "}
+        |{" "}
+        <a href="https://madlibz.netlify.app/" target="_blank" rel="noreferrer">
           Demo
         </a>
-        <p className='projectText'>
+        <p className="projectText">
           <strong>Goal:</strong> creating Mad Libs game as an introduction to
           project building.
         </p>

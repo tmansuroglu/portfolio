@@ -32,10 +32,9 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- Add Sass
 - Add eslint
 - font and margins
-- magic words is JS
+- magic words in JS
 
 ## Status
 

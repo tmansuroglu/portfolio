@@ -1,10 +1,9 @@
-import React from 'react';
-import './index.css';
+import React from "react";
 
 const WhoIsTarkan = () => {
   return (
     <>
-      <h2 id='whoIsTarkan' className='homePageHeader'>
+      <h2 id="whoIsTarkan" className="homePageHeader">
         Who is Tarkan Mansuroğlu?
       </h2>
       <p>
