@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './index.scss';
+import './assets/_variables.scss';
+import './assets/_global-stlyes.scss';
 import 'react-vertical-timeline-component/style.min.css';
 
 ReactDOM.render(

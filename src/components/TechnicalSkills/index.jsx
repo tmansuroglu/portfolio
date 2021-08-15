@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import './index.scss';
-import reduxLogo from '../../img/reduxLogo.svg';
-import firebaseLogo from '../../img/firebaseLogo.svg';
-import antDesignLogo from '../../img/antDesignLogo.svg';
-import htmlLogo from '../../img/htmlLogo.svg';
-import i18nLogo from '../../img/i18nLogo.svg';
+import reduxLogo from '../../assets/images/reduxLogo.svg';
+import firebaseLogo from '../../assets/images/firebaseLogo.svg';
+import antDesignLogo from '../../assets/images/antDesignLogo.svg';
+import htmlLogo from '../../assets/images/htmlLogo.svg';
+import i18nLogo from '../../assets/images/i18nLogo.svg';
 
 const TechnicalSkills = () => (
   <>

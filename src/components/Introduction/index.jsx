@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import Typical from 'react-typical';
 import { Container, Image } from 'react-bootstrap';
-import tarkanImage from '../../img/tarkanImage.png';
+import tarkanImage from '../../assets/images/tarkanImage.png';
 
 const Introduction = () => (
   <Container id="introduction" className="homeText intro-container">
