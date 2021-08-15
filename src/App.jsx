@@ -1,5 +1,5 @@
-import Home from "./containers/Home/index.jsx";
-import Sidebar from "./components/Sidebar";
+import Home from './containers/Home';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (

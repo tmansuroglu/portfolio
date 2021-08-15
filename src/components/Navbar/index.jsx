@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import "./index.scss";
-import { Nav, Navbar, Dropdown, DropdownButton, Button } from "react-bootstrap";
-import { BrowserRouter as Router } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
-import Contact from "../../containers/Contact";
+import React, { useState } from 'react';
+import './index.scss';
+import { Nav, Navbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import Contact from '../../containers/Contact';
 
 const Navigation = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -11,13 +11,13 @@ const Navigation = () => {
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -120;
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
   };
 
   const changeCollapseState = () => {
     if (window.outerWidth < 578) {
       setIsExpanded(!isExpanded);
-    } else return;
+    }
   };
 
   return (
@@ -30,7 +30,7 @@ const Navigation = () => {
         expand="sm"
         className="navbarContainer"
         fixed="top"
-        collapseOnSelect={true}
+        collapseOnSelect
         expanded={isExpanded}
       >
         <Navbar.Toggle

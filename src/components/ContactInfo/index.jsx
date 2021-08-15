@@ -1,5 +1,5 @@
-import React from "react";
-import { Row, Col, OverlayTrigger, Popover, Button } from "react-bootstrap";
+import React from 'react';
+import { Row, Col, OverlayTrigger, Popover, Button } from 'react-bootstrap';
 
 const ContactInfo = () => {
   const phonePopover = (
@@ -65,7 +65,7 @@ const ContactInfo = () => {
           trigger="click"
           placement="bottom"
           overlay={phonePopover}
-          rootClose={true}
+          rootClose
           rootCloseEvent="click"
         >
           <i className="fas fa-mobile-alt fa-3x"></i>
@@ -76,7 +76,7 @@ const ContactInfo = () => {
           trigger="click"
           placement="bottom"
           overlay={emailPopover}
-          rootClose={true}
+          rootClose
           rootCloseEvent="click"
         >
           <i className="far fa-envelope fa-3x"></i>

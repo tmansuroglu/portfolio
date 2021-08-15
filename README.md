@@ -32,7 +32,6 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- Add eslint
 - font and margins
 - magic words in JS
 
