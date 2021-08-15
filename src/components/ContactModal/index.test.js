@@ -1,21 +1,8 @@
-// import React from 'react';
-// import renderer from 'react-test-renderer';
-// import ContactModal from '.';
+import React from 'react';
+import renderer from 'react-test-renderer';
+import ContactInfo from '.';
 
-// it('ContactModal renders correctly', () => {
-//   const tree = renderer
-//     .create(
-//       <ContactModal
-//         modalVisibility={true}
-//         onSubmit={onSubmit}
-//         shouldShowAllContactOpt={true}
-//         handleClose={handleClose}
-//         handleSubmit={handleSubmit}
-//         register={register}
-//         emailStatus={true}
-//         loading={true}
-//       />
-//     )
-//     .toJSON();
-//   expect(tree).toMatchSnapshot();
-// });
+it('ContactInfo renders correctly', () => {
+  const tree = renderer.create(<ContactInfo />).toJSON();
+  expect(tree).toMatchSnapshot();
+});

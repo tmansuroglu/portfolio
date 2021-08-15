@@ -3,7 +3,7 @@ import './index.scss';
 import { Nav, Navbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Contact from '../../containers/Contact';
+import ContactModal from '../ContactModal';
 
 const Navigation = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -22,7 +22,7 @@ const Navigation = () => {
 
   return (
     <>
-      <Contact
+      <ContactModal
         modalVisibility={modalVisibility}
         setModalVisibility={setModalVisibility}
       />

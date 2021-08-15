@@ -1,13 +1,43 @@
-.fa-check-circle {
-  margin-left: 2%;
-}
+@import '../../assets/variables';
 
-.sendDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.contact-modal {
+  display: inline-flex;
+  flex-direction: column;
 
-.sendButton {
-  width: 23%;
+  &__h2 {
+    color: $black;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__row {
+    margin: 10px 0;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    &__icon-container {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 65px;
+      height: 65px;
+      i {
+        color: black;
+      }
+    }
+
+    &__link-container {
+      margin-left: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        text-decoration: underline;
+        color: black;
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+  }
 }

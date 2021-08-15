@@ -1,108 +1,119 @@
 import React from 'react';
-import { Modal, Form, Button, Spinner } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import ContactInfo from '../ContactInfo';
+import { Modal } from 'react-bootstrap';
 import './index.scss';
+import PropTypes from 'prop-types';
 
-const ContactModal = ({
-  loading,
-  register,
-  modalVisibility,
-  handleClose,
-  shouldShowAllContactOpt,
-  onSubmit,
-  handleSubmit,
-  emailStatus,
-}) => (
+const ContactModal = ({ modalVisibility, setModalVisibility }) => (
   <Modal
     show={modalVisibility}
-    onHide={handleClose}
-    className="contactModal"
-    id="contact"
+    onHide={() => setModalVisibility(false)}
+    contentClassName="contact-modal"
+    centered
+    size="lg"
   >
     <Modal.Header closeButton>
       <Modal.Title>
-        {shouldShowAllContactOpt ? <ContactInfo /> : ''}
-        <br />
-        Contact Form
+        <h2 className="contact-modal__h2">Contact</h2>
       </Modal.Title>
     </Modal.Header>
     <Modal.Body>
-      <form onSubmit={handleSubmit(onSubmit)} className="contactForm">
-        {/* register your input into the hook by invoking the "register" function */}
-        <Form.Group>
-          <Form.Label for="name">Name</Form.Label>
-          <Form.Control
-            type="text"
-            name="name"
-            ref={register({ required: true })}
-            placeholder="John Doe"
-          />
-        </Form.Group>
-
-        {/* include validation with required or other standard HTML validation rules */}
-        <Form.Group>
-          <Form.Label for="email">Email</Form.Label>
-          <Form.Control
-            name="email"
-            type="email"
-            placeholder="name@example.com"
-            ref={register({ required: true })}
-          />
-        </Form.Group>
-        <Form.Group>
-          <Form.Label for="message">Message</Form.Label>
-          <Form.Control
-            name="message"
-            placeholder="Type here..."
-            as="textarea"
-            rows={3}
-            ref={register({ required: true })}
-          />
-        </Form.Group>
-        <div className="sendDiv">
-          <Button type="submit" className="sendButton">
-            Send
-            {'  '}
-            {loading ? (
-              <Spinner
-                as="span"
-                animation="border"
-                size="sm"
-                role="status"
-                aria-hidden="true"
-              />
-            ) : (
-              ''
-            )}
-            {emailStatus ? <i className="far fa-check-circle"></i> : ''}
-          </Button>
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="fa fa-whatsapp fa-3x"></i>
         </div>
-      </form>
+        <div className="contact-modal__row__link-container">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://wa.me/+905523600893/?text=Hello+Tarkan!"
+          >
+            +90 552 360 08 93
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="fas fa-mobile-alt fa-3x"></i>
+        </div>
+        <div className="contact-modal__row__link-container">
+          <a target="_blank" rel="noreferrer" href="tel:+905523600893">
+            +90 552 360 08 93
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="far fa-envelope fa-3x"></i>
+        </div>
+        <div className="contact-modal__row__link-container">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto: mansuroglu99@gmail.com"
+          >
+            mansuroglu99@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="fab fa-linkedin-in fa-3x"></i>
+        </div>
+        <div className="contact-modal__row__link-container">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/tarkanmansuroglu/"
+          >
+            https://www.linkedin.com/in/tarkanmansuroglu
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="fab fa-github fa-3x"></i>
+        </div>
+        <div className="contact-modal__row__link-container">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/tmansuroglu"
+          >
+            https://github.com/tmansuroglu
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-modal__row">
+        <div className="contact-modal__row__icon-container">
+          <i className="fab fa-instagram fa-3x"></i>
+        </div>
+        <div className="contact-modal__row__link-container">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/tarkanmansuroglu/"
+          >
+            https://www.instagram.com/tarkanmansuroglu
+          </a>
+        </div>
+      </div>
     </Modal.Body>
   </Modal>
 );
 
 ContactModal.propTypes = {
-  loading: PropTypes.bool,
-  register: PropTypes.func,
   modalVisibility: PropTypes.bool,
-  handleClose: PropTypes.func,
-  shouldShowAllContactOpt: PropTypes.bool,
-  onSubmit: PropTypes.func,
-  handleSubmit: PropTypes.func,
-  emailStatus: PropTypes.bool,
+  setModalVisibility: PropTypes.func,
 };
 
 ContactModal.defaultProps = {
-  loading: false,
-  register: () => 'register',
   modalVisibility: false,
-  handleClose: () => 'close',
-  shouldShowAllContactOpt: false,
-  onSubmit: () => 'onsubmit',
-  handleSubmit: () => 'handle submit',
-  emailStatus: false,
+  setModalVisibility: () => 'close modal',
 };
 
 export default ContactModal;
