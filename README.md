@@ -13,6 +13,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - Quick access to my social media accounts
 - Quick access to my resume
 - Sections including my bio, skills and projects
+- ...
 
 ## [Demo](http://tarkanmansuroglu.com)
 
@@ -29,18 +30,16 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - Emailjs
 - Bootstrap
 - Jest
+- ...
 
 ## To-do list:
 
-- add route to contact modal
-- font and margins
-- magic words in JS
-- scan code
 - responsive design
-- projects
-- skills
 - button paddings
 - media query breakpoints
+
+- scan code
+- add route to contact modal
 - add project demos
 
 ## Status
