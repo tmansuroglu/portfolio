@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/_variables.scss';
 import './assets/_global-stlyes.scss';
-import 'react-vertical-timeline-component/style.min.css';
+import 'swiper/swiper-bundle.css';
 
 ReactDOM.render(
   <React.StrictMode>
