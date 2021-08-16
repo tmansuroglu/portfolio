@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ProjectCard from '../../components/ProjectCard';
 import dataArr from './data';
+import './index.scss';
 
 const swipers = dataArr.map((data) => (
   <SwiperSlide key={data.title}>
@@ -26,12 +27,7 @@ const swipers = dataArr.map((data) => (
 const Projects = () => (
   <Container>
     <h2 id="projects">Projects</h2>
-    <Swiper
-      spaceBetween={30}
-      slidesPerView={2.5}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
+    <Swiper className="swiper-container" spaceBetween={30} slidesPerView={2.5}>
       {swipers}
     </Swiper>
   </Container>

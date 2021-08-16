@@ -16,7 +16,7 @@ const Introduction = () => (
       />
     </div>
     <div className="text-container">
-      <h1 className="name">Tarkan Mansuroğlu</h1>
+      <h1>Tarkan Mansuroğlu</h1>
       <Typical
         className="loop"
         steps={[
