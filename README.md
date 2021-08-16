@@ -32,6 +32,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
+- add route to contact modal
 - font and margins
 - magic words in JS
 - scan code

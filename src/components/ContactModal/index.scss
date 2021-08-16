@@ -22,7 +22,7 @@
       width: 65px;
       height: 65px;
       i {
-        color: black;
+        color: $black;
       }
     }
 
@@ -33,9 +33,9 @@
       align-items: center;
       a {
         text-decoration: underline;
-        color: black;
+        color: $black;
         &:hover {
-          color: gray;
+          color: $gray;
         }
       }
     }
