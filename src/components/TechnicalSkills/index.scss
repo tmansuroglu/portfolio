@@ -1,13 +1,24 @@
+@import '../../assets/variables';
+
 .rating-explanation {
   height: 100%;
   margin: 0 15px 10px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: $md) {
+    margin: 0 10px 0 0;
+  }
   h6 {
     margin: auto;
     margin-top: 10px;
     margin-left: 4px;
+    @media only screen and (max-width: $xs) {
+      font-size: 0.8rem;
+    }
+    @media only screen and (max-width: $xxs) {
+      font-size: 0.78rem;
+    }
   }
 }
 
@@ -16,6 +27,10 @@
 }
 
 .technical-skills {
+  width: 100%;
   display: inline-flex;
   align-items: center;
+  @media only screen and (max-width: $md) {
+    display: inline-block;
+  }
 }

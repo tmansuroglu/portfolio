@@ -36,7 +36,6 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 - responsive design
 - button paddings
-- media query breakpoints
 
 - add nextjs
 - scan code

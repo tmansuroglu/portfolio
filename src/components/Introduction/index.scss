@@ -1,12 +1,24 @@
+@import '../../assets/variables';
+
 .loop {
   height: 55px;
   margin-top: 30px;
   font-size: 2rem;
+  @media only screen and (max-width: $md) {
+    font-size: 1.8rem;
+    margin-top: 0px;
+  }
+  @media only screen and (max-width: $sm) {
+    font-size: 1.5rem;
+  }
 }
 
 #introduction {
   display: inline-grid;
   grid-template-columns: 400px auto;
+  @media only screen and (max-width: $md) {
+    display: block;
+  }
 }
 
 .image-container {
@@ -15,6 +27,9 @@
 
 .tarkanImage {
   width: 350px;
+  @media only screen and (max-width: $md) {
+    display: none;
+  }
 }
 
 .text-container {

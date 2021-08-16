@@ -8,30 +8,95 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   line-height: 2rem;
-  color: $font-color;
+  color: $white;
+  @media only screen and (max-width: $md) {
+    font-size: 1.2rem;
+  }
+  @media only screen and (max-width: $sm) {
+    font-size: 1.1rem;
+  }
+  @media only screen and (max-width: $xs) {
+    font-size: 1rem;
+  }
 }
 
 #root .container {
   margin: 0;
   padding: 20px 20px 0 75px;
   max-width: 100%;
-  overflow: visible !important;
+  @media only screen and (max-width: $md) {
+    padding-top: 0;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 0px 15px 0 15px;
+  }
+  @media only screen and (max-width: $xs) {
+    padding: 0px 10px 0 10px;
+  }
 }
 
 h1 {
   font-size: 5rem;
+  @media only screen and (max-width: $xxl) {
+    font-size: 4rem;
+  }
+  @media only screen and (max-width: $lg) {
+    font-size: 3rem;
+  }
+  @media only screen and (max-width: $sm) {
+    font-size: 2.5rem;
+  }
+  @media only screen and (max-width: $xs) {
+    font-size: 2.2rem;
+  }
+  @media only screen and (max-width: $xxs) {
+    font-size: 1.8rem;
+  }
 }
 
 h2 {
   font-size: 4rem;
+  @media only screen and (max-width: $xxl) {
+    font-size: 3.5rem;
+  }
+  @media only screen and (max-width: $lg) {
+    font-size: 2.7rem;
+  }
+  @media only screen and (max-width: $sm) {
+    font-size: 2.2rem;
+  }
+  @media only screen and (max-width: $xs) {
+    font-size: 2rem;
+  }
+  @media only screen and (max-width: $xxs) {
+    font-size: 1.6rem;
+  }
 }
 
 h3 {
   font-size: 2.5rem;
+  @media only screen and (max-width: $lg) {
+    font-size: 2.1rem;
+  }
+  @media only screen and (max-width: $sm) {
+    font-size: 1.8rem;
+  }
+  @media only screen and (max-width: $xs) {
+    font-size: 1.5rem;
+  }
+  @media only screen and (max-width: $xxs) {
+    font-size: 1.4rem;
+  }
 }
 
 h4 {
   font-size: 1.5rem;
+  @media only screen and (max-width: $xs) {
+    font-size: 1.3rem;
+  }
+  @media only screen and (max-width: $xxs) {
+    font-size: 1.2rem;
+  }
 }
 
 a {

@@ -59,7 +59,7 @@ const TechnicalSkills = () => (
           changeRating={false}
           widgetEmptyColors="#434343"
           widgetRatedColors="white"
-          widgetDimensions={17}
+          widgetDimensions={13}
           widgetSpacings={1}
         >
           <Ratings.Widget />
@@ -76,7 +76,7 @@ const TechnicalSkills = () => (
           changeRating={false}
           widgetEmptyColors="#434343"
           widgetRatedColors="white"
-          widgetDimensions={17}
+          widgetDimensions={13}
           widgetSpacings={1}
         >
           <Ratings.Widget />
