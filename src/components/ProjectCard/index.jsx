@@ -36,7 +36,7 @@ const ProjectCard = ({
       {demoUrl1 && <a href={demoUrl1}>Demo</a>}
       {demoUrl2 && <a href={demoUrl2}>Demo v2</a>}
       {iosUrl && <a href={iosUrl}>App Store</a>}
-      {androidUrl && <a href={androidUrl}>Google Play Store</a>}
+      {androidUrl && <a href={androidUrl}>Play Store</a>}
     </div>
 
     <div className="project-card__secondary-title">
