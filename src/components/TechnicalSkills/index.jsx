@@ -52,8 +52,8 @@ const SWIPER_BREAKPOINTS = {
   280: {
     spaceBetween: 20,
     slidesPerColumn: 2,
-    slidesPerGroup: 2.3,
-    slidesPerView: 2.3,
+    slidesPerGroup: 2.4,
+    slidesPerView: 2.4,
   },
   350: {
     spaceBetween: 20,
@@ -82,8 +82,8 @@ const SWIPER_BREAKPOINTS = {
   992: {
     spaceBetween: 20,
     slidesPerColumn: 2,
-    slidesPerGroup: 6.3,
-    slidesPerView: 6.3,
+    slidesPerGroup: 6.5,
+    slidesPerView: 6.5,
   },
   1300: {
     spaceBetween: 20,
@@ -94,8 +94,8 @@ const SWIPER_BREAKPOINTS = {
   1500: {
     spaceBetween: 30,
     slidesPerColumn: 2,
-    slidesPerGroup: 9,
-    slidesPerView: 9,
+    slidesPerGroup: 9.5,
+    slidesPerView: 9.5,
   },
 };
 
