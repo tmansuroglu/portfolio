@@ -26,8 +26,9 @@ import Skill from '../Skill';
 
 const SKILLS = [
   <Skill title="JavaScript" rating={3} icon={javascript} />,
-  <Skill title="React Native" rating={3} icon={react} />,
+  <Skill title="React" rating={3} icon={react} />,
   <Skill title="CSS" rating={3} icon={css} />,
+  <Skill title="React Native" rating={3} icon={react} />,
   <Skill title="HTML" rating={3} icon={html} />,
   <Skill title="Vue" rating={3} icon={vue} />,
   <Skill title="Nuxt" rating={3} icon={nuxt} />,
@@ -46,6 +47,57 @@ const SKILLS = [
   <Skill title="ExpressJs" rating={1} icon={express} />,
   <Skill title="i18next" rating={1} icon={i18n} />,
 ];
+
+const SWIPER_BREAKPOINTS = {
+  280: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 2.3,
+    slidesPerView: 2.3,
+  },
+  350: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 2.5,
+    slidesPerView: 2.5,
+  },
+  400: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 2.8,
+    slidesPerView: 2.8,
+  },
+  515: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 3.5,
+    slidesPerView: 3.5,
+  },
+  850: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 5.5,
+    slidesPerView: 5.5,
+  },
+  992: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 6.3,
+    slidesPerView: 6.3,
+  },
+  1300: {
+    spaceBetween: 20,
+    slidesPerColumn: 2,
+    slidesPerGroup: 8.5,
+    slidesPerView: 8.5,
+  },
+  1500: {
+    spaceBetween: 30,
+    slidesPerColumn: 2,
+    slidesPerGroup: 9,
+    slidesPerView: 9,
+  },
+};
 
 const TechnicalSkills = () => (
   <>
@@ -89,13 +141,7 @@ const TechnicalSkills = () => (
       </div>
     </div>
     <div>
-      <Swiper
-        slidesPerView={10}
-        slidesPerColumn={2}
-        slidesPerGroup={10}
-        slidesPerColumnFill="row"
-        spaceBetween={30}
-      >
+      <Swiper slidesPerColumnFill="row" breakpoints={SWIPER_BREAKPOINTS}>
         {SKILLS.map((skill) => (
           <SwiperSlide>{skill}</SwiperSlide>
         ))}

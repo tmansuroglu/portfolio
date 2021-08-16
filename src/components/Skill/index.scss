@@ -1,3 +1,5 @@
+@import '../../assets/variables';
+
 .skill {
   margin-right: 35px;
   display: inline-flex;
@@ -7,5 +9,8 @@
   width: 140px;
   &__icon {
     height: 75px;
+    @media only screen and (max-width: $lg) {
+      height: 60px;
+    }
   }
 }
