@@ -1,5 +1,7 @@
+@import '../../assets/variables';
+
 .navbarContainer {
-  background: black;
+  background: $black;
   height: 60px;
   box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
 }
@@ -10,21 +12,17 @@
   font-family: 'Arimo', sans-serif;
 }
 
-.navbarContainer__navs__nav:hover {
-  text-decoration: none;
-}
-
 .navbar-collapse {
   box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
-  background: black;
+  background: $black;
 }
 
 .navbar-toggler-icon {
-  background-color: white;
+  background-color: $white;
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: $sm) {
   .navbarContainer__navs__nav {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -32,19 +30,25 @@
 }
 
 #root .navbar-toggler {
-  background: white;
+  background: $white;
 }
 
 #dropdown-basic-button2,
 #dropdown-basic-button {
-  color: white;
+  color: $white;
 }
 
 #dropdown-basic-button2:focus,
 #dropdown-basic-button:focus {
-  border-color: gray;
+  border-color: $gray;
 }
 
 .navbarContainer__navs__nav__button:focus {
-  border-color: gray;
+  border-color: $gray;
+}
+
+@media only screen and (min-width: $sm) {
+  .contact-button {
+    display: none !important;
+  }
 }

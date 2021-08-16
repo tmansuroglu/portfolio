@@ -121,7 +121,7 @@ const Navigation = () => {
               </Button>
               <Button
                 variant="link"
-                className="text-light navbarContainer__navs__nav__button"
+                className="text-light navbarContainer__navs__nav__button contact-button"
                 onClick={() => {
                   changeCollapseState();
                   setModalVisibility(true);
