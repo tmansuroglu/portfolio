@@ -1,42 +1,21 @@
-.skillDiv {
-  text-align: center;
-  width: 130px;
-}
-
-.skillIcon {
-  font-size: 5rem;
-}
-
-.svgIcon {
-  height: 80px;
-}
-
-.bootstrapLogo {
-  color: #563d7c;
-}
-
-.gitLogo {
-  color: #f34f29;
-}
-
-.reactLogo {
-  color: #61dbfb;
-}
-
-.javaScriptLogo {
-  color: #f0db4f;
-}
-
-.cssLogo {
-  color: #2965f1;
-}
-
-@media only screen and (max-width: 434px) {
-  .skillRow {
-    justify-content: center;
+.rating-explanation {
+  height: 100%;
+  margin: 0 15px 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  h6 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 4px;
   }
+}
 
-  .skillDiv {
-    margin-top: 30px;
-  }
+.explanation-rating {
+  float: left;
+}
+
+.technical-skills {
+  display: inline-flex;
+  align-items: center;
 }

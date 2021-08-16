@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Ratings from 'react-ratings-declarative';
 import redux from '../../assets/images/redux-logo.svg';
 import firebase from '../../assets/images/firebase-logo.svg';
 import antDesign from '../../assets/images/ant-design-logo.svg';
@@ -41,21 +42,58 @@ const SKILLS = [
   <Skill title="Next" rating={2} icon={next} />,
   <Skill title="Sass" rating={2} icon={sass} />,
   <Skill title="Jest" rating={2} icon={jest} />,
-  <Skill title="i18next" rating={1} icon={i18n} />,
   <Skill title="NodeJs" rating={1} icon={nodejs} />,
   <Skill title="ExpressJs" rating={1} icon={express} />,
+  <Skill title="i18next" rating={1} icon={i18n} />,
 ];
 
 const TechnicalSkills = () => (
   <>
-    <h3 id="technicalSkills">Technical Skills</h3>
+    <div className="technical-skills">
+      <div>
+        <h3 id="technicalSkills">Technical Skills</h3>
+      </div>
+      <div className="rating-explanation">
+        <Ratings
+          rating={3}
+          changeRating={false}
+          widgetEmptyColors="#434343"
+          widgetRatedColors="white"
+          widgetDimensions={17}
+          widgetSpacings={1}
+        >
+          <Ratings.Widget />
+          <Ratings.Widget />
+          <Ratings.Widget />
+        </Ratings>
+        <h6>
+          <small>= Experienced</small>
+        </h6>
+      </div>
+      <div className="rating-explanation">
+        <Ratings
+          rating={1}
+          changeRating={false}
+          widgetEmptyColors="#434343"
+          widgetRatedColors="white"
+          widgetDimensions={17}
+          widgetSpacings={1}
+        >
+          <Ratings.Widget />
+          <Ratings.Widget />
+          <Ratings.Widget />
+        </Ratings>
+        <h6>
+          <small>= Not Experienced</small>
+        </h6>
+      </div>
+    </div>
     <div>
       <Swiper
-        slidesPerView={10} // or 'auto'
+        slidesPerView={10}
         slidesPerColumn={2}
         slidesPerGroup={10}
         slidesPerColumnFill="row"
-        className="swiper-container"
         spaceBetween={30}
       >
         {SKILLS.map((skill) => (
