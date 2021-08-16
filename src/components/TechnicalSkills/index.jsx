@@ -67,7 +67,7 @@ const TechnicalSkills = () => (
           <Ratings.Widget />
         </Ratings>
         <h6>
-          <small>= Experienced</small>
+          <small>= frequently using</small>
         </h6>
       </div>
       <div className="rating-explanation">
@@ -84,7 +84,7 @@ const TechnicalSkills = () => (
           <Ratings.Widget />
         </Ratings>
         <h6>
-          <small>= Not Experienced</small>
+          <small>= tried a few times</small>
         </h6>
       </div>
     </div>
