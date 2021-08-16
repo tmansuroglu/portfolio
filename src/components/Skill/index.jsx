@@ -4,7 +4,7 @@ import Ratings from 'react-ratings-declarative';
 
 const Skill = ({ icon, title, rating }) => (
   <div className="skill">
-    <h4>{title}</h4>
+    <h5>{title}</h5>
     <img src={icon} alt={title} className="skill__icon" />
     <Ratings
       rating={rating}
