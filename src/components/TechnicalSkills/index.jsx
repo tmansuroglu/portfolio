@@ -9,7 +9,7 @@ import i18nLogo from '../../assets/images/i18nLogo.svg';
 
 const TechnicalSkills = () => (
   <>
-    <h2 id="technicalSkills">Technical Skills</h2>
+    <h3 id="technicalSkills">Technical Skills</h3>
     <Row className="skillRow">
       <div className="skillDiv">
         HTML5 <br />

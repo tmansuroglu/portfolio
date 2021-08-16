@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => (
   <>
-    <h2 id="education">Education</h2>
+    <h3 id="education">Education</h3>
     <p>
       In 2020, Tarkan Mansuroğlu graduated from{' '}
       <a target="_blank" rel="noreferrer" href="https://www.re-coded.com/">

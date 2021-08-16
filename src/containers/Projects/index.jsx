@@ -25,7 +25,7 @@ const swipers = dataArr.map((data) => (
 
 const Projects = () => (
   <Container>
-    <h1 id="projects">Projects</h1>
+    <h2 id="projects">Projects</h2>
     <Swiper
       spaceBetween={30}
       slidesPerView={2.5}

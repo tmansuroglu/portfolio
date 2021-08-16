@@ -7,7 +7,7 @@ import WhoIsTarkan from '../../components/WhoIsTarkan';
 
 const About = () => (
   <Container id="about">
-    <h1>About</h1>
+    <h2>About</h2>
     <WhoIsTarkan />
     <Education />
     <EmploymentHistory />
