@@ -5,6 +5,41 @@ import ProjectCard from '../../components/ProjectCard';
 import dataArr from './data';
 import './index.scss';
 
+const SWIPER_BREAKPOINTS = {
+  350: {
+    slidesPerView: 1,
+    spaceBetween: 5,
+  },
+  380: {
+    slidesPerView: 1.1,
+    spaceBetween: 10,
+  },
+  450: {
+    slidesPerView: 1.2,
+    spaceBetween: 10,
+  },
+  576: {
+    slidesPerView: 1.2,
+    spaceBetween: 10,
+  },
+  768: {
+    slidesPerView: 1.5,
+    spaceBetween: 15,
+  },
+  992: {
+    slidesPerView: 2.1,
+    spaceBetween: 15,
+  },
+  1200: {
+    slidesPerView: 2.2,
+    spaceBetween: 20,
+  },
+  1400: {
+    slidesPerView: 2.5,
+    spaceBetween: 30,
+  },
+};
+
 const swipers = dataArr.map((data) => (
   <SwiperSlide key={data.title}>
     <ProjectCard
@@ -27,7 +62,7 @@ const swipers = dataArr.map((data) => (
 const Projects = () => (
   <Container>
     <h2 id="projects">Projects</h2>
-    <Swiper className="swiper-container" spaceBetween={30} slidesPerView={2.5}>
+    <Swiper className="swiper-container" break breakpoints={SWIPER_BREAKPOINTS}>
       {swipers}
     </Swiper>
   </Container>

@@ -9,6 +9,15 @@
   color: $black;
   border-radius: 5px;
   padding: 30px;
+  @media only screen and (max-width: $lg) {
+    padding: 20px;
+  }
+  @media only screen and (max-width: $md) {
+    padding: 20px 15px;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 15px 10px;
+  }
 
   &__main-title {
     text-align: center;
