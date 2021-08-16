@@ -41,6 +41,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - skills
 - button paddings
 - media query breakpoints
+- add project demos
 
 ## Status
 

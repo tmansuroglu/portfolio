@@ -32,11 +32,31 @@ const ProjectCard = ({
     </div>
 
     <div className="project-card__links">
-      {githubUrl && <a href={githubUrl}>Github</a>}
-      {demoUrl1 && <a href={demoUrl1}>Demo</a>}
-      {demoUrl2 && <a href={demoUrl2}>Demo v2</a>}
-      {iosUrl && <a href={iosUrl}>App Store</a>}
-      {androidUrl && <a href={androidUrl}>Play Store</a>}
+      {githubUrl && (
+        <a rel="noreferrer" target="_blank" href={githubUrl}>
+          Github
+        </a>
+      )}
+      {demoUrl1 && (
+        <a rel="noreferrer" target="_blank" href={demoUrl1}>
+          Demo
+        </a>
+      )}
+      {demoUrl2 && (
+        <a rel="noreferrer" target="_blank" href={demoUrl2}>
+          Demo v2
+        </a>
+      )}
+      {iosUrl && (
+        <a rel="noreferrer" target="_blank" href={iosUrl}>
+          App Store
+        </a>
+      )}
+      {androidUrl && (
+        <a rel="noreferrer" target="_blank" href={androidUrl}>
+          Play Store
+        </a>
+      )}
     </div>
 
     <div className="project-card__secondary-title">
