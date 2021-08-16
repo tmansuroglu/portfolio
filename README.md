@@ -38,6 +38,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - button paddings
 - media query breakpoints
 
+- add nextjs
 - scan code
 - add route to contact modal
 - add project demos
