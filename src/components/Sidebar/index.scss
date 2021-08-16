@@ -6,20 +6,34 @@
   position: fixed;
   left: 0;
   width: 60px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-self: center;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .icon {
   color: white;
   cursor: pointer;
-  padding: 5px;
-  margin: 20px 0;
+  padding: 10px 13px;
+  margin: 15px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-decoration: none;
 }
 
 .iconContainer {
-  margin: auto;
+  width: 100%;
+  height: 100%;
+
+  div {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: $sm) {
