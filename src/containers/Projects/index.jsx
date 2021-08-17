@@ -5,6 +5,12 @@ import ProjectCard from '../../components/ProjectCard';
 import dataArr from './data';
 import './index.scss';
 
+const pagination = {
+  clickable: true,
+  renderBullet: (index, className) => `<div class="${className}"></div>`,
+  draggable: true,
+};
+
 const SWIPER_BREAKPOINTS = {
   350: {
     slidesPerView: 1,
@@ -62,7 +68,12 @@ const swipers = dataArr.map((data) => (
 const Projects = () => (
   <Container>
     <h2 id="projects">Projects</h2>
-    <Swiper className="swiper-container" break breakpoints={SWIPER_BREAKPOINTS}>
+    <Swiper
+      pagination={pagination}
+      className="swiper-container"
+      break
+      breakpoints={SWIPER_BREAKPOINTS}
+    >
       {swipers}
     </Swiper>
   </Container>
