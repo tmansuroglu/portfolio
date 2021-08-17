@@ -8,11 +8,10 @@ const Skill = ({ icon, title, rating }) => (
     <img src={icon} alt={title} className="skill__icon" />
     <Ratings
       rating={rating}
-      changeRating={false}
       widgetEmptyColors="#434343"
       widgetRatedColors="white"
-      widgetDimensions={25}
-      widgetSpacings={3}
+      widgetDimensions="25px"
+      widgetSpacings="3px"
     >
       <Ratings.Widget />
       <Ratings.Widget />
@@ -22,13 +21,13 @@ const Skill = ({ icon, title, rating }) => (
 );
 
 Skill.propTypes = {
-  icon: PropTypes.instanceOf(Image),
+  icon: PropTypes.string,
   title: PropTypes.string,
   rating: PropTypes.number,
 };
 
 Skill.defaultProps = {
-  icon: <img src="" alt="placeholder" />,
+  icon: '',
   title: 'HTML5',
   rating: 0,
 };

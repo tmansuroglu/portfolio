@@ -34,16 +34,15 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- responsive design
 - button paddings
-- tablet view
 - skill list is hard to inspect
+- navbar rework
+- contact rework
+- custom scrollbar
 
-- add overflow visible to swiper
-- add pagination
+- manifest and robots
 - add nextjs
 - scan code
-- add route to contact modal
 - add project demos
 
 ## Status

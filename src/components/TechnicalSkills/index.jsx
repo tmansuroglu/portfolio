@@ -105,11 +105,10 @@ const TechnicalSkills = () => (
       <div className="rating-explanation">
         <Ratings
           rating={3}
-          changeRating={false}
           widgetEmptyColors="#434343"
           widgetRatedColors="white"
-          widgetDimensions={13}
-          widgetSpacings={1}
+          widgetDimensions="13px"
+          widgetSpacings="1px"
         >
           <Ratings.Widget />
           <Ratings.Widget />
@@ -122,11 +121,10 @@ const TechnicalSkills = () => (
       <div className="rating-explanation">
         <Ratings
           rating={1}
-          changeRating={false}
           widgetEmptyColors="#434343"
           widgetRatedColors="white"
-          widgetDimensions={13}
-          widgetSpacings={1}
+          widgetDimensions="13px"
+          widgetSpacings="1px"
         >
           <Ratings.Widget />
           <Ratings.Widget />
@@ -143,9 +141,11 @@ const TechnicalSkills = () => (
         slidesPerColumnFill="row"
         breakpoints={SWIPER_BREAKPOINTS}
       >
-        {SKILLS.map((skill) => (
-          <SwiperSlide>{skill}</SwiperSlide>
+        {/*  eslint-disable  */}
+        {SKILLS.map((skill, index) => (
+          <SwiperSlide key={`skill slider ${index}`}>{skill}</SwiperSlide>
         ))}
+        {/*  eslint-enable  */}
       </Swiper>
     </div>
   </>

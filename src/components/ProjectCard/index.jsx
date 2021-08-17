@@ -73,7 +73,7 @@ const ProjectCard = ({
 
     <ul className="project-card__list">
       {responsibilityArr.map((responsibility) => (
-        <li>{responsibility}</li>
+        <li key={responsibility}>{responsibility}</li>
       ))}
     </ul>
 
@@ -83,7 +83,7 @@ const ProjectCard = ({
 
     <ul className="project-card__list">
       {impactArr.map((impact) => (
-        <li>{impact}</li>
+        <li key={impact}>{impact}</li>
       ))}
     </ul>
 
@@ -93,7 +93,7 @@ const ProjectCard = ({
 
     <ul className="project-card__list">
       {skillsArr.map((skill) => (
-        <li>{skill}</li>
+        <li key={skill}>{skill}</li>
       ))}
     </ul>
   </div>
