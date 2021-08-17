@@ -39,6 +39,8 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - navbar rework
 - contact rework
 - custom scrollbar
+- nested scrollbar error
+- update resume
 
 - manifest and robots
 - add nextjs
