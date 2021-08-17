@@ -7,11 +7,25 @@
   justify-content: center;
   text-align: center;
   width: 100%;
-  min-width: 130px;
+  min-width: 140px;
   &__icon {
     height: 75px;
     @media only screen and (max-width: $lg) {
       height: 60px;
+    }
+    @media only screen and (max-width: $md) {
+      height: 55px;
+    }
+    @media only screen and (max-width: $sm) {
+      height: 50px;
+    }
+  }
+  .widget-selected {
+    @media only screen and (max-width: $lg) {
+      width: 20px !important;
+    }
+    @media only screen and (max-width: $sm) {
+      width: 18px !important;
     }
   }
 }
