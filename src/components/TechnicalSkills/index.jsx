@@ -59,46 +59,40 @@ const SKILLS = [
 
 const SWIPER_BREAKPOINTS = {
   280: {
-    spaceBetween: 20,
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 2.5,
-    slidesPerView: 2.5,
+    slidesPerGroup: 3,
+    slidesPerView: 3,
   },
-  400: {
-    spaceBetween: 20,
+  450: {
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 2.8,
-    slidesPerView: 2.8,
+    slidesPerGroup: 4,
+    slidesPerView: 4,
   },
-  515: {
-    spaceBetween: 20,
+  768: {
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 3.5,
-    slidesPerView: 3.5,
-  },
-  850: {
-    spaceBetween: 20,
-    slidesPerColumn: 2,
-    slidesPerGroup: 5.5,
-    slidesPerView: 5.5,
+    slidesPerGroup: 5,
+    slidesPerView: 5,
   },
   992: {
-    spaceBetween: 20,
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 6.5,
-    slidesPerView: 6.5,
+    slidesPerGroup: 6,
+    slidesPerView: 6,
   },
-  1300: {
-    spaceBetween: 20,
+  1200: {
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 8.5,
-    slidesPerView: 8.5,
+    slidesPerGroup: 7,
+    slidesPerView: 7,
   },
-  1500: {
-    spaceBetween: 30,
+  1400: {
+    spaceBetween: 0,
     slidesPerColumn: 2,
-    slidesPerGroup: 9.5,
-    slidesPerView: 9.5,
+    slidesPerGroup: 8,
+    slidesPerView: 8,
   },
 };
 

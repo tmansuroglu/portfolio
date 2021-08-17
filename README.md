@@ -37,6 +37,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - responsive design
 - button paddings
 - tablet view
+- skill list is hard to inspect
 
 - add overflow visible to swiper
 - add pagination
