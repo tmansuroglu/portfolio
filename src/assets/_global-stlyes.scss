@@ -2,22 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 html,
 body {
   background: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: $white;
   width: 100%;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
   @media only screen and (max-width: $md) {
-    font-size: 1.2rem;
-  }
-  @media only screen and (max-width: $sm) {
     font-size: 1.1rem;
   }
-  @media only screen and (max-width: $xs) {
+  @media only screen and (max-width: $sm) {
     font-size: 1rem;
   }
 }
@@ -134,7 +139,7 @@ a {
 .swiper-container {
   max-width: 100% !important;
   margin-top: 20px !important;
-  clip-path: inset(0 0 -100px 0);
+  clip-path: inset(0 -100px -100px 0);
   overflow: visible !important;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;

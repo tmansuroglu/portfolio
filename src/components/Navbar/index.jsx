@@ -44,7 +44,7 @@ const Navigation = () => {
           </HashLink>
           <HashLink
             onClick={() => {
-              setModalVisibility(true);
+              setModalVisibility(!modalVisibility);
             }}
             className="navbar-container__nav contact-button"
           >

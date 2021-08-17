@@ -5,7 +5,7 @@ import Projects from '../Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => (
-  <div style={{ paddingTop: '80px' }}>
+  <div>
     <Introduction />
     <About />
     <Projects />

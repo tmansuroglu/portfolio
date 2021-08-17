@@ -23,7 +23,7 @@ const SWIPER_BREAKPOINTS = {
     spaceBetween: 15,
   },
   1200: {
-    slidesPerView: 2.2,
+    slidesPerView: 2.1,
     spaceBetween: 20,
   },
   1400: {
