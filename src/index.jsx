@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './assets/_variables.scss';
 import './assets/_global-stlyes.scss';
 import 'swiper/swiper-bundle.css';
+import 'swiper/components/pagination/pagination.scss';
 
 ReactDOM.render(
   <React.StrictMode>

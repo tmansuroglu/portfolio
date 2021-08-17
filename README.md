@@ -36,6 +36,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 - responsive design
 - button paddings
+- tablet view
 
 - add overflow visible to swiper
 - add pagination

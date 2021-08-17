@@ -101,10 +101,36 @@ h4 {
   }
 }
 
+h4 {
+  font-size: 1.4rem;
+  @media only screen and (max-width: $xs) {
+    font-size: 1.2rem;
+  }
+  @media only screen and (max-width: $xxs) {
+    font-size: 1.1rem;
+  }
+}
+
 a {
   color: $white;
   text-decoration: underline;
   &:hover {
     color: $light-gray;
   }
+}
+
+.swiper-pagination {
+  bottom: -45px !important;
+}
+
+.swiper-pagination-bullet {
+  background: $white !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.swiper-container {
+  margin-top: 20px !important;
+  overflow: visible !important;
+  clip-path: inset(-100vw -100vw -100vw 0);
 }

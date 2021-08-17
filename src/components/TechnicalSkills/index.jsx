@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Pagination } from 'swiper';
 import Ratings from 'react-ratings-declarative';
 import redux from '../../assets/images/redux-logo.svg';
 import firebase from '../../assets/images/firebase-logo.svg';
@@ -23,6 +24,14 @@ import bootstrap from '../../assets/images/bootstrap-logo.svg';
 import nodejs from '../../assets/images/nodejs-logo.svg';
 import express from '../../assets/images/express-logo.svg';
 import Skill from '../Skill';
+
+SwiperCore.use([Pagination]);
+
+const pagination = {
+  clickable: true,
+  renderBullet: (index, className) => `<div class="${className}"></div>`,
+  draggable: true,
+};
 
 const SKILLS = [
   <Skill title="JavaScript" rating={3} icon={javascript} />,
@@ -50,12 +59,6 @@ const SKILLS = [
 
 const SWIPER_BREAKPOINTS = {
   280: {
-    spaceBetween: 20,
-    slidesPerColumn: 2,
-    slidesPerGroup: 2.4,
-    slidesPerView: 2.4,
-  },
-  350: {
     spaceBetween: 20,
     slidesPerColumn: 2,
     slidesPerGroup: 2.5,
@@ -141,7 +144,11 @@ const TechnicalSkills = () => (
       </div>
     </div>
     <div>
-      <Swiper slidesPerColumnFill="row" breakpoints={SWIPER_BREAKPOINTS}>
+      <Swiper
+        pagination={pagination}
+        slidesPerColumnFill="row"
+        breakpoints={SWIPER_BREAKPOINTS}
+      >
         {SKILLS.map((skill) => (
           <SwiperSlide>{skill}</SwiperSlide>
         ))}

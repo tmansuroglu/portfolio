@@ -19,5 +19,6 @@ module.exports = {
     'react/self-closing-comp': 0,
     'react/jsx-one-expression-per-line': 0,
     'comma-dangle': 0,
+    'implicit-arrow-linebreak': 0,
   },
 };

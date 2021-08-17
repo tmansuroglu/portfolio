@@ -1,12 +1,13 @@
 @import '../../assets/variables';
 
 .skill {
-  margin-right: 35px;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 140px;
+  text-align: center;
+  width: 100%;
+  min-width: 130px;
   &__icon {
     height: 75px;
     @media only screen and (max-width: $lg) {
