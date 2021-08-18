@@ -4,10 +4,16 @@
   background: $black;
   display: inline-flex;
   align-items: center;
+  position: fixed;
   justify-content: space-around;
-  height: 60px;
   width: 100%;
-  margin-bottom: 20px;
+  padding: 20px 0 0;
+  // height: $navbar-height;
+  z-index: 9999;
+  // border-bottom: 1px groove $light-gray;
+  box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
+  top: 0;
+  transition: top 0.3s;
   &__nav {
     text-decoration: none;
     &:hover {
@@ -16,8 +22,6 @@
   }
 }
 
-.contact-button {
-  @media only screen and (min-width: $sm) {
-    display: none !important;
-  }
+.hide-navbar {
+  top: -100px;
 }

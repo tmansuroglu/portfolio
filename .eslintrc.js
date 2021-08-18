@@ -16,6 +16,7 @@ module.exports = {
     'linebreak-style': 0,
     'react/react-in-jsx-scope': 'off',
     'object-curly-newline': 0,
+    'object-curly-spacing': 0,
     'react/self-closing-comp': 0,
     'react/jsx-one-expression-per-line': 0,
     'comma-dangle': 0,

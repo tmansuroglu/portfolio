@@ -6,8 +6,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Sidebar />
-      <Home />
+      <div style={{ paddingTop: '100px' }}>
+        <Sidebar />
+        <Home />
+      </div>
     </>
   );
 }
