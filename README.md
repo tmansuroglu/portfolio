@@ -34,16 +34,16 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- get headshot and move image from sidebar to home
 - skill list is hard to inspect
-- contact rework
-- custom scrollbar
+- add route to contact page
 - update resume
 
+- get headshot and move image from sidebar to home
 - manifest and robots
 - add nextjs
 - scan code
 - add project demos
+- custom scrollbar
 
 ## Status
 
