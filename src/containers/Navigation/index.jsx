@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './index.scss';
 import { BrowserRouter as Router } from 'react-router-dom';
 import TopNavBar from '../../components/TopNavBar';
+import SideNavBar from '../../components/SideNavBar';
 
 const TOP_BAR_HEIGHT = 50;
 
@@ -9,11 +10,14 @@ class Navigation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      visible: true,
+      isContainervisible: true,
       lastScrollPosition: 0,
+      showOffCanvas: false,
     };
     this.onScroll = this.onScroll.bind(this);
     this.scrollWithOffset = this.scrollWithOffset.bind(this);
+    this.handleCloseOffCanvas = this.handleCloseOffCanvas.bind(this);
+    this.handleShowOffCanvas = this.handleShowOffCanvas.bind(this);
   }
 
   componentDidMount() {
@@ -22,6 +26,20 @@ class Navigation extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.onScroll);
+  }
+
+  handleShowOffCanvas() {
+    this.setState((state) => ({
+      ...state,
+      showOffCanvas: true,
+    }));
+  }
+
+  handleCloseOffCanvas() {
+    this.setState((state) => ({
+      ...state,
+      showOffCanvas: false,
+    }));
   }
 
   // Hide or show the menu.
@@ -40,10 +58,11 @@ class Navigation extends Component {
     if (Math.abs(currentScrollPosition - lastScrollPosition) < TOP_BAR_HEIGHT) {
       return;
     }
-    this.setState({
-      visible: currentScrollPosition < lastScrollPosition,
+    this.setState((state) => ({
+      ...state,
+      isContainervisible: currentScrollPosition < lastScrollPosition,
       lastScrollPosition: currentScrollPosition,
-    });
+    }));
   }
 
   scrollWithOffset = (el) => {
@@ -53,11 +72,20 @@ class Navigation extends Component {
   };
 
   render() {
-    const { visible } = this.state;
+    const { isContainervisible, showOffCanvas } = this.state;
     return (
       <>
         <Router>
-          <TopNavBar visible={visible} onScroll={this.scrollWithOffset} />
+          <TopNavBar
+            isContainervisible={isContainervisible}
+            onScroll={this.scrollWithOffset}
+          />
+          <SideNavBar
+            isContainerVisible={isContainervisible}
+            showOffCanvas={showOffCanvas}
+            handleCloseOffCanvas={this.handleCloseOffCanvas}
+            handleShowOffCanvas={this.handleShowOffCanvas}
+          />
         </Router>
       </>
     );

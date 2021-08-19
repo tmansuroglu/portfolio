@@ -3,8 +3,12 @@ import { HashLink } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
 import './index.scss';
 
-const TopNavBar = ({ visible, onScroll }) => (
-  <div className={`top-navbar-container ${visible ? '' : 'hide-top-navbar'}`}>
+const TopNavBar = ({ isContainervisible, onScroll }) => (
+  <div
+    className={`top-navbar-container ${
+      isContainervisible ? '' : 'hide-navbar'
+    }`}
+  >
     <HashLink
       className="top-navbar-container__nav"
       smooth
@@ -37,12 +41,12 @@ const TopNavBar = ({ visible, onScroll }) => (
 );
 
 TopNavBar.propTypes = {
-  visible: PropTypes.bool,
+  isContainervisible: PropTypes.bool,
   onScroll: PropTypes.func,
 };
 
 TopNavBar.defaultProps = {
-  visible: true,
+  isContainervisible: true,
   onScroll: () => 'scroll',
 };
 
