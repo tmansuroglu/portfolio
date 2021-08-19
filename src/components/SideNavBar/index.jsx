@@ -12,6 +12,7 @@ const SideNavBar = ({
   handleCloseOffCanvas,
   isContainerVisible,
   onScroll,
+  handleOpenContactModal,
 }) => (
   <>
     <div className={`mobile-navbar ${isContainerVisible ? '' : 'hide-navbar'}`}>
@@ -72,7 +73,10 @@ const SideNavBar = ({
           </HashLink>
           <HashLink
             className="sidebar-body__nav contact-button"
-            onClick={handleCloseOffCanvas}
+            onClick={() => {
+              handleCloseOffCanvas();
+              handleOpenContactModal();
+            }}
           >
             Contact
           </HashLink>
@@ -89,6 +93,7 @@ SideNavBar.propTypes = {
   handleCloseOffCanvas: PropTypes.func,
   isContainerVisible: PropTypes.bool,
   onScroll: PropTypes.func,
+  handleOpenContactModal: PropTypes.func,
 };
 
 SideNavBar.defaultProps = {
@@ -97,6 +102,7 @@ SideNavBar.defaultProps = {
   handleCloseOffCanvas: () => 'close offcanvas',
   isContainerVisible: true,
   onScroll: () => 'on scroll',
+  handleOpenContactModal: () => 'open contact modal',
 };
 
 export default SideNavBar;

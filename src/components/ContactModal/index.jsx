@@ -3,10 +3,10 @@ import { Modal } from 'react-bootstrap';
 import './index.scss';
 import PropTypes from 'prop-types';
 
-const ContactModal = ({ modalVisibility, setModalVisibility }) => (
+const ContactModal = ({ modalVisibility, closeModal }) => (
   <Modal
     show={modalVisibility}
-    onHide={() => setModalVisibility(false)}
+    onHide={closeModal}
     contentClassName="contact-modal"
     centered
     size="lg"
@@ -108,12 +108,12 @@ const ContactModal = ({ modalVisibility, setModalVisibility }) => (
 
 ContactModal.propTypes = {
   modalVisibility: PropTypes.bool,
-  setModalVisibility: PropTypes.func,
+  closeModal: PropTypes.func,
 };
 
 ContactModal.defaultProps = {
   modalVisibility: false,
-  setModalVisibility: () => 'close modal',
+  closeModal: () => 'close modal',
 };
 
 export default ContactModal;

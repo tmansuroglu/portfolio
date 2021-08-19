@@ -3,7 +3,11 @@ import { HashLink } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
 import './index.scss';
 
-const TopNavBar = ({ isContainervisible, onScroll }) => (
+const TopNavBar = ({
+  isContainervisible,
+  onScroll,
+  handleOpenContactModal,
+}) => (
   <div
     className={`top-navbar-container ${
       isContainervisible ? '' : 'hide-navbar'
@@ -33,7 +37,10 @@ const TopNavBar = ({ isContainervisible, onScroll }) => (
     >
       Projects
     </HashLink>
-    <HashLink className="top-navbar-container__nav contact-button">
+    <HashLink
+      className="top-navbar-container__nav contact-button"
+      onClick={handleOpenContactModal}
+    >
       Contact
     </HashLink>
     <HashLink className="top-navbar-container__nav">Resume</HashLink>
@@ -43,11 +50,13 @@ const TopNavBar = ({ isContainervisible, onScroll }) => (
 TopNavBar.propTypes = {
   isContainervisible: PropTypes.bool,
   onScroll: PropTypes.func,
+  handleOpenContactModal: PropTypes.func,
 };
 
 TopNavBar.defaultProps = {
   isContainervisible: true,
   onScroll: () => 'scroll',
+  handleOpenContactModal: () => 'open contact modal',
 };
 
 export default TopNavBar;

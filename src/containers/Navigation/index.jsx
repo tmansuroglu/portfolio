@@ -3,6 +3,7 @@ import './index.scss';
 import { BrowserRouter as Router } from 'react-router-dom';
 import TopNavBar from '../../components/TopNavBar';
 import SideNavBar from '../../components/SideNavBar';
+import ContactModal from '../../components/ContactModal';
 
 const TOP_BAR_HEIGHT = 50;
 
@@ -13,11 +14,14 @@ class Navigation extends Component {
       isContainervisible: true,
       lastScrollPosition: 0,
       showOffCanvas: false,
+      isContactModalVisible: false,
     };
     this.onScroll = this.onScroll.bind(this);
     this.scrollWithOffset = this.scrollWithOffset.bind(this);
     this.handleCloseOffCanvas = this.handleCloseOffCanvas.bind(this);
     this.handleShowOffCanvas = this.handleShowOffCanvas.bind(this);
+    this.handleCloseContactModal = this.handleCloseContactModal.bind(this);
+    this.handleOpenContactModal = this.handleOpenContactModal.bind(this);
   }
 
   componentDidMount() {
@@ -26,6 +30,20 @@ class Navigation extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.onScroll);
+  }
+
+  handleCloseContactModal() {
+    this.setState((state) => ({
+      ...state,
+      isContactModalVisible: false,
+    }));
+  }
+
+  handleOpenContactModal() {
+    this.setState((state) => ({
+      ...state,
+      isContactModalVisible: true,
+    }));
   }
 
   handleShowOffCanvas() {
@@ -72,13 +90,18 @@ class Navigation extends Component {
   };
 
   render() {
-    const { isContainervisible, showOffCanvas } = this.state;
+    /*  eslint-disable  */
+    const { isContainervisible, showOffCanvas, isContactModalVisible } =
+      this.state;
+    /*  eslint-enable  */
+
     return (
       <>
         <Router>
           <TopNavBar
             isContainervisible={isContainervisible}
             onScroll={this.scrollWithOffset}
+            handleOpenContactModal={this.handleOpenContactModal}
           />
           <SideNavBar
             isContainerVisible={isContainervisible}
@@ -86,8 +109,13 @@ class Navigation extends Component {
             handleCloseOffCanvas={this.handleCloseOffCanvas}
             handleShowOffCanvas={this.handleShowOffCanvas}
             onScroll={this.scrollWithOffset}
+            handleOpenContactModal={this.handleOpenContactModal}
           />
         </Router>
+        <ContactModal
+          modalVisibility={isContactModalVisible}
+          closeModal={this.handleCloseContactModal}
+        />
       </>
     );
   }
