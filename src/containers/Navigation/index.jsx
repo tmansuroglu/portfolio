@@ -85,6 +85,7 @@ class Navigation extends Component {
             showOffCanvas={showOffCanvas}
             handleCloseOffCanvas={this.handleCloseOffCanvas}
             handleShowOffCanvas={this.handleShowOffCanvas}
+            onScroll={this.scrollWithOffset}
           />
         </Router>
       </>

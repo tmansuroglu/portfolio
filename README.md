@@ -34,9 +34,8 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- get headshot
+- get headshot and move image from sidebar to home
 - skill list is hard to inspect
-- navbar rework
 - contact rework
 - custom scrollbar
 - update resume

@@ -1,14 +1,17 @@
 import React from 'react';
 import './index.scss';
-import { Offcanvas, Button } from 'react-bootstrap';
+import { Offcanvas, Button, Image } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import { HashLink } from 'react-router-hash-link';
 import MenuButton from '../../assets/images/menu-button.svg';
+import Tarkan from '../../assets/images/tarkan.png';
 
 const SideNavBar = ({
   showOffCanvas,
   handleShowOffCanvas,
   handleCloseOffCanvas,
   isContainerVisible,
+  onScroll,
 }) => (
   <>
     <div className={`mobile-navbar ${isContainerVisible ? '' : 'hide-navbar'}`}>
@@ -17,13 +20,66 @@ const SideNavBar = ({
       </Button>
     </div>
 
-    <Offcanvas show={showOffCanvas} onHide={handleCloseOffCanvas}>
-      <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-      </Offcanvas.Header>
+    <Offcanvas
+      show={showOffCanvas}
+      onHide={handleCloseOffCanvas}
+      closeVariant="white"
+      rounded
+    >
+      <div>
+        <Offcanvas.Header closeButton closeLabel="Close"></Offcanvas.Header>
+      </div>
+
+      <Offcanvas.Title>
+        <Image
+          src={Tarkan}
+          className="offcanvas-image"
+          alt="tarkan mansuroğlu's picture"
+          roundedCircle
+          fluid
+        />
+      </Offcanvas.Title>
+
       <Offcanvas.Body>
-        Some text as placeholder. In real life you can have the elements you
-        have chosen. Like, text, images, lists, etc.
+        <div className="sidebar-body">
+          <HashLink
+            className="sidebar-body__nav"
+            smooth
+            to="#top"
+            scroll={(el) => {
+              onScroll(el);
+              handleCloseOffCanvas();
+            }}
+          >
+            Home
+          </HashLink>
+          <HashLink
+            className="sidebar-body__nav"
+            smooth
+            to="#about"
+            scroll={(el) => {
+              onScroll(el);
+              handleCloseOffCanvas();
+            }}
+          >
+            About
+          </HashLink>
+          <HashLink
+            className="sidebar-body__nav"
+            smooth
+            to="#projects"
+            scroll={(el) => {
+              onScroll(el);
+              handleCloseOffCanvas();
+            }}
+          >
+            Projects
+          </HashLink>
+          <HashLink className="sidebar-body__nav contact-button">
+            Contact
+          </HashLink>
+          <HashLink className="sidebar-body__nav">Resume</HashLink>
+        </div>
       </Offcanvas.Body>
     </Offcanvas>
   </>
@@ -34,6 +90,7 @@ SideNavBar.propTypes = {
   handleShowOffCanvas: PropTypes.func,
   handleCloseOffCanvas: PropTypes.func,
   isContainerVisible: PropTypes.bool,
+  onScroll: PropTypes.func,
 };
 
 SideNavBar.defaultProps = {
@@ -41,6 +98,7 @@ SideNavBar.defaultProps = {
   handleShowOffCanvas: () => 'show offcanvas',
   handleCloseOffCanvas: () => 'close offcanvas',
   isContainerVisible: true,
+  onScroll: () => 'on scroll',
 };
 
 export default SideNavBar;
