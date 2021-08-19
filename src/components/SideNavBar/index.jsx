@@ -20,12 +20,7 @@ const SideNavBar = ({
       </Button>
     </div>
 
-    <Offcanvas
-      show={showOffCanvas}
-      onHide={handleCloseOffCanvas}
-      closeVariant="white"
-      rounded
-    >
+    <Offcanvas show={showOffCanvas} onHide={handleCloseOffCanvas}>
       <div>
         <Offcanvas.Header closeButton closeLabel="Close"></Offcanvas.Header>
       </div>
