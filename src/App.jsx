@@ -1,11 +1,11 @@
 import Home from './containers/Home';
 import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
+import Navigation from './containers/Navigation';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navigation />
       <div className="main-container">
         <Sidebar />
         <Home />
