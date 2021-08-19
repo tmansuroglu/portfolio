@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss';
 import { Offcanvas, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import MenuButton from '../../assets/images/menu-button.svg';
 
 const SideNavBar = ({
   showOffCanvas,
@@ -10,9 +11,9 @@ const SideNavBar = ({
   isContainerVisible,
 }) => (
   <>
-    <div className={`side-navbar ${isContainerVisible ? '' : 'hide-navbar'}`}>
-      <Button variant="primary" onClick={handleShowOffCanvas} className="me-2">
-        Button
+    <div className={`mobile-navbar ${isContainerVisible ? '' : 'hide-navbar'}`}>
+      <Button variant="dark" onClick={handleShowOffCanvas} className="me-2">
+        <img src={MenuButton} alt="menu button" />
       </Button>
     </div>
 

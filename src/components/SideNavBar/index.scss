@@ -1,13 +1,24 @@
 @import '../../assets/variables';
 
-.side-navbar {
+.mobile-navbar {
   display: none;
   position: fixed;
   top: 0;
   transition: top 0.3s;
   z-index: 100;
   width: 100%;
+  background: $black;
+  padding: 10px 15px 0;
+  box-shadow: 0px 20px 20px 15px rgba(0, 0, 0, 1);
   @media only screen and (max-width: $sm) {
     display: inline-block;
   }
+}
+
+.offcanvas {
+  z-index: 9999;
+}
+
+.btn-dark {
+  background: $black !important;
 }
