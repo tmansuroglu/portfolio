@@ -70,7 +70,10 @@ const SideNavBar = ({
           >
             Projects
           </HashLink>
-          <HashLink className="sidebar-body__nav contact-button">
+          <HashLink
+            className="sidebar-body__nav contact-button"
+            onClick={handleCloseOffCanvas}
+          >
             Contact
           </HashLink>
           <HashLink className="sidebar-body__nav">Resume</HashLink>
