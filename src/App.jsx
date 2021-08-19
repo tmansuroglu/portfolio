@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: '100px' }}>
+      <div className="main-container">
         <Sidebar />
         <Home />
       </div>

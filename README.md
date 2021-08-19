@@ -34,12 +34,11 @@ This project is built to be cornerstone of my online presence. It is easy on the
 
 ## To-do list:
 
-- button paddings
+- get headshot
 - skill list is hard to inspect
 - navbar rework
 - contact rework
 - custom scrollbar
-- nested scrollbar error
 - update resume
 
 - manifest and robots
