@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ProjectCard from '../../components/ProjectCard';
+import ProjectCard from '../ProjectCard';
 import dataArr from './data';
 import './index.scss';
 

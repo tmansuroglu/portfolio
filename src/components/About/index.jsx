@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Education from '../../components/Education';
-import EmploymentHistory from '../../components/WorkExperience';
-import TechnicalSkills from '../../components/TechnicalSkills';
-import WhoIsTarkan from '../../components/WhoIsTarkan';
+import Education from '../Education';
+import EmploymentHistory from '../WorkExperience';
+import TechnicalSkills from '../TechnicalSkills';
+import WhoIsTarkan from '../WhoIsTarkan';
 
 const About = () => (
   <Container id="about">

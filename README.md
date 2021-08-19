@@ -37,6 +37,7 @@ This project is built to be cornerstone of my online presence. It is easy on the
 - skill list is hard to inspect
 - add route to contact page
 - update resume
+- when haslink moves to a section, make navbar visible
 
 - get headshot and move image from sidebar to home
 - manifest and robots
