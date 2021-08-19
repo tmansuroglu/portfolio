@@ -16,11 +16,14 @@
     display: inline-flex;
     flex-direction: row;
     &__icon-container {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      width: 65px;
-      height: 65px;
+      min-width: 75px !important;
+      text-align: center;
+      @media only screen and (max-width: $sm) {
+        min-width: 60px !important;
+      }
+      @media only screen and (max-width: $xs) {
+        min-width: 50px !important;
+      }
       i {
         color: $black;
       }
@@ -29,15 +32,56 @@
     &__link-container {
       margin-left: 20px;
       display: inline-flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
+      @media only screen and (max-width: $sm) {
+        margin-left: 15px;
+      }
+
+      @media only screen and (max-width: $xxxs) {
+        margin-left: 3px;
+      }
       a {
+        word-break: break-all;
         text-decoration: underline;
         color: $black;
+        font-size: 1.2rem;
+        @media only screen and (max-width: $lg) {
+          font-size: 1rem;
+        }
+        @media only screen and (max-width: $sm) {
+          font-size: 1.1rem;
+        }
+        @media only screen and (max-width: $xs) {
+          font-size: 1rem;
+        }
+        @media only screen and (max-width: 385px) {
+          font-size: 0.9rem;
+        }
+        @media only screen and (max-width: $xxxs) {
+          font-size: 0.85rem;
+        }
+
         &:hover {
           color: $gray;
         }
       }
     }
+  }
+}
+.modal {
+  z-index: 9999 !important;
+}
+
+.modal-body {
+  @media only screen and (max-width: $sm) {
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: $xs) {
+    padding: 10px;
+  }
+  @media only screen and (max-width: 385px) {
+    padding: 8px;
   }
 }

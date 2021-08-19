@@ -68,7 +68,7 @@ const ContactModal = ({ modalVisibility, closeModal }) => (
             rel="noreferrer"
             href="https://www.linkedin.com/in/tarkanmansuroglu/"
           >
-            https://www.linkedin.com/in/tarkanmansuroglu
+            linkedin.com/in/tarkanmansuroglu
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@ const ContactModal = ({ modalVisibility, closeModal }) => (
             rel="noreferrer"
             href="https://github.com/tmansuroglu"
           >
-            https://github.com/tmansuroglu
+            github.com/tmansuroglu
           </a>
         </div>
       </div>
@@ -98,7 +98,7 @@ const ContactModal = ({ modalVisibility, closeModal }) => (
             rel="noreferrer"
             href="https://www.instagram.com/tarkanmansuroglu/"
           >
-            https://www.instagram.com/tarkanmansuroglu
+            instagram.com/tarkanmansuroglu
           </a>
         </div>
       </div>

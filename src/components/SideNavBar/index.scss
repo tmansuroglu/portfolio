@@ -27,18 +27,17 @@
 
 .offcanvas-header {
   justify-content: flex-end;
-}
-
-.btn-close {
-  margin-top: 5px !important;
-  background: url('../../assets/images/close-icon.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 1;
-  z-index: 9999;
-  width: 35px;
-  right: 0;
+  .btn-close {
+    margin-top: 5px !important;
+    background: url('../../assets/images/close-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    z-index: 9999;
+    width: 35px;
+    right: 0;
+  }
 }
 
 .offcanvas-image {

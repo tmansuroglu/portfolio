@@ -21,7 +21,7 @@ const Introduction = () => (
         className="loop"
         steps={[
           1500,
-          'Front-End Web Developer',
+          'Front-End Developer',
           5000,
           'Challenge Driven',
           2000,
