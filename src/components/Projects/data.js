@@ -1,16 +1,13 @@
 const FOODCHECK = {
   title: 'FoodCheck',
-  type: 'Solo Training Project',
+  type: 'Bootcamp Project',
   status: 'MVP',
   githubUrl: 'https://github.com/tmansuroglu/Foodcheck',
   demoUrl1: 'https://foodcheck.netlify.app/',
   demoUrl2: '',
   iosUrl: '',
   androidUrl: '',
-  goal: 'creating a quick and easy to use diet tracker',
-  impactArr: [
-    'Took responsibility of whole project when teammate was facing crisis and completed project before its deadline',
-  ],
+  goal: 'Creating a quick and easy to use diet tracker.',
   skillsArr: [
     'HTML',
     'CSS',
@@ -21,28 +18,25 @@ const FOODCHECK = {
     'Ant Design',
     'Responsive Design',
     'Git',
-    'Github',
     'ChartJS',
-    'Routing',
   ],
-  responsibilityArr: ['Practicing React'],
 };
 
 const JUNIPER = {
   title: 'Juniper',
-  type: 'Training Project - Team Project',
+  type: 'Bootcamp project',
   status: 'MVP',
   githubUrl: 'https://github.com/ReCoded-Org/capstone-istanbul-juniper',
   demoUrl1: 'https://juniper-ist.netlify.app/',
   demoUrl2: '',
   iosUrl: '',
   androidUrl: '',
-  goal: 'teaching middle-eastern youth about environmental problems through games.',
-  impactArr: [
-    'Built signature game(memory game) of the project',
-    "Elevated my teammates' work by organizing off-hour online meetings",
-    'Became problem solver of the team',
-  ],
+  goal: 'Teaching middle-eastern youth about environmental problems.',
+  // impactArr: [
+  //   'Built signature game(memory game) of the project',
+  //   "Elevated my teammates' work by organizing off-hour online meetings",
+  //   'Became problem solver of the team',
+  // ],
   skillsArr: [
     'HTML',
     'CSS',
@@ -50,28 +44,17 @@ const JUNIPER = {
     'React',
     'Jest',
     'Firebase',
-    'AGILE Methodologies',
     'Ant Design',
     'Responsive Design',
     'Git',
-    'Github',
     'Figma',
-    'Routing',
     'i18n',
-  ],
-  responsibilityArr: [
-    'Developing a memory game',
-    'Code reviewing',
-    'Bug bashing',
-    'Developing games page',
-    'Scrum master for 1 week',
-    'Developing twitter section of homepage',
   ],
 };
 
 const BIZIM_TARIFLER_WEB = {
   title: 'Bizim Tarifler Web',
-  type: 'Professional Project - Team Project',
+  type: 'Professional Team Project',
   status: 'Delivered Project',
   githubUrl: '',
   demoUrl1: 'https://bizimtarifler.com/',
@@ -79,7 +62,7 @@ const BIZIM_TARIFLER_WEB = {
   iosUrl: '',
   androidUrl: '',
   goal: 'Combining cooking and ingredient shopping by allowing users to browse recipes through the site and buy ingredients from the partner.',
-  impactArr: ['Hmmm'],
+  // impactArr: ['Hmmm'],
   skillsArr: [
     'HTML',
     'CSS',
@@ -88,16 +71,13 @@ const BIZIM_TARIFLER_WEB = {
     'NuxtJS',
     'Sass',
     'Git',
-    'Github',
-    'AGILE Methodologies',
     'Responsive Design',
   ],
-  responsibilityArr: ['Bug bashing'],
 };
 
 const BIZIM_TARIFLER_MOBILE = {
   title: 'Bizim Tarifler Mobile',
-  type: 'Professional Project - Team Project',
+  type: 'Professional Team Project',
   status: 'Delivered Project',
   githubUrl: '',
   demoUrl1: '',
@@ -106,33 +86,29 @@ const BIZIM_TARIFLER_MOBILE = {
   androidUrl:
     'https://play.google.com/store/apps/details?id=com.bizimtarifler.app',
   goal: 'Combining cooking and ingredient shopping by allowing users to browse recipes through the site and buy ingredients from the partner.',
-  impactArr: ['Hmmm'],
+  // impactArr: ['Hmmm'],
   skillsArr: [
     'React Native',
     'React',
     'JavaScript',
     'Git',
-    'Github',
-    'AGILE Methodologies',
     'Responsive Design',
-    'Bare React Native',
-    'Managed Expo',
+    'Expo',
     'Firebase',
   ],
-  responsibilityArr: ['Bug bashing'],
 };
 
 const WIDIO_WEB = {
   title: 'Widio Web',
-  type: 'Professional Project - Team Project',
+  type: 'Professional Team Project',
   status: 'Work In Progress',
   githubUrl: '',
   demoUrl1: 'https://widio.com/',
   demoUrl2: '',
   iosUrl: '',
   androidUrl: '',
-  goal: 'Creating a property and vehicle sale site in which all ads are based on videos',
-  impactArr: ['Hmmm'],
+  goal: 'Creating a property and vehicle sale site in which all ads are based on videos.',
+  // impactArr: ['Hmmm'],
   skillsArr: [
     'HTML',
     'CSS',
@@ -142,11 +118,8 @@ const WIDIO_WEB = {
     'Redux',
     'Ant Design',
     'Git',
-    'Github',
-    'AGILE Methodologies',
     'Responsive Design',
   ],
-  responsibilityArr: ['Bug bashing'],
 };
 
 const ECEM_HAKAN_WEB = {
@@ -158,8 +131,8 @@ const ECEM_HAKAN_WEB = {
   demoUrl2: '',
   iosUrl: '',
   androidUrl: '',
-  goal: 'Creating a web presence for a nutritionist',
-  impactArr: ['Hmmm'],
+  goal: 'Creating a web presence for a nutritionist.',
+  // impactArr: ['Hmmm'],
   skillsArr: [
     'HTML',
     'CSS',
@@ -172,7 +145,6 @@ const ECEM_HAKAN_WEB = {
     'Github',
     'Responsive Design',
   ],
-  responsibilityArr: ['Bug bashing'],
 };
 
 const PROJECTS_ARR = [

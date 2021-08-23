@@ -10,7 +10,6 @@ const ProjectCard = ({
   goal,
   impactArr,
   skillsArr,
-  responsibilityArr,
   iosUrl,
   androidUrl,
   status,
@@ -39,12 +38,12 @@ const ProjectCard = ({
       )}
       {demoUrl1 && (
         <a rel="noreferrer" target="_blank" href={demoUrl1}>
-          Demo
+          Website
         </a>
       )}
       {demoUrl2 && (
         <a rel="noreferrer" target="_blank" href={demoUrl2}>
-          Demo v2
+          Website
         </a>
       )}
       {iosUrl && (
@@ -67,25 +66,19 @@ const ProjectCard = ({
       <p>{goal}</p>
     </div>
 
-    <div className="project-card__secondary-title">
-      <h4>My Responsibilities</h4>
-    </div>
+    {impactArr.length ? (
+      <>
+        <div className="project-card__secondary-title">
+          <h4>My Impact</h4>
+        </div>
 
-    <ul className="project-card__list">
-      {responsibilityArr.map((responsibility) => (
-        <li key={responsibility}>{responsibility}</li>
-      ))}
-    </ul>
-
-    <div className="project-card__secondary-title">
-      <h4>My Impact</h4>
-    </div>
-
-    <ul className="project-card__list">
-      {impactArr.map((impact) => (
-        <li key={impact}>{impact}</li>
-      ))}
-    </ul>
+        <ul className="project-card__list">
+          {impactArr.map((impact) => (
+            <li key={impact}>{impact}</li>
+          ))}
+        </ul>
+      </>
+    ) : null}
 
     <div className="project-card__secondary-title">
       <h4>Skills Applied</h4>
@@ -111,7 +104,6 @@ ProjectCard.propTypes = {
   goal: PropTypes.string,
   impactArr: PropTypes.arrayOf(PropTypes.string),
   skillsArr: PropTypes.arrayOf(PropTypes.string),
-  responsibilityArr: PropTypes.arrayOf(PropTypes.string),
 };
 
 ProjectCard.defaultProps = {
@@ -124,9 +116,8 @@ ProjectCard.defaultProps = {
   iosUrl: 'ios downlaod url',
   androidUrl: 'android download url',
   goal: 'Goal of the project',
-  impactArr: ['first impact', 'second impact'],
+  impactArr: [],
   skillsArr: ['first skill', 'second skill'],
-  responsibilityArr: ['first responsbility, second responsibility'],
 };
 
 export default ProjectCard;
