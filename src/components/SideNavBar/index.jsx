@@ -80,7 +80,14 @@ const SideNavBar = ({
           >
             Contact
           </HashLink>
-          <HashLink className="sidebar-body__nav">Resume</HashLink>
+          <a
+            href="https://drive.google.com/file/d/17xUMhkAijWpodpJa7CNzIq9jvbj4nYuQ/view?usp=sharing"
+            className="sidebar-body__nav"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </Offcanvas.Body>
     </Offcanvas>

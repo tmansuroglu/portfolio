@@ -43,7 +43,14 @@ const TopNavBar = ({
     >
       Contact
     </HashLink>
-    <HashLink className="top-navbar-container__nav">Resume</HashLink>
+    <a
+      href="https://drive.google.com/file/d/17xUMhkAijWpodpJa7CNzIq9jvbj4nYuQ/view?usp=sharing"
+      className="top-navbar-container__nav"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Resume
+    </a>
   </div>
 );
 
