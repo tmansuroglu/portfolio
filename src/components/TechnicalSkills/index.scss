@@ -34,3 +34,24 @@
     display: inline-block;
   }
 }
+
+.my-custom-pagination-div {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+
+  .swiper-pagination-bullet {
+    background: $gray !important;
+    width: 25px !important;
+    height: 25px !important;
+    opacity: 1;
+    margin: 0 15px;
+  }
+  .swiper-pagination-bullet-active {
+    background: $white !important;
+    width: 25px !important;
+    height: 25px !important;
+    opacity: 1;
+    margin: 0 15px;
+  }
+}

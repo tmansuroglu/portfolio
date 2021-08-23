@@ -28,6 +28,7 @@ import Skill from '../Skill';
 SwiperCore.use([Pagination]);
 
 const pagination = {
+  el: '.my-custom-pagination-div',
   clickable: true,
   renderBullet: (index, className) => `<div class="${className}"></div>`,
   draggable: true,
@@ -148,6 +149,7 @@ const TechnicalSkills = () => (
         {/*  eslint-enable  */}
       </Swiper>
     </div>
+    <div className="my-custom-pagination-div" />
   </>
 );
 
