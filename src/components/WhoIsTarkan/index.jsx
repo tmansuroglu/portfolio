@@ -1,44 +1,54 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const WhoIsTarkan = () => (
   <>
     <h3 id="whoIsTarkan">Who is Tarkan Mansuroğlu?</h3>
     <p>
-      Tarkan Mansuroğlu is an ambitious and solution-driven front end developer
-      with a multi-disciplinary and multi-cultural background. Currently, Tarkan
-      is working for{' '}
-      <a href="https://smartup.network/" target="_blank" rel="noreferrer">
-        Smartup Network(SN)
-      </a>
-      . He is proficient at working in dynamic environments, teamwork, and
-      communication. Tarkan is experienced in JavaScript, HTML, CSS, React,
-      React Native, Vue, and Nuxt more. Check out{' '}
-      <AnchorLink offset="100" href="#technicalSkills">
-        technical skills
-      </AnchorLink>{' '}
-      to see what he knows.
+      A passionate Frontend Developer whose professional journey is a tapestry
+      woven with diverse experiences and a fervent pursuit of knowledge. Beyond
+      the code and projects, there&apos;s a multifaceted individual eager to
+      explore uncharted territories and embrace a variety of passions.
     </p>
+
     <p>
-      Tarkan started learning coding by himself and continued his coding
-      education through “Re:Coded-Flatiron School Front-End Web Development
-      Bootcamp”. He became a coder because he is a lifelong learner and in love
-      with practicality of programming.
+      I thrive on challenging myself and continuously delving into unfamiliar
+      realms, driven by an insatiable thirst for learning. Restlessness finds
+      its way if I&apos;m not immersing myself in acquiring new skills or
+      exploring unknown subjects.
     </p>
+
     <p>
-      He discovered his appetite for challenges in his early 20s. At age 20, he
-      was severely obese and academically lost. At 22 he dropped from 175kg to
-      95kg, became a fitness enthusiast and top finance student of his
-      university. Later, he graduated with highest CGPA and continued being a
-      physically active person.
+      My personal life is anchored in a loving marriage, where I find unwavering
+      support and joy. I am happily married, and the bond I share with my
+      partner enriches every aspect of my life&apos;s journey.
     </p>
+
     <p>
-      During these years, he wanted to figure out what he expected from life.
-      While searching for his purpose, he realized that to build his future,
-      first, he needs to understand himself. This revelation pushed him to
-      develop an analytical mindset. Consequently, he realized that problem
-      solving is the main drive of the things he enjoys. Thus, when he started
-      coding, he fell in love with it.
+      Balancing mental agility with physical well-being is crucial to me. From
+      intensive phases in bodybuilding and powerlifting to adopting a more
+      relaxed approach as a casual gym-goer, maintaining this equilibrium is
+      paramount in my life.
+    </p>
+
+    <p>
+      Venturing beyond the realms of development, I find joy in the immersive
+      world of video games. Whether teaming up in MOBAs, engaging in FPS
+      adventures, or strategizing in base-building games, titles like IXION,
+      League of Legends, and Battlebit not only entertain but also foster
+      camaraderie among friends.
+    </p>
+
+    <p>
+      Podcasts hold a special place in my routine, serving as a wellspring of
+      knowledge about human behavior and health. The insights gained fuel my
+      constant drive for self-improvement and personal growth, influencing
+      positive changes in various aspects of my life.
+    </p>
+
+    <p>
+      This portfolio is a glimpse into my professional and personal world—a
+      fusion of tech proficiency, curiosity, diverse interests, and an
+      unyielding dedication to growth, both professionally and personally.
     </p>
   </>
 );

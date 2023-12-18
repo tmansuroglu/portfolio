@@ -54,17 +54,6 @@ const Sidebar = () => (
         </a>
       </div>
     </div>
-    <div className="iconContainer">
-      <div>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.instagram.com/tarkanmansuroglu/"
-        >
-          <i className="fab fa-instagram icon fa-4x"></i>
-        </a>
-      </div>
-    </div>
   </div>
 );
 

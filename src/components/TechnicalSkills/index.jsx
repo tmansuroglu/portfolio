@@ -15,7 +15,6 @@ import jest from '../../assets/images/jest-logo.svg';
 import typescript from '../../assets/images/typescript-logo.svg';
 import css from '../../assets/images/css-logo.svg';
 import git from '../../assets/images/git-logo.svg';
-import github from '../../assets/images/github-logo.svg';
 import next from '../../assets/images/next-logo.svg';
 import nuxt from '../../assets/images/nuxt-logo.svg';
 import sass from '../../assets/images/sass-logo.svg';
@@ -35,27 +34,26 @@ const pagination = {
 };
 
 const SKILLS = [
+  <Skill title="HTML" rating={3} icon={html} />,
+  <Skill title="CSS" rating={3} icon={css} />,
   <Skill title="JavaScript" rating={3} icon={javascript} />,
   <Skill title="React" rating={3} icon={react} />,
-  <Skill title="CSS" rating={3} icon={css} />,
-  <Skill title="React Native" rating={3} icon={react} />,
-  <Skill title="HTML" rating={3} icon={html} />,
-  <Skill title="Vue" rating={3} icon={vue} />,
-  <Skill title="Nuxt" rating={3} icon={nuxt} />,
+  <Skill title="TypeScript" rating={3} icon={typescript} />,
+  <Skill title="Jest" rating={3} icon={jest} />,
+  <Skill title="Redux" rating={3} icon={redux} />,
   <Skill title="Git" rating={3} icon={git} />,
-  <Skill title="GitHub" rating={3} icon={github} />,
-  <Skill title="Expo" rating={3} icon={expo} />,
-  <Skill title="Ant Design" rating={3} icon={antDesign} />,
-  <Skill title="Bootstrap" rating={3} icon={bootstrap} />,
-  <Skill title="TypeScript" rating={2} icon={typescript} />,
-  <Skill title="Redux" rating={2} icon={redux} />,
-  <Skill title="Firebase" rating={2} icon={firebase} />,
-  <Skill title="Next" rating={2} icon={next} />,
-  <Skill title="Sass" rating={2} icon={sass} />,
-  <Skill title="Jest" rating={2} icon={jest} />,
+  <Skill title="React Native" rating={3} icon={react} />,
+  <Skill title="Ant Design" rating={1} icon={antDesign} />,
+  <Skill title="Bootstrap" rating={1} icon={bootstrap} />,
+  <Skill title="Sass" rating={1} icon={sass} />,
+  <Skill title="Vue" rating={1} icon={vue} />,
+  <Skill title="Nuxt" rating={1} icon={nuxt} />,
+  <Skill title="Firebase" rating={1} icon={firebase} />,
+  <Skill title="Next" rating={1} icon={next} />,
   <Skill title="NodeJs" rating={1} icon={nodejs} />,
   <Skill title="ExpressJs" rating={1} icon={express} />,
-  <Skill title="i18next" rating={1} icon={i18n} />,
+  <Skill title="i18next" rating={2} icon={i18n} />,
+  <Skill title="Expo" rating={1} icon={expo} />,
 ];
 
 const SWIPER_BREAKPOINTS = {
@@ -132,7 +130,7 @@ const TechnicalSkills = () => (
           <Ratings.Widget />
         </Ratings>
         <h6>
-          <small>= tried a few times</small>
+          <small>= didn&apos;t use for a some time </small>
         </h6>
       </div>
     </div>

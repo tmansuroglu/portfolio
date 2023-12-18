@@ -87,21 +87,6 @@ const ContactModal = ({ modalVisibility, closeModal }) => (
           </a>
         </div>
       </div>
-
-      <div className="contact-modal__row">
-        <div className="contact-modal__row__icon-container">
-          <i className="fab fa-instagram fa-3x"></i>
-        </div>
-        <div className="contact-modal__row__link-container">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.instagram.com/tarkanmansuroglu/"
-          >
-            instagram.com/tarkanmansuroglu
-          </a>
-        </div>
-      </div>
     </Modal.Body>
   </Modal>
 );

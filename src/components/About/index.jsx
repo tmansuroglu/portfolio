@@ -9,8 +9,8 @@ const About = () => (
   <Container id="about">
     <h2>About</h2>
     <WhoIsTarkan />
-    <Education />
     <EmploymentHistory />
+    <Education />
     <TechnicalSkills />
   </Container>
 );
