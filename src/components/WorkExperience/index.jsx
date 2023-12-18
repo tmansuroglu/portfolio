@@ -23,8 +23,8 @@ const EmploymentHistory = () => (
 
     <p>
       Throughout my tenure, I spearheaded and maintained several successful
-      projects, including Inodash, pricematch, hobeematch, widio, bizim
-      tarifler, staalx, among others. As my journey progressed, my role evolved
+      projects, including Inodash, PriceMatch, HobeeMatch, Widio, Bizim
+      Tarifler, Staalx, among others. As my journey progressed, my role evolved
       from a full-time employee to a dedicated freelancer for Smartup Network.
       This transition provided me with the opportunity to lead a team,
       contribute to technical interviews, conduct training sessions, perform
@@ -37,12 +37,7 @@ const EmploymentHistory = () => (
       Collaborating with cross-functional teams encompassing designers, product
       owners, frontend and backend developers, I had the privilege of working on
       UI development and maintenance for renowned global brands like Converse,
-      Polo, Nautica, Gant, Atasay, and numerous others.
-    </p>
-    <p>
-      At Akinon, I contributed to crafting state-of-the-art omnichannel
-      solutions, leveraging my expertise in software development to support the
-      world&apos;s top retail brands.
+      Polo, Lacoste, Gant, Nautica, and numerous others.
     </p>
     <p>
       Presently, at Tıkla Gelsin since February 2023, I continue to apply my

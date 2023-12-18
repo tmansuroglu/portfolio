@@ -4,10 +4,11 @@ const WhoIsTarkan = () => (
   <>
     <h3 id="whoIsTarkan">Who is Tarkan Mansuroğlu?</h3>
     <p>
-      A passionate Frontend Developer whose professional journey is a tapestry
-      woven with diverse experiences and a fervent pursuit of knowledge. Beyond
-      the code and projects, there&apos;s a multifaceted individual eager to
-      explore uncharted territories and embrace a variety of passions.
+      I am a passionate Frontend Developer whose professional journey weaves
+      together diverse experiences, fueled by a fervent pursuit of knowledge.
+      Beyond my work with code and projects, I am a multifaceted individual
+      eagerly exploring uncharted territories and embracing a variety of
+      passions.
     </p>
 
     <p>
